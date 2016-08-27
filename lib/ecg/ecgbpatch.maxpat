@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -1316.0, 923.0, 1173.0, 708.0 ],
+		"rect" : [ 113.0, 113.0, 1173.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1305,8 +1305,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-27" : [ "raw gain[24]", "cooked gain", 0 ],
-			"obj-26" : [ "raw gain[23]", "raw gain", 0 ]
+			"obj-26" : [ "raw gain[23]", "raw gain", 0 ],
+			"obj-27" : [ "raw gain[24]", "cooked gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
