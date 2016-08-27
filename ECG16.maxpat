@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 12.0, 49.0, 1402.0, 835.0 ],
+		"rect" : [ 12.0, 49.0, 930.0, 698.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -951,7 +951,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 895.916687, 525.0, 119.1875, 22.0 ],
-									"presentation_rect" : [ 655.079163, 489.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "zl.reg"
 								}
@@ -1004,7 +1003,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 996.104187, 494.0, 76.0, 22.0 ],
-									"presentation_rect" : [ 930.0, 44.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "zl.stream 60"
 								}
@@ -1032,7 +1030,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 996.104187, 462.0, 31.0, 22.0 ],
-									"presentation_rect" : [ 1025.166626, 67.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r d3"
 								}
@@ -1047,7 +1044,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 799.104187, 447.0, 31.0, 22.0 ],
-									"presentation_rect" : [ 811.0, 72.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r d2"
 								}
@@ -5124,7 +5120,6 @@
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 511.0, 499.0, 16.0, 140.0 ],
-									"presentation_rect" : [ 511.0, 499.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -5655,6 +5650,150 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 7 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 6 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 13 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 12 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 11 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 10 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 15 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 14 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 9 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 8 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 1 ],
 									"disabled" : 0,
@@ -7402,38 +7541,38 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-125::obj-26" : [ "raw gain[31]", "raw gain", 0 ],
+			"obj-12::obj-26" : [ "raw gain[9]", "raw gain", 0 ],
+			"obj-1::obj-26" : [ "raw gain[29]", "raw gain", 0 ],
+			"obj-11::obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
+			"obj-4::obj-26" : [ "raw gain[27]", "raw gain", 0 ],
+			"obj-8::obj-26" : [ "raw gain[17]", "raw gain", 0 ],
+			"obj-6::obj-27" : [ "raw gain[16]", "cooked gain", 0 ],
+			"obj-1::obj-27" : [ "raw gain[30]", "cooked gain", 0 ],
+			"obj-11::obj-26" : [ "raw gain[7]", "raw gain", 0 ],
+			"obj-4::obj-27" : [ "raw gain[28]", "cooked gain", 0 ],
 			"obj-18::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
+			"obj-5::obj-26" : [ "raw gain[25]", "raw gain", 0 ],
+			"obj-6::obj-26" : [ "raw gain[15]", "raw gain", 0 ],
+			"obj-14::obj-26" : [ "raw gain[13]", "raw gain", 0 ],
+			"obj-125::obj-27" : [ "raw gain[32]", "cooked gain", 0 ],
+			"obj-18::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
+			"obj-15::obj-26" : [ "raw gain[23]", "raw gain", 0 ],
 			"obj-5::obj-27" : [ "raw gain[26]", "cooked gain", 0 ],
-			"obj-10::obj-27" : [ "raw gain[22]", "cooked gain", 0 ],
+			"obj-17::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
+			"obj-10::obj-26" : [ "raw gain[21]", "raw gain", 0 ],
 			"obj-14::obj-27" : [ "raw gain[14]", "cooked gain", 0 ],
 			"obj-13::obj-26" : [ "raw gain[11]", "raw gain", 0 ],
 			"obj-17::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
-			"obj-16::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
-			"obj-10::obj-26" : [ "raw gain[21]", "raw gain", 0 ],
-			"obj-9::obj-26" : [ "raw gain[19]", "raw gain", 0 ],
-			"obj-15::obj-27" : [ "raw gain[24]", "cooked gain", 0 ],
-			"obj-13::obj-27" : [ "raw gain[12]", "cooked gain", 0 ],
-			"obj-125::obj-27" : [ "raw gain[32]", "cooked gain", 0 ],
-			"obj-12::obj-26" : [ "raw gain[9]", "raw gain", 0 ],
-			"obj-1::obj-27" : [ "raw gain[30]", "cooked gain", 0 ],
+			"obj-10::obj-27" : [ "raw gain[22]", "cooked gain", 0 ],
 			"obj-16::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
 			"obj-9::obj-27" : [ "raw gain[20]", "cooked gain", 0 ],
-			"obj-8::obj-27" : [ "raw gain[18]", "cooked gain", 0 ],
+			"obj-13::obj-27" : [ "raw gain[12]", "cooked gain", 0 ],
 			"obj-12::obj-27" : [ "raw gain[10]", "cooked gain", 0 ],
-			"obj-1::obj-26" : [ "raw gain[29]", "raw gain", 0 ],
-			"obj-11::obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
-			"obj-4::obj-27" : [ "raw gain[28]", "cooked gain", 0 ],
-			"obj-8::obj-26" : [ "raw gain[17]", "raw gain", 0 ],
-			"obj-6::obj-26" : [ "raw gain[15]", "raw gain", 0 ],
-			"obj-125::obj-26" : [ "raw gain[31]", "raw gain", 0 ],
-			"obj-11::obj-26" : [ "raw gain[7]", "raw gain", 0 ],
-			"obj-4::obj-26" : [ "raw gain[27]", "raw gain", 0 ],
-			"obj-18::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
-			"obj-5::obj-26" : [ "raw gain[25]", "raw gain", 0 ],
-			"obj-15::obj-26" : [ "raw gain[23]", "raw gain", 0 ],
-			"obj-6::obj-27" : [ "raw gain[16]", "cooked gain", 0 ],
-			"obj-14::obj-26" : [ "raw gain[13]", "raw gain", 0 ],
-			"obj-17::obj-27" : [ "raw gain[4]", "cooked gain", 0 ]
+			"obj-16::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
+			"obj-15::obj-27" : [ "raw gain[24]", "cooked gain", 0 ],
+			"obj-9::obj-26" : [ "raw gain[19]", "raw gain", 0 ],
+			"obj-8::obj-27" : [ "raw gain[18]", "cooked gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
