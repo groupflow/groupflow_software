@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 1,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 113.0, 113.0, 1173.0, 749.0 ],
+		"rect" : [ 355.0, 120.0, 694.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,48 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 386.0, 393.0, 54.0, 22.0 ],
+					"style" : "",
+					"text" : "r b_gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-59",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 518.0, 543.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 518.0, 543.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 428.0, 636.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "* 1."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
 					"id" : "obj-55",
@@ -806,6 +848,7 @@
 					"patching_rect" : [ 443.05545, 146.0, 103.0, 90.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 85.833313, 17.0, 77.0, 42.0 ],
+					"range" : [ -2.0, 2.0 ],
 					"style" : ""
 				}
 
@@ -818,7 +861,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 725.263916, 612.0, 95.999939, 60.0 ],
+					"patching_rect" : [ 566.180603, 641.0, 95.999939, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.833374, 78.0, 158.999939, 42.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -903,7 +946,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.109078, 0.481945, 0.537541, 1.0 ],
+					"bgcolor" : [ 0.501961, 0.0, 0.0 ],
 					"bordercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"id" : "obj-43",
 					"maxclass" : "panel",
@@ -968,15 +1011,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1005,6 +1039,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
@@ -1285,6 +1328,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1308,6 +1369,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-58", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}
@@ -1356,85 +1426,81 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "meci-filters.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquad2.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters.json",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/ecg",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ecg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/ibi",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "breathwave~.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/breathwave",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/breathwave",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noisesweep~.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wiggle.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggle~.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "derivator.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/ibi",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ccl_sound.maxpat",
-				"bootpath" : "~/Desktop/group_flow_mapper/eio_group_flow/lib/ccl",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ccl",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "resonators~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

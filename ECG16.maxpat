@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 4,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 400.0, 79.0, 1009.0, 770.0 ],
+		"rect" : [ 1036.0, 79.0, 288.0, 770.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -155,12 +155,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 4,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 216.0, 79.0, 1097.0, 715.0 ],
+						"rect" : [ 107.0, 79.0, 973.0, 715.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -188,6 +188,32 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-5",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 873.0, 57.0, 50.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 880.0, 91.0, 56.0, 22.0 ],
+									"style" : "",
+									"text" : "s b_gain"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"args" : [ 16 ],
 									"bgmode" : 0,
@@ -556,7 +582,16 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 332.833344, 183.000015, 201.166626, 22.0 ],
@@ -1766,12 +1801,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 4,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 68.0, 92.0, 1062.0, 432.0 ],
+						"rect" : [ 68.0, 190.0, 1062.0, 432.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2014,7 +2049,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2281,7 +2316,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2548,7 +2583,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2815,7 +2850,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3082,7 +3117,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3349,7 +3384,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3616,7 +3651,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3865,7 +3900,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4132,7 +4167,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4399,7 +4434,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4666,7 +4701,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4933,7 +4968,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5200,7 +5235,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5467,7 +5502,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5734,7 +5769,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6001,7 +6036,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6618,7 +6653,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6766,7 +6801,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7116,7 +7151,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7383,7 +7418,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7650,7 +7685,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7917,7 +7952,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8184,7 +8219,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8451,7 +8486,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8718,7 +8753,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8967,7 +9002,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9234,7 +9269,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9501,7 +9536,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9768,7 +9803,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10035,7 +10070,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10302,7 +10337,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10569,7 +10604,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10836,7 +10871,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11103,7 +11138,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13796,7 +13831,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 4,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13842,7 +13877,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14062,7 +14097,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14358,7 +14393,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15599,7 +15634,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 4,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17642,7 +17677,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 4,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -18178,12 +18213,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 4,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 96.0, 79.0, 1192.0, 772.0 ],
+						"rect" : [ 34.0, 79.0, 898.0, 772.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -18219,7 +18254,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 448.0, 455.0, 85.0, 22.0 ],
+									"patching_rect" : [ 778.0, 477.0, 85.0, 22.0 ],
 									"style" : "",
 									"text" : "loadmess 100"
 								}
@@ -18234,7 +18269,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 805.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1135.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18248,7 +18283,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 784.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1114.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18262,7 +18297,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 763.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1093.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18276,7 +18311,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 742.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1072.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18290,7 +18325,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 721.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1051.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18304,7 +18339,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 700.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1030.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18318,7 +18353,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 679.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 1009.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18332,7 +18367,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 658.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 988.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18346,7 +18381,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 637.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 967.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18360,7 +18395,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 616.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 946.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18374,7 +18409,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 595.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 925.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18388,7 +18423,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 574.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 904.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18402,7 +18437,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 553.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 883.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18416,7 +18451,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 532.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 862.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18430,7 +18465,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 511.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 841.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18444,7 +18479,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 490.0, 499.0, 16.0, 140.0 ],
+									"patching_rect" : [ 820.0, 521.0, 16.0, 140.0 ],
 									"style" : ""
 								}
 
@@ -18754,7 +18789,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 608.5, 685.0, 44.0, 44.0 ],
+									"patching_rect" : [ 938.5, 707.0, 44.0, 44.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 57.833344, 31.0, 44.0, 44.0 ],
 									"prototypename" : "helpfile",
@@ -19013,13 +19048,13 @@
 									"numinlets" : 2,
 									"numoutlets" : 18,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "bang" ],
-									"patching_rect" : [ 382.0, 84.0, 197.5, 22.0 ],
+									"patching_rect" : [ 381.0, 84.0, 197.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 1341542.4, "ticks" ],
+										"originallength" : [ 405420.408163, "ticks" ],
 										"originaltempo" : 120.0,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -19214,7 +19249,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 391.5, 355.0, 30.0, 355.0 ],
+									"midpoints" : [ 390.5, 355.0, 30.0, 355.0 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -19224,7 +19259,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 465.0, 254.5, 160.666672, 254.5 ],
+									"midpoints" : [ 464.0, 254.5, 160.666672, 254.5 ],
 									"source" : [ "obj-22", 7 ]
 								}
 
@@ -19234,7 +19269,7 @@
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 454.5, 269.0, 142.0, 269.0 ],
+									"midpoints" : [ 453.5, 269.0, 142.0, 269.0 ],
 									"source" : [ "obj-22", 6 ]
 								}
 
@@ -19244,7 +19279,7 @@
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 444.0, 282.0, 123.333313, 282.0 ],
+									"midpoints" : [ 443.0, 282.0, 123.333313, 282.0 ],
 									"source" : [ "obj-22", 5 ]
 								}
 
@@ -19254,7 +19289,7 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 528.0, 164.0, 272.666656, 164.0 ],
+									"midpoints" : [ 527.0, 164.0, 272.666656, 164.0 ],
 									"source" : [ "obj-22", 13 ]
 								}
 
@@ -19264,7 +19299,7 @@
 									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 517.5, 178.5, 253.999985, 178.5 ],
+									"midpoints" : [ 516.5, 178.5, 253.999985, 178.5 ],
 									"source" : [ "obj-22", 12 ]
 								}
 
@@ -19274,7 +19309,7 @@
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 507.0, 194.0, 235.333328, 194.0 ],
+									"midpoints" : [ 506.0, 194.0, 235.333328, 194.0 ],
 									"source" : [ "obj-22", 11 ]
 								}
 
@@ -19284,7 +19319,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 496.5, 208.5, 216.666672, 208.5 ],
+									"midpoints" : [ 495.5, 208.5, 216.666672, 208.5 ],
 									"source" : [ "obj-22", 10 ]
 								}
 
@@ -19294,7 +19329,7 @@
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 549.0, 135.0, 310.0, 135.0 ],
+									"midpoints" : [ 548.0, 135.0, 310.0, 135.0 ],
 									"source" : [ "obj-22", 15 ]
 								}
 
@@ -19304,7 +19339,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 538.5, 149.5, 291.333313, 149.5 ],
+									"midpoints" : [ 537.5, 149.5, 291.333313, 149.5 ],
 									"source" : [ "obj-22", 14 ]
 								}
 
@@ -19314,7 +19349,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 402.0, 341.5, 50.0, 341.5 ],
+									"midpoints" : [ 401.0, 341.5, 50.0, 341.5 ],
 									"source" : [ "obj-22", 1 ]
 								}
 
@@ -19324,7 +19359,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 412.5, 327.0, 67.333347, 327.0 ],
+									"midpoints" : [ 411.5, 327.0, 67.333347, 327.0 ],
 									"source" : [ "obj-22", 2 ]
 								}
 
@@ -19343,7 +19378,7 @@
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 423.0, 312.0, 85.999969, 312.0 ],
+									"midpoints" : [ 422.0, 312.0, 85.999969, 312.0 ],
 									"source" : [ "obj-22", 3 ]
 								}
 
@@ -19353,7 +19388,7 @@
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 433.5, 297.0, 104.666672, 297.0 ],
+									"midpoints" : [ 432.5, 297.0, 104.666672, 297.0 ],
 									"source" : [ "obj-22", 4 ]
 								}
 
@@ -19363,7 +19398,7 @@
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 486.0, 224.5, 198.0, 224.5 ],
+									"midpoints" : [ 485.0, 224.5, 198.0, 224.5 ],
 									"source" : [ "obj-22", 9 ]
 								}
 
@@ -19373,7 +19408,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 475.5, 239.0, 179.333328, 239.0 ],
+									"midpoints" : [ 474.5, 239.0, 179.333328, 239.0 ],
 									"source" : [ "obj-22", 8 ]
 								}
 
@@ -20707,274 +20742,270 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-61::obj-10::obj-27" : [ "raw gain[14]", "cooked gain", 0 ],
-			"obj-61::obj-14::obj-26" : [ "raw gain[16]", "raw gain", 0 ],
-			"obj-61::obj-51::obj-26" : [ "raw gain[7]", "raw gain", 0 ],
-			"obj-61::obj-12::obj-26" : [ "raw gain[27]", "raw gain", 0 ],
-			"obj-61::obj-15::obj-27" : [ "raw gain[33]", "cooked gain", 0 ],
-			"obj-61::obj-18::obj-26" : [ "raw gain[18]", "raw gain", 0 ],
-			"obj-61::obj-17::obj-26" : [ "raw gain[31]", "raw gain", 0 ],
-			"obj-61::obj-41::obj-27" : [ "raw gain[12]", "cooked gain", 0 ],
-			"obj-61::obj-16::obj-27" : [ "raw gain[20]", "cooked gain", 0 ],
-			"obj-61::obj-53::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
-			"obj-61::obj-52::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
-			"obj-61::obj-1::obj-27" : [ "raw gain[29]", "cooked gain", 0 ],
-			"obj-61::obj-14::obj-27" : [ "raw gain[15]", "cooked gain", 0 ],
-			"obj-61::obj-51::obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
-			"obj-61::obj-4::obj-27" : [ "raw gain[17]", "cooked gain", 0 ],
-			"obj-61::obj-47::obj-26" : [ "raw gain[10]", "raw gain", 0 ],
-			"obj-61::obj-60::obj-26" : [ "raw gain[2]", "raw gain", 0 ],
-			"obj-61::obj-10::obj-26" : [ "raw gain[13]", "raw gain", 0 ],
-			"obj-61::obj-125::obj-27" : [ "raw gain[24]", "cooked gain", 0 ],
-			"obj-61::obj-17::obj-27" : [ "raw gain[19]", "cooked gain", 0 ],
-			"obj-61::obj-12::obj-27" : [ "raw gain[26]", "cooked gain", 0 ],
-			"obj-61::obj-16::obj-26" : [ "raw gain[32]", "raw gain", 0 ],
-			"obj-61::obj-15::obj-26" : [ "raw gain[21]", "raw gain", 0 ],
-			"obj-61::obj-52::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
-			"obj-61::obj-1::obj-26" : [ "raw gain[28]", "raw gain", 0 ],
-			"obj-61::obj-18::obj-27" : [ "raw gain[30]", "cooked gain", 0 ],
-			"obj-61::obj-125::obj-26" : [ "raw gain[23]", "raw gain", 0 ],
-			"obj-61::obj-4::obj-26" : [ "raw gain[25]", "raw gain", 0 ],
-			"obj-61::obj-47::obj-27" : [ "raw gain[9]", "cooked gain", 0 ],
-			"obj-61::obj-60::obj-27" : [ "raw gain[1]", "cooked gain", 0 ],
-			"obj-61::obj-41::obj-26" : [ "raw gain[11]", "raw gain", 0 ],
-			"obj-61::obj-53::obj-26" : [ "raw gain[3]", "raw gain", 0 ]
+			"obj-61::obj-16::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
+			"obj-61::obj-47::obj-27" : [ "raw gain[20]", "cooked gain", 0 ],
+			"obj-61::obj-41::obj-26" : [ "raw gain[17]", "raw gain", 0 ],
+			"obj-61::obj-125::obj-26" : [ "raw gain[31]", "raw gain", 0 ],
+			"obj-61::obj-18::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
+			"obj-61::obj-17::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
+			"obj-61::obj-12::obj-27" : [ "raw gain[10]", "cooked gain", 0 ],
+			"obj-61::obj-51::obj-26" : [ "raw gain[21]", "raw gain", 0 ],
+			"obj-61::obj-1::obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
+			"obj-61::obj-14::obj-26" : [ "raw gain[13]", "raw gain", 0 ],
+			"obj-61::obj-53::obj-27" : [ "raw gain[28]", "cooked gain", 0 ],
+			"obj-61::obj-4::obj-26" : [ "raw gain[11]", "raw gain", 0 ],
+			"obj-61::obj-52::obj-26" : [ "raw gain[25]", "raw gain", 0 ],
+			"obj-61::obj-41::obj-27" : [ "raw gain[18]", "cooked gain", 0 ],
+			"obj-61::obj-125::obj-27" : [ "raw gain[32]", "cooked gain", 0 ],
+			"obj-61::obj-10::obj-26" : [ "raw gain[15]", "raw gain", 0 ],
+			"obj-61::obj-60::obj-27" : [ "raw gain[30]", "cooked gain", 0 ],
+			"obj-61::obj-17::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
+			"obj-61::obj-15::obj-26" : [ "raw gain[23]", "raw gain", 0 ],
+			"obj-61::obj-16::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
+			"obj-61::obj-47::obj-26" : [ "raw gain[19]", "raw gain", 0 ],
+			"obj-61::obj-1::obj-26" : [ "raw gain[7]", "raw gain", 0 ],
+			"obj-61::obj-15::obj-27" : [ "raw gain[24]", "cooked gain", 0 ],
+			"obj-61::obj-18::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
+			"obj-61::obj-4::obj-27" : [ "raw gain[12]", "cooked gain", 0 ],
+			"obj-61::obj-52::obj-27" : [ "raw gain[26]", "cooked gain", 0 ],
+			"obj-61::obj-12::obj-26" : [ "raw gain[9]", "raw gain", 0 ],
+			"obj-61::obj-51::obj-27" : [ "raw gain[22]", "cooked gain", 0 ],
+			"obj-61::obj-10::obj-27" : [ "raw gain[16]", "cooked gain", 0 ],
+			"obj-61::obj-60::obj-26" : [ "raw gain[29]", "raw gain", 0 ],
+			"obj-61::obj-14::obj-27" : [ "raw gain[14]", "cooked gain", 0 ],
+			"obj-61::obj-53::obj-26" : [ "raw gain[27]", "raw gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "live_mapper.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ccl/live",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ccl/live",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "live_sources.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ccl/live",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ccl/live",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_mainSpectralModule.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputRecordingSend.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputRecording.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sigs.multiply16~.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelAnalysisStage2.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "format.nameNumber.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftDownsampledUsingList41hz.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListTrim.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListSelect.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListPolar.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListSum.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListSquare.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizComplexPoints.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListFromPhases.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizScope16Receives.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizScope.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelAnalysisStage1.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "demodulateAmSimple.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListNormalize.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListIntegrate.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizPolyEnable.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelAnalysisStage1Bridge.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ian-spectral",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecgbpatch.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ecg",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ecg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquad2.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters.json",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/meci",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ecg",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ecg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ibi",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "breathwave~.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/breathwave",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/breathwave",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noisesweep~.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wiggle.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggle~.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "derivator.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/misc",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ibi",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ccl_sound.maxpat",
-				"bootpath" : "~/Google Drive/Projects/GroupFlow/Max/BM2016/Conner/eio_group_flow/lib/ccl",
+				"bootpath" : "~/Documents/emergent.io/Repositories/eio_group_flow/lib/ccl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ext_listfft.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "resonators~.mxo",
 				"type" : "iLaX"
 			}
  ],
