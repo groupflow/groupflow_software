@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 986.0, 99.0, 494.0, 657.0 ],
+		"rect" : [ 17.0, 80.0, 494.0, 657.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -148,8 +148,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 30.0, 150.0, 20.0 ],
-					"text" : "window period (seconds)"
+					"patching_rect" : [ 225.0, 30.0, 158.0, 20.0 ],
+					"text" : "window period (SECONDS)"
 				}
 
 			}
