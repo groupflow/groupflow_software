@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
+<<<<<<< HEAD
+		"rect" : [ 512.0, 232.0, 704.0, 574.0 ],
+=======
 		"rect" : [ 494.0, 163.0, 704.0, 574.0 ],
+>>>>>>> master
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,6 +81,8 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
+=======
 					"color" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -1818,6 +1824,7 @@
 			}
 , 			{
 				"box" : 				{
+>>>>>>> master
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3279,7 +3286,11 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 20.0, 198.0, 351.75, 64.0 ],
+<<<<<<< HEAD
+					"setfilter" : [ 0, 1, 1, 0, 0, 200.0, 0.51, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+=======
 					"setfilter" : [ 0, 1, 1, 0, 0, 775.876404, 0.51, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+>>>>>>> master
 					"style" : ""
 				}
 
@@ -3429,7 +3440,11 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
+					"destination" : [ "obj-14", 0 ],
+=======
 					"destination" : [ "obj-10", 0 ],
+>>>>>>> master
 					"source" : [ "obj-3", 0 ]
 				}
 
