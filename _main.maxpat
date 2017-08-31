@@ -38,6 +38,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 42.0, 266.0, 199.0, 20.0 ],
+					"style" : "",
+					"text" : "Currently not used (0-voices)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-50",
 					"maxclass" : "flonum",
@@ -230,9 +242,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.333344, 330.5, 248.0, 22.0 ],
+					"patching_rect" : [ 8.333344, 330.5, 242.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ breathwave_poly.maxpat 24 @target 0"
+					"text" : "poly~ breathwave_poly.maxpat 0 @target 0"
 				}
 
 			}
@@ -2779,7 +2791,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1988.0, 1100.333374, 390.0, 360.0 ],
-									"presentation_rect" : [ 1988.0, 1100.333374, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[18]",
 									"viewvisibility" : 1
 								}
@@ -2801,7 +2812,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1592.0, 1100.333374, 390.0, 360.0 ],
-									"presentation_rect" : [ 1592.0, 1100.333374, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[19]",
 									"viewvisibility" : 1
 								}
@@ -2823,7 +2833,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1196.0, 1100.333374, 390.0, 360.0 ],
-									"presentation_rect" : [ 1196.0, 1100.333374, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[20]",
 									"viewvisibility" : 1
 								}
@@ -2845,7 +2854,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 799.0, 1100.333374, 390.0, 360.0 ],
-									"presentation_rect" : [ 799.0, 1100.333374, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[21]",
 									"viewvisibility" : 1
 								}
@@ -2867,7 +2875,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 403.0, 1100.333374, 390.0, 360.0 ],
-									"presentation_rect" : [ 403.0, 1100.333374, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[22]",
 									"viewvisibility" : 1
 								}
@@ -2889,7 +2896,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 7.0, 1100.333374, 390.0, 360.0 ],
-									"presentation_rect" : [ 7.0, 1100.333374, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[23]",
 									"viewvisibility" : 1
 								}
@@ -2911,7 +2917,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1984.0, 731.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1981.0, 731.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[12]",
 									"viewvisibility" : 1
 								}
@@ -2933,7 +2938,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1588.0, 731.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1585.0, 731.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[13]",
 									"viewvisibility" : 1
 								}
@@ -2955,7 +2959,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1192.0, 731.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1189.0, 731.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[14]",
 									"viewvisibility" : 1
 								}
@@ -2977,7 +2980,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 795.0, 731.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 792.0, 731.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[15]",
 									"viewvisibility" : 1
 								}
@@ -2999,7 +3001,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 399.0, 731.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 396.0, 731.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[16]",
 									"viewvisibility" : 1
 								}
@@ -3021,7 +3022,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 3.0, 731.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 0.0, 731.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[17]",
 									"viewvisibility" : 1
 								}
@@ -3043,7 +3043,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1984.0, 366.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1985.0, 378.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[6]",
 									"viewvisibility" : 1
 								}
@@ -3065,7 +3064,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1588.0, 366.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1589.0, 378.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[7]",
 									"viewvisibility" : 1
 								}
@@ -3087,7 +3085,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1192.0, 366.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1193.0, 378.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[8]",
 									"viewvisibility" : 1
 								}
@@ -3109,7 +3106,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 795.0, 366.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 796.0, 378.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[9]",
 									"viewvisibility" : 1
 								}
@@ -3131,7 +3127,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 399.0, 366.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 400.0, 378.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[10]",
 									"viewvisibility" : 1
 								}
@@ -3153,7 +3148,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 3.0, 366.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 4.0, 378.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[11]",
 									"viewvisibility" : 1
 								}
@@ -3175,7 +3169,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1984.0, 2.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1996.0, 15.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[5]",
 									"viewvisibility" : 1
 								}
@@ -3197,7 +3190,6 @@
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1588.0, 2.0, 390.0, 360.0 ],
-									"presentation_rect" : [ 1600.0, 14.0, 0.0, 0.0 ],
 									"varname" : "newBreathChannelAnalysis[4]",
 									"viewvisibility" : 1
 								}
@@ -7128,7 +7120,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-94", 11 ],
-									"midpoints" : [ 168.705882, 111.0, 524.855077, 111.0 ],
+									"midpoints" : [ 168.705882, 111.0, 524.855078, 111.0 ],
 									"source" : [ "obj-22", 11 ]
 								}
 
@@ -7136,7 +7128,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-94", 10 ],
-									"midpoints" : [ 155.323529, 111.0, 509.231888, 111.0 ],
+									"midpoints" : [ 155.323529, 111.0, 509.231889, 111.0 ],
 									"source" : [ "obj-22", 10 ]
 								}
 
