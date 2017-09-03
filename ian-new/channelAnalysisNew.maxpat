@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 537.0, 44.0, 1007.0, 932.0 ],
+		"rect" : [ 598.0, 44.0, 1007.0, 932.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,19 +29,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-73",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 436.0, 34.0, 20.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "button",
@@ -390,8 +377,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 626.749878, 594.0, 132.0, 20.0 ],
-					"text" : "expr 100*pow(4/3.\\,$f1)"
+					"patching_rect" : [ 626.749878, 594.0, 129.0, 20.0 ],
+					"text" : "expr 100*pow(2\\,$f1/6)"
 				}
 
 			}
@@ -1150,7 +1137,7 @@
 					"patching_rect" : [ 824.027832, 218.0, 23.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.833313, 32.0, 22.0, 18.0 ],
-					"text" : "1",
+					"text" : "#1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1307,21 +1294,6 @@
 					"presentation_rect" : [ 4.833374, 110.0, 158.999939, 42.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 265.375031, 291.0, 392.874908, 20.0 ],
-					"text" : "meci-filters.maxpat",
-					"varname" : "meci-filters"
 				}
 
 			}
@@ -1530,15 +1502,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-164", 0 ]
 				}
 
 			}
@@ -1787,15 +1750,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1827,60 +1781,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1976,15 +1876,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2021,15 +1912,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2052,15 +1934,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -2207,6 +2080,93 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-27" : [ "raw gain[48]", "cooked gain", 0 ],
+			"obj-26" : [ "raw gain[47]", "raw gain", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "breathwave~.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/breathwave",
+				"patcherrelativepath" : "../lib/breathwave",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "noisesweep~.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/misc",
+				"patcherrelativepath" : "../lib/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wiggle.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/misc",
+				"patcherrelativepath" : "../lib/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toggle~.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/misc",
+				"patcherrelativepath" : "../lib/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "derivator.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/misc",
+				"patcherrelativepath" : "../lib/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ecg-to-rsa.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/ibi",
+				"patcherrelativepath" : "../lib/ibi",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ecgrsa.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/ecg",
+				"patcherrelativepath" : "../lib/ecg",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ibiclip.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/ibi",
+				"patcherrelativepath" : "../lib/ibi",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ibinorm.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/ibi",
+				"patcherrelativepath" : "../lib/ibi",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "autoNormalize.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "connerRichTone.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "freeverb~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

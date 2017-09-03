@@ -37,6 +37,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 22.5, 37.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in~ 1"
 				}
 
@@ -60,13 +64,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.5, 178.0, 95.0, 31.0 ],
-					"text" : "set 0_channelOut"
+					"patching_rect" : [ 136.5, 178.0, 95.0, 18.0 ],
+					"text" : "set 0_output"
 				}
 
 			}
@@ -107,8 +110,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.5, 140.0, 167.0, 20.0 ],
-					"text" : "format.nameNumber output 1"
+					"patching_rect" : [ 66.5, 140.0, 191.0, 20.0 ],
+					"text" : "format.nameNumber outputRaw 1"
 				}
 
 			}

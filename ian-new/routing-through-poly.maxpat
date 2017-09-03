@@ -61,7 +61,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 283.5, 105.0, 18.0 ],
-					"text" : "set 0_channelOut"
+					"text" : "set 0_output"
 				}
 
 			}
@@ -74,8 +74,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.5, 251.0, 167.0, 20.0 ],
-					"text" : "format.nameNumber output 1"
+					"patching_rect" : [ 36.5, 251.0, 191.0, 20.0 ],
+					"text" : "format.nameNumber outputRaw 1"
 				}
 
 			}

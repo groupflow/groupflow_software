@@ -107,7 +107,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 736.0, 457.43338, 30.0, 30.0 ]
 				}
 
@@ -612,8 +612,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 792.166687, 190.93335, 121.0, 18.0 ],
-					"text" : "read meci-filters.json"
+					"patching_rect" : [ 792.166687, 190.93335, 165.0, 18.0 ],
+					"text" : "read meci-filters-presets.json"
 				}
 
 			}
@@ -658,7 +658,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u944005147"
+					"varname" : "u026010354"
 				}
 
 			}
@@ -707,7 +707,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "meci-filters.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-153",
@@ -1269,7 +1268,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 260.066681, 39.633335, 30.0, 30.0 ]
 				}
 
@@ -1817,6 +1816,21 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "meci-biquad2.maxpat",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meci-biquadgen.gendsp",
+				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
 			}
  ]
 	}
