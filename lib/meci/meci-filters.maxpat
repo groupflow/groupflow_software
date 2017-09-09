@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 6,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 80.0, 44.0, 1112.0, 935.0 ],
+		"rect" : [ 941.0, 44.0, 1112.0, 935.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 6,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -187,7 +187,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 294.600037, 50.0, 22.0 ],
-									"text" : "store 2"
+									"text" : "store 6"
 								}
 
 							}
@@ -440,7 +440,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 6,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 504.0, 79.0, 624.0, 541.0 ],
@@ -642,23 +642,23 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 792.0, 122.199982, 58.0, 20.0 ],
 					"restore" : 					{
-						"cooked_gain" : [ 10.0 ],
+						"cooked_gain" : [ 4.0 ],
 						"cooked_gain[1]" : [ 1.0 ],
-						"fbp" : [ 120.0 ],
-						"fhp1" : [ 10.0 ],
-						"flp1" : [ 400.0 ],
+						"fbp" : [ 1.0 ],
+						"fhp1" : [ 0.005 ],
+						"flp1" : [ 5.0 ],
 						"ground_hum" : [ 60 ],
-						"qbp" : [ 0.5 ],
-						"raw_gain" : [ 100.0 ],
-						"srl" : [ 30 ],
+						"qbp" : [ 1.0 ],
+						"raw_gain" : [ 20000.0 ],
+						"srl" : [ 3000 ],
 						"srl2" : [ 5000 ],
 						"xy1" : [ 2 ],
-						"xy2" : [ 2 ],
-						"xy3" : [ 2 ]
+						"xy2" : [ 1 ],
+						"xy3" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u026010354"
+					"varname" : "u129000186"
 				}
 
 			}
@@ -687,7 +687,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 642.669983, 43.633335, 100.0, 20.0 ]
+					"patching_rect" : [ 642.669983, 39.633335, 100.0, 20.0 ]
 				}
 
 			}
@@ -707,6 +707,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "meci-filters-presets.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-153",
@@ -986,7 +987,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 6,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 504.0, 79.0, 624.0, 541.0 ],
@@ -1826,10 +1827,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "meci-biquadgen.gendsp",
+				"name" : "meci-filters-presets.json",
 				"bootpath" : "/Users/ian/Documents/GitHub/groupflow_software/lib/meci",
 				"patcherrelativepath" : ".",
-				"type" : "gDSP",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

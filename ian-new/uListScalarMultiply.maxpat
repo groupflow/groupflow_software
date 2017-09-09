@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 330.0, 430.0, 261.0, 342.0 ],
+		"rect" : [ 532.0, 430.0, 261.0, 342.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,9 +47,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 62.25, 179.0, 32.5, 20.0 ],
-					"text" : "* #1"
+					"text" : "* 0."
 				}
 
 			}
