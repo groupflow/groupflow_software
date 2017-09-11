@@ -26,6 +26,9 @@ private:
 
 public slots:
     void slot_Stop();
+
+signals:
+    void signal_Value(float);
 };
 
 #endif // OSCRECEIVER_H

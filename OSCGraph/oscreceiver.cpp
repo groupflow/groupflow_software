@@ -19,7 +19,8 @@ void OSCReceiver::ProcessMessage(const osc::ReceivedMessage &m, const IpEndpoint
     {
         if(args->IsFloat())
         {
-            std::cout << m.AddressPattern() << " " << args->AsFloat() << std::endl;
+            //std::cout << m.AddressPattern() << " " << args->AsFloat() << std::endl;
+            emit signal_Value(args->AsFloat());
         }
     }
 }

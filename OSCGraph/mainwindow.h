@@ -2,11 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QGridLayout>
 
 #include <iostream>
 #include <cstring>
 
 #include "oscreceiver.h"
+#include "graph.h"
 
 
 namespace Ui {
@@ -22,6 +24,8 @@ public:
     ~MainWindow();
 
     OSCReceiver oscReceiver;
+    Graph* graphs[6][4];
+    QGridLayout *layout;
 
 private:
     Ui::MainWindow *ui;

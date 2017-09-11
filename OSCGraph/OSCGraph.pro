@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT += charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -33,7 +34,8 @@ SOURCES += \
     ip/posix/UdpSocket.cpp \
     ip/IpEndpointName.cpp \
     osc/OscReceivedElements.cpp \
-    oscreceiver.cpp
+    oscreceiver.cpp \
+    graph.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -50,7 +52,8 @@ HEADERS += \
     osc/OscPrintReceivedElements.h \
     osc/OscReceivedElements.h \
     osc/OscTypes.h \
-    oscreceiver.h
+    oscreceiver.h \
+    graph.h
 
 FORMS += \
         mainwindow.ui
