@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1005.0, 132.0, 602.0, 488.0 ],
+		"rect" : [ 233.0, 117.0, 602.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,9 +45,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.521484, 199.0, 94.0, 22.0 ],
+					"patching_rect" : [ 234.521484, 199.0, 54.0, 22.0 ],
 					"style" : "",
-					"text" : "expr pow($f1\\,2)"
+					"text" : "expr $f1"
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.714951, 157.093079, 55.0, 22.0 ],
+					"patching_rect" : [ 237.714951, 157.093079, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "clip 0. 1."
 				}
@@ -70,7 +70,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -98,12 +98,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.704498, 117.942406, 25.0, 25.0 ],
+					"patching_rect" : [ 340.704498, 115.942406, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -112,12 +112,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.977249, 109.514198, 25.0, 25.0 ],
+					"patching_rect" : [ 237.714951, 111.514198, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -146,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.42572, 122.942406, 112.0, 22.0 ],
+					"patching_rect" : [ 378.42572, 122.942406, 130.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess #1 #2 #3"
 				}
@@ -327,9 +327,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

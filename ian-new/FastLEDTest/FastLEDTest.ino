@@ -32,34 +32,47 @@ void setup() {
   // LEDS.addLeds<WS2811_PORTA,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
   // LEDS.addLeds<WS2811_PORTB,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
    //LEDS.addLeds<WS2811_PORTD,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
-   LEDS.addLeds<WS2811_PORTC,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
+   LEDS.addLeds<WS2811_PORTD,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
 
   // LEDS.addLeds<WS2811_PORTDC,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
   LEDS.setBrightness(255);
+
+  LEDS.setDither(0);
     // initialize serial:
   Serial.begin(115200);
 }
 
 void loop() {
   if (newPacket) {
-    for (int i = 0; i < NUM_STRIPS; i++){
+    for (int i = 0; i < NUM_STRIPS; i++){        
       uint8_t r = ledData[i*NUM_COLORS]; // read in the values from processing
       uint8_t g = ledData[i*NUM_COLORS+1]; // in the same order we sent them
       uint8_t b = ledData[i*NUM_COLORS+2];
+
+      if(i==0) {
+        Serial.write(r);
+        Serial.write(g);
+        Serial.write(b);
+      }
+      
       for(int j = 0; j < NUM_LEDS_PER_STRIP; j++) {
         leds[(i*NUM_LEDS_PER_STRIP) + j] = CRGB(r,g,b); 
       //  leds[(i*NUM_LEDS_PER_STRIP) + j] = CHSV((32*i) + hue+j,192,255);
       }
     }
     newPacket = false;
-    LEDS.show();
   }
+  for(int i=0; i<20; i++) {
+      LEDS.show();
+  }
+  
 /*  static uint8_t hue = 0;
   for(int i = 0; i < NUM_STRIPS; i++) {
     for(int j = 0; j < NUM_LEDS_PER_STRIP; j++) {
       leds[(i*NUM_LEDS_PER_STRIP) + j] = CHSV((32*i) + hue+j,192,255);
     }
   }*/
+
 
   // Set the first n leds on each strip to show which strip it is
  /* for(int i = 0; i < NUM_STRIPS; i++) {
@@ -84,7 +97,7 @@ void serialEvent() {
   while (Serial.available()) {
     // get the new byte:
     uint8_t inByte = Serial.read(); 
-    Serial.write(inByte);
+    //Serial.write(inByte);
     if(inPacket == false) {
       if(inByte == HEADER_BYTE) {
         inPacket = true;
