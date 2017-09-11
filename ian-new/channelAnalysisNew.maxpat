@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 639.0, 79.0, 601.0, 932.0 ],
+		"rect" : [ 255.0, 79.0, 1013.0, 915.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -59,7 +59,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 452.208344, 354.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 451.0, 353.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "-1"
 				}
@@ -116,7 +115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.694489, 442.0, 32.5, 22.0 ],
-					"presentation_rect" : [ 150.694489, 440.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -231,7 +229,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.861237, 372.0, 82.0, 22.0 ],
 					"style" : "",
-					"text" : "Breath"
+					"text" : "ECG"
 				}
 
 			}
@@ -990,7 +988,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 274.375031, 346.0, 88.0, 22.0 ],
@@ -1925,9 +1923,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-30", 0 ]
 				}
 

@@ -5,12 +5,10 @@
 #define NUM_STRIPS 8
 
 #define NUM_COLORS 3
-#define PACKET_LENGTH 25 // info for each led, and packet header
-#define DATA_LENGTH 24
 #define HEADER_BYTE 0xFF
 
-uint8_t ledData[DATA_LENGTH];
-uint8_t packetData[DATA_LENGTH];
+uint8_t ledData[NUM_STRIPS * 3];
+uint8_t packetData[NUM_STRIPS * 3];
 
 CRGB leds[NUM_STRIPS * NUM_LEDS_PER_STRIP];
 boolean inPacket = false;
@@ -61,11 +59,13 @@ void loop() {
       }
     }
     newPacket = false;
+    LEDS.show();
   }
+  /*
   for(int i=0; i<20; i++) {
       LEDS.show();
   }
-  
+  */
 /*  static uint8_t hue = 0;
   for(int i = 0; i < NUM_STRIPS; i++) {
     for(int j = 0; j < NUM_LEDS_PER_STRIP; j++) {
@@ -107,11 +107,11 @@ void serialEvent() {
       packetData[packetIndex] = inByte;
       packetIndex++;
     }
-    if(packetIndex >= DATA_LENGTH) {
+    if(packetIndex >= (NUM_STRIPS * 3)) {
       inPacket = false; 
       packetIndex = 0;
       newPacket = true;
-      for(int i = 0; i < DATA_LENGTH; i++) {
+      for(int i = 0; i < (NUM_STRIPS * 3); i++) {
         ledData[i] = packetData[i]; 
       }
     }
