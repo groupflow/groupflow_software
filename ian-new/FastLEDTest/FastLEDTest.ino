@@ -2,7 +2,7 @@
 
 #define NUM_LEDS_PER_STRIP 10
 // Note: this can be 12 if you're using a teensy 3 and don't mind soldering the pads on the back
-#define NUM_STRIPS 8
+#define NUM_STRIPS 16
 
 #define NUM_COLORS 3
 #define HEADER_BYTE 0xFF
@@ -14,6 +14,8 @@ CRGB leds[NUM_STRIPS * NUM_LEDS_PER_STRIP];
 boolean inPacket = false;
 boolean newPacket = false;
 int packetIndex = 0;
+
+bool testIdMode = false;
 
 // Pin layouts on the teensy 3/3.1:
 // WS2811_PORTD: 2,14,7,8,6,20,21,5
@@ -30,7 +32,7 @@ void setup() {
   // LEDS.addLeds<WS2811_PORTA,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
   // LEDS.addLeds<WS2811_PORTB,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
    //LEDS.addLeds<WS2811_PORTD,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
-   LEDS.addLeds<WS2811_PORTD,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
+   LEDS.addLeds<WS2811_PORTDC,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
 
   // LEDS.addLeds<WS2811_PORTDC,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
   LEDS.setBrightness(255);
@@ -41,25 +43,43 @@ void setup() {
 }
 
 void loop() {
-  if (newPacket) {
+  if(testIdMode) {
     for (int i = 0; i < NUM_STRIPS; i++){        
-      uint8_t r = ledData[i*NUM_COLORS]; // read in the values from processing
-      uint8_t g = ledData[i*NUM_COLORS+1]; // in the same order we sent them
-      uint8_t b = ledData[i*NUM_COLORS+2];
-
-      if(i==0) {
-        Serial.write(r);
-        Serial.write(g);
-        Serial.write(b);
-      }
-      
-      for(int j = 0; j < NUM_LEDS_PER_STRIP; j++) {
-        leds[(i*NUM_LEDS_PER_STRIP) + j] = CRGB(r,g,b); 
-      //  leds[(i*NUM_LEDS_PER_STRIP) + j] = CHSV((32*i) + hue+j,192,255);
+      int bankIndex = i / 8;
+      int localIndex =  i % 8;
+      for(int j=0; j < NUM_LEDS_PER_STRIP; j++) {
+        byte colorValue = j <= localIndex ? 255 : 0;
+        if(bankIndex == 0)
+          leds[(i*NUM_LEDS_PER_STRIP) + j] = CRGB(colorValue,0,0);
+        else if(bankIndex == 1)
+          leds[(i*NUM_LEDS_PER_STRIP) + j] = CRGB(0,colorValue,0);
+        else if(bankIndex == 2)
+          leds[(i*NUM_LEDS_PER_STRIP) + j] = CRGB(0,0,colorValue);
       }
     }
-    newPacket = false;
     LEDS.show();
+  }
+  else {
+    if (newPacket) {
+      for (int i = 0; i < NUM_STRIPS; i++){        
+        uint8_t r = ledData[i*NUM_COLORS]; // read in the values from processing
+        uint8_t g = ledData[i*NUM_COLORS+1]; // in the same order we sent them
+        uint8_t b = ledData[i*NUM_COLORS+2];
+  
+        if(i==0) {
+          Serial.write(r);
+          Serial.write(g);
+          Serial.write(b);
+        }
+        
+        for(int j = 0; j < NUM_LEDS_PER_STRIP; j++) {
+          leds[(i*NUM_LEDS_PER_STRIP) + j] = CRGB(r,g,b); 
+        //  leds[(i*NUM_LEDS_PER_STRIP) + j] = CHSV((32*i) + hue+j,192,255);
+        }
+      }
+      newPacket = false;
+      LEDS.show();
+    }
   }
   /*
   for(int i=0; i<20; i++) {

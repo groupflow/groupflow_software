@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 591.0, 83.0, 1013.0, 915.0 ],
+		"rect" : [ 556.0, 79.0, 994.0, 932.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 194.0, 600.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 787.527832, 564.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "heartbeatStethoscope"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-113",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -46,19 +72,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 126.0, 693.0, 100.0, 22.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-112",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 78.0, 162.0, 22.0 ],
-					"style" : "",
-					"text" : "channelAnalysisNew.maxpat",
-					"varname" : "channelAnalysisNew"
 				}
 
 			}
@@ -112,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.027832, 836.666687, 71.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 849.666687, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend #1"
 				}
@@ -127,7 +140,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 838.027832, 869.666687, 64.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 882.666687, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "s ecgBpm"
 				}
@@ -142,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.027832, 711.666687, 71.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 724.666687, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend #1"
 				}
@@ -157,7 +170,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 838.027832, 744.666687, 102.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 757.666687, 102.0, 22.0 ],
 					"style" : "",
 					"text" : "s meciFiltersRaw"
 				}
@@ -172,7 +185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 838.027832, 678.0, 83.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 691.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "snapshot~ 10"
 				}
@@ -269,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 838.027832, 501.0, 134.0, 20.0 ],
+					"patching_rect" : [ 1133.027832, 514.0, 134.0, 20.0 ],
 					"style" : "",
 					"text" : "Temp: Breath pre-norm"
 				}
@@ -284,7 +297,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.027832, 564.0, 96.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 577.0, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "scale -1. 1. 0. 1."
 				}
@@ -299,7 +312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 838.027832, 537.0, 83.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 550.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "snapshot~ 10"
 				}
@@ -314,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.027832, 597.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 610.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend #1"
 				}
@@ -329,7 +342,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 838.027832, 630.0, 102.0, 22.0 ],
+					"patching_rect" : [ 1133.027832, 643.0, 102.0, 22.0 ],
 					"style" : "",
 					"text" : "s breathPreNorm"
 				}
@@ -370,7 +383,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.861237, 372.0, 82.0, 22.0 ],
 					"style" : "",
-					"text" : "Disable"
+					"text" : "ECG"
 				}
 
 			}
@@ -414,7 +427,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.0, 463.0, 96.0, 22.0 ],
+					"patching_rect" : [ 853.0, 464.0, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "scale -1. 1. 0. 1."
 				}
@@ -429,7 +442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 872.0, 435.0, 83.0, 22.0 ],
+					"patching_rect" : [ 853.0, 436.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "snapshot~ 10"
 				}
@@ -444,9 +457,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 931.0, 407.0, 60.0, 22.0 ],
+					"patching_rect" : [ 912.0, 408.0, 60.0, 22.0 ],
 					"style" : "",
-					"text" : "0.183333"
+					"text" : "0.366667"
 				}
 
 			}
@@ -459,7 +472,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.0, 372.0, 127.0, 22.0 ],
+					"patching_rect" : [ 853.0, 373.0, 127.0, 22.0 ],
 					"style" : "",
 					"text" : "expr 0.1+0.4*($f1/24.)"
 				}
@@ -474,7 +487,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.0, 341.0, 79.0, 22.0 ],
+					"patching_rect" : [ 853.0, 342.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess #1"
 				}
@@ -489,7 +502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 872.0, 403.0, 45.0, 22.0 ],
+					"patching_rect" : [ 853.0, 404.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "cycle~"
 				}
@@ -757,7 +770,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.194489, 545.333313, 110.0, 22.0 ],
+					"patching_rect" : [ 93.194489, 545.333313, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-synth-type"
 				}
@@ -772,7 +785,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.861237, 596.833313, 32.5, 22.0 ],
+					"patching_rect" : [ 131.861237, 596.833313, 32.5, 22.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -787,7 +800,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.194489, 596.833313, 32.5, 22.0 ],
+					"patching_rect" : [ 93.194489, 596.833313, 32.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -799,12 +812,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-98",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 157.194489, 569.833313, 136.0, 22.0 ],
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 93.194489, 570.0, 192.0, 22.0 ],
 					"style" : "",
-					"text" : "route Breathwave Tonal"
+					"text" : "route Breathwave Tonal Heartbeat"
 				}
 
 			}
@@ -831,7 +844,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 105.0, 111.0, 22.0 ],
+					"patching_rect" : [ 195.0, 105.0, 117.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0-synth-type"
 				}
@@ -856,7 +869,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-94",
-					"items" : [ "Breathwave", ",", "Tonal" ],
+					"items" : [ "Breathwave", ",", "Tonal", ",", "Heartbeat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -875,12 +888,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-90",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 330.0, 626.333313, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "selector~ 2"
+					"text" : "selector~ 3"
 				}
 
 			}
@@ -983,7 +996,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.361237, 372.0, 116.0, 22.0 ],
+					"patching_rect" : [ 22.361237, 372.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-sensor-type"
 				}
@@ -998,7 +1011,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 120.0, 116.0, 22.0 ],
+					"patching_rect" : [ 390.0, 120.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-sensor-type"
 				}
@@ -1012,7 +1025,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.875031, 105.0, 118.0, 22.0 ],
+					"patching_rect" : [ 27.875031, 105.0, 126.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0-sensor-type"
 				}
@@ -1506,7 +1519,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 225.833313, 32.0, 22.0, 18.0 ],
 					"style" : "",
-					"text" : "#1",
+					"text" : "16",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1557,7 +1570,7 @@
 					"presentation_rect" : [ 4.833374, 31.0, 110.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "raw gain[21]",
+							"parameter_longname" : "raw gain[15]",
 							"parameter_shortname" : "raw gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -30.0,
@@ -1633,7 +1646,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.194489, 210.0, 103.0, 90.0 ],
+					"patching_rect" : [ 43.361237, 165.0, 202.0, 135.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.833374, 49.0, 110.0, 42.0 ],
 					"style" : ""
@@ -1718,7 +1731,7 @@
 					"presentation_rect" : [ 116.833313, 31.0, 110.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "raw gain[22]",
+							"parameter_longname" : "raw gain[10]",
 							"parameter_shortname" : "cooked gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -30.0,
@@ -1863,6 +1876,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-90", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1885,6 +1907,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -2299,10 +2330,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 2,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2322,7 +2363,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2352,7 +2393,7 @@
 					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2771,6 +2812,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-98", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2796,108 +2846,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-27" : [ "raw gain[22]", "cooked gain", 0 ],
-			"obj-26" : [ "raw gain[21]", "raw gain", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "meci-filters.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-biquad2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-filters-presets.json",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "breathwave~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/breathwave",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "noisesweep~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wiggle.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggle~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "derivator.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ecg-to-rsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ecg",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "autoNormalize.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "connerRichTone.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
