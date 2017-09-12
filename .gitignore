@@ -3,4 +3,5 @@ Icon
 
 OSCGraph/OSCGraph.pro.user
 build-Debug
+build-Release
 Makefile

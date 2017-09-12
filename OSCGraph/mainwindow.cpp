@@ -14,14 +14,13 @@ MainWindow::MainWindow(QWidget *parent) :
         for(int c = 0; c < 4; c++)
         {
             graphs[r][c] = new Graph;
+            graphs[r][c]->instance = r * 4 + c + 1;
             layout->addWidget(graphs[r][c],c,r);
-            connect(&oscReceiver, SIGNAL(signal_Value(float)), graphs[r][c], SLOT(slot_Value(float)));
+            connect(&oscReceiver, SIGNAL(signal_Value(int,float)), graphs[r][c], SLOT(slot_Value(int,float)));
         }
     }
 
     ui->centralWidget->setLayout(layout);
-    setLayout(layout);
-
     oscReceiver.start();
 }
 

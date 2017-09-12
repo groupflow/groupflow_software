@@ -12,7 +12,9 @@
 #include <QtCharts/QValueAxis>
 
 // Sample at 50hz, 1 minute == 3000 samples
-#define SIZE 10
+#define SAMPLES_PER_SECOND 20
+#define NUM_SECONDS        30
+#define BUFFER_SIZE        SAMPLES_PER_SECOND * NUM_SECONDS
 
 Graph::Graph(QWidget *parent)
     : QGraphicsView(new QGraphicsScene, parent),
@@ -29,19 +31,21 @@ Graph::Graph(QWidget *parent)
     chart->setBackgroundRoundness(0);
 
     axisX = new QValueAxis;
-    axisX->setRange(0, SIZE);
+    axisX->setRange(0, BUFFER_SIZE);
     axisX->setLabelFormat("%g");
-    //axisX->setTitleText("Samples");
+    axisX->setLabelsFont(QFont("Courier New", 8));
+
     axisY = new QValueAxis;
-    axisY->setRange(-1, 1);
+    axisY->setRange(-2, 2);
+    axisY->setLabelsFont(QFont("Courier New", 8));
     //axisY->setTitleText("Audio level");
     chart->setAxisX(axisX, series);
     chart->setAxisY(axisY, series);
     //chart->setTitle("Data from the microphone");
 
-    //setRenderHint(QPainter::Antialiasing);
+    setRenderHint(QPainter::Antialiasing);
+    chart->setMargins(QMargins(0,0,0,0));
     scene()->addItem(chart);
-
 }
 
 void Graph::wheelEvent(QWheelEvent *event)
@@ -68,27 +72,30 @@ void Graph::wheelEvent(QWheelEvent *event)
     event->accept();
 }
 
-void Graph::slot_Value(float v)
+void Graph::slot_Value(int index, float v)
 {
-    if(points.size() > SIZE)
+    if(index == instance )
     {
-        points.pop_front();
+        if(points.size() > BUFFER_SIZE)
+        {
+            points.pop_front();
+        }
+
+        points.push_back(v);
+
+       // axisX->setRange(0,points.size());
+
+        QVector<QPointF> p;
+
+        int i =0;
+        for(auto x : points)
+        {
+            p.push_back(QPointF(i,x));
+            i++;
+        }
+
+        series->replace(p);
     }
-
-    points.push_back(v);
-
-   // axisX->setRange(0,points.size());
-
-    QVector<QPointF> p;
-
-    int i =0;
-    for(auto x : points)
-    {
-        p.push_back(QPointF(i,x));
-        i++;
-    }
-
-    series->replace(p);
 }
 
 

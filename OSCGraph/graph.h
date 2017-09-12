@@ -27,6 +27,7 @@ class Graph : public QGraphicsView
     Q_OBJECT
 public:
     Graph(QWidget *parent = 0);
+    int instance = -1;
 
 protected:
     void resizeEvent(QResizeEvent *event);
@@ -41,7 +42,7 @@ private:
     QChartView *chartView;
 
 public slots:
-    void slot_Value(float);
+    void slot_Value(int, float);
 };
 
 #endif // GRAPH_H

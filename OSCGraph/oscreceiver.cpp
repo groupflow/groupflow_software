@@ -17,11 +17,19 @@ void OSCReceiver::ProcessMessage(const osc::ReceivedMessage &m, const IpEndpoint
 
     for (osc::ReceivedMessage::const_iterator args = m.ArgumentsBegin(); args != m.ArgumentsEnd(); ++args)
     {
-        if(args->IsFloat())
+        QString addr(m.AddressPattern());
+
+        if(addr.startsWith("/test_"))
         {
-            //std::cout << m.AddressPattern() << " " << args->AsFloat() << std::endl;
-            emit signal_Value(args->AsFloat());
+            addr = addr.remove("/test_");
+            int instnace = addr.toInt();
+
+            if(args->IsFloat())
+            {
+                emit signal_Value(instnace, args->AsFloat());
+            }
         }
+
     }
 }
 
