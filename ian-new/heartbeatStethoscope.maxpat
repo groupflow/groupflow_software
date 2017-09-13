@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 309.0, 569.0, 32.0, 22.0 ],
+					"style" : "",
+					"text" : "*~ 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -320,10 +333,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 87.5, 78.0, 100.0, 40.0 ],
+					"patching_rect" : [ 76.0, 95.0, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-13", "filtergraph~", "nfilters", 1, 9, "obj-13", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-13", "filtergraph~", "params", 0, 136.662628, 1.051168, 1.552213, 5, "obj-21", "toggle", "int", 1, 5, "obj-24", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-33", "toggle", "int", 1, 6, "obj-3", "gain~", "list", 136, 10.0 ]
+							"data" : [ 5, "obj-13", "filtergraph~", "nfilters", 1, 9, "obj-13", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-13", "filtergraph~", "params", 0, 136.662628, 1.051168, 1.552213, 5, "obj-21", "toggle", "int", 1, 5, "obj-24", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-33", "toggle", "int", 1, 6, "obj-3", "gain~", "list", 157, 10.0 ]
 						}
  ],
 					"style" : ""
@@ -606,6 +619,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
@@ -1018,7 +1040,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]

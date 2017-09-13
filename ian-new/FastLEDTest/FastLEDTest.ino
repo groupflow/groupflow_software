@@ -1,8 +1,15 @@
 #include<FastLED.h>
 
-#define NUM_LEDS_PER_STRIP 10
-// Note: this can be 12 if you're using a teensy 3 and don't mind soldering the pads on the back
+//// For teensy 16ch main board
+#if true
 #define NUM_STRIPS 16
+#define NUM_LEDS_PER_STRIP 10
+//// For Due 1ch global board
+#else
+#define NUM_STRIPS 1
+#define NUM_LEDS_PER_STRIP 100
+#endif
+
 
 #define NUM_COLORS 3
 #define HEADER_BYTE 0xFF
@@ -32,7 +39,11 @@ void setup() {
   // LEDS.addLeds<WS2811_PORTA,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
   // LEDS.addLeds<WS2811_PORTB,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
    //LEDS.addLeds<WS2811_PORTD,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
+
+   // teensy
    LEDS.addLeds<WS2811_PORTDC,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
+   // due
+   //LEDS.addLeds<WS2811_PORTD,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP).setCorrection(TypicalLEDStrip);
 
   // LEDS.addLeds<WS2811_PORTDC,NUM_STRIPS>(leds, NUM_LEDS_PER_STRIP);
   LEDS.setBrightness(255);
