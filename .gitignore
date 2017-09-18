@@ -5,3 +5,6 @@ OSCGraph/OSCGraph.pro.user
 build-Debug
 build-Release
 Makefile
+build/
+
+.DS_Store
