@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 21.0, 58.0, 595.0, 558.0 ],
+		"rect" : [ 21.0, 59.0, 595.0, 558.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -841,7 +841,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 601.0, 212.0, 1044.0, 263.0 ],
+						"rect" : [ 18.0, 737.0, 1044.0, 263.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -860,6 +860,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 4 ],
@@ -3536,7 +3537,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 296.0, 199.0, 737.0, 601.0 ],
+						"rect" : [ 191.0, 371.0, 737.0, 601.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3555,6 +3556,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -5822,7 +5824,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 96.0, 317.0, 106.0, 18.0 ],
-													"text" : "255 0 0"
+													"text" : "255 95 0"
 												}
 
 											}
@@ -11418,13 +11420,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15::obj-3::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
-			"obj-15::obj-1::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
 			"obj-15::obj-4::obj-26" : [ "raw gain[47]", "raw gain", 0 ],
-			"obj-15::obj-1::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
-			"obj-15::obj-2::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
-			"obj-15::obj-2::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
 			"obj-15::obj-4::obj-27" : [ "raw gain[48]", "cooked gain", 0 ],
+			"obj-15::obj-3::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
+			"obj-15::obj-1::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
+			"obj-15::obj-1::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
+			"obj-15::obj-2::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
+			"obj-15::obj-2::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
 			"obj-15::obj-3::obj-26" : [ "raw gain[5]", "raw gain", 0 ]
 		}
 ,
