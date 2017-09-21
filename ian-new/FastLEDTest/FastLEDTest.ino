@@ -51,6 +51,11 @@ void setup() {
   LEDS.setDither(0);
     // initialize serial:
   Serial.begin(115200);
+
+  // set all to black
+  for(int i=0; i<NUM_STRIPS*NUM_LEDS_PER_STRIP; i++)
+       leds[i] = CRGB(0,0,0);
+  LEDS.show();
 }
 
 void loop() {

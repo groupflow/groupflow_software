@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 366.0, 243.0, 589.0, 454.0 ],
+		"rect" : [ 726.0, 79.0, 589.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -165,9 +165,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 300.0, 177.0, 22.0 ],
+					"patching_rect" : [ 101.0, 300.0, 210.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ voiceSampleNumbers 26"
+					"text" : "poly~ voiceSampleNumbersToBus 26"
 				}
 
 			}
