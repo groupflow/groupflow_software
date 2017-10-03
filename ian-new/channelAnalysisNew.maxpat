@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 623.0, 78.0, 712.0, 929.0 ],
+		"rect" : [ 992.0, 111.0, 1358.0, 766.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -89,7 +89,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -123,6 +123,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-108",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -422,7 +423,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -639,7 +640,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1290,7 +1291,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1639,7 +1640,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1686,6 +1687,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-99",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2045,7 +2047,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2330,7 +2332,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2361,7 +2363,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -2515,7 +2516,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2636,7 +2637,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2708,7 +2709,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.0, 166.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.116667"
+									"text" : "0.133333"
 								}
 
 							}
@@ -2849,16 +2850,157 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-106",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 342.05542, 570.0, 128.0, 22.0 ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 1495.0, 636.0, 301.0, 355.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 155.0, 116.0, 105.0, 22.0 ],
+									"style" : "",
+									"text" : "o.route /heartbeat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 151.0, 66.0, 83.0, 22.0 ],
+									"style" : "",
+									"text" : "r #0-chOsc"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-6",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 83.0, 237.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 80.0, 54.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 80.0, 189.0, 154.0, 22.0 ],
+									"style" : "",
+									"text" : "heartbeatStethoscope-new"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 1 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 342.05542, 570.0, 71.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
 					"style" : "",
-					"text" : "heartbeatStethoscope"
+					"text" : "p heartbeat"
 				}
 
 			}
@@ -3586,7 +3728,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 223.833313, 7.0, 22.0, 18.0 ],
 					"style" : "",
-					"text" : "#1",
+					"text" : "2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -3622,7 +3764,7 @@
 					"presentation_rect" : [ 4.833374, 31.0, 110.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "raw gain[5]",
+							"parameter_longname" : "raw gain[10]",
 							"parameter_shortname" : "raw gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -30.0,
@@ -3772,7 +3914,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "raw gain[6]",
+							"parameter_longname" : "raw gain[11]",
 							"parameter_shortname" : "cooked gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -30.0,
@@ -4701,171 +4843,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-114::obj-102::obj-16" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-114::obj-102::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-26" : [ "raw gain[5]", "raw gain", 0 ],
-			"obj-27" : [ "raw gain[6]", "cooked gain", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "meci-filters.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"patcherrelativepath" : "../lib/meci",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-biquad2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"patcherrelativepath" : "../lib/meci",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"patcherrelativepath" : "../lib/meci",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-filters-presets.json",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
-				"patcherrelativepath" : "../lib/meci",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "heartbeatStethoscope.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ecg-to-rsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"patcherrelativepath" : "../lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ecg",
-				"patcherrelativepath" : "../lib/ecg",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"patcherrelativepath" : "../lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"patcherrelativepath" : "../lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "autoNormalize.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "richToneV2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "*line~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "slider-autofade.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "*!.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "audioFaderFunction.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "breathwave~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/breathwave",
-				"patcherrelativepath" : "../lib/breathwave",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "noisesweep~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"patcherrelativepath" : "../lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wiggle.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"patcherrelativepath" : "../lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "toggle~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"patcherrelativepath" : "../lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "derivator.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
-				"patcherrelativepath" : "../lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "synthLoopsAlternating.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "freeverb~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

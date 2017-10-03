@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -48,7 +48,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -321,7 +321,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -479,7 +479,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -696,7 +696,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1376,11 +1376,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 307.0, 316.0, 826.0, 465.0 ],
+						"rect" : [ 87.0, 569.0, 826.0, 465.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1407,18 +1407,16 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"maxclass" : "newobj",
+									"maxclass" : "meter~",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 269.5, 113.0, 99.0, 22.0 ],
-									"style" : "",
-									"text" : "receive~ 2_input"
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 241.0, 194.0, 80.0, 13.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1519,9 +1517,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 204.0, 71.0, 99.0, 22.0 ],
+									"patching_rect" : [ 210.0, 152.0, 134.0, 22.0 ],
 									"style" : "",
-									"text" : "receive~ 1_input"
+									"text" : "receive~ 2_channelOut"
 								}
 
 							}
@@ -1587,12 +1585,12 @@
 									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 269.5, 399.0, 71.0, 22.0 ],
+									"patching_rect" : [ 227.5, 354.0, 71.0, 22.0 ],
 									"style" : "",
-									"text" : "sfrecord~ 2"
+									"text" : "sfrecord~ 1"
 								}
 
 							}
@@ -1601,13 +1599,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 1 ],
-									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -1687,6 +1678,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"order" : 1,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"order" : 0,
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1721,11 +1721,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 87.0, 48.0, 1047.0, 430.0 ],
+						"rect" : [ 468.0, 284.0, 1060.0, 654.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1754,16 +1754,82 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 663.0, 403.0, 113.0, 22.0 ],
+									"presentation_rect" : [ 593.0, 459.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "s #0-paramChange"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "FullPacket" ],
+									"patching_rect" : [ 522.0, 399.0, 122.0, 22.0 ],
+									"style" : "",
+									"text" : "o.prepend /heartbeat"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-42",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 230.0, 399.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 225.0, 404.0, 0.0, 0.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 339.0, 399.0, 111.0, 22.0 ],
+									"style" : "",
+									"text" : "prepend /pitchShift"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 196.0, 352.0, 108.0, 20.0 ],
+									"presentation_rect" : [ 206.0, 358.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "Heartbeat"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-39",
-									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 378.0, 274.0, 48.0 ],
-									"text" : "/*/loopsAlternating/soundExhale : \"DA_F_Dreamscape_12_FA\"",
+									"patching_rect" : [ 23.0, 587.0, 274.0, 34.0 ],
+									"text" : "/*/heartbeat/pitchShift : 7.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1829,7 +1895,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 604.0, 290.0, 113.0, 22.0 ],
+									"patching_rect" : [ 605.0, 290.0, 113.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0-paramChange"
 								}
@@ -1879,7 +1945,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 604.0, 249.0, 99.0, 22.0 ],
+									"patching_rect" : [ 605.0, 249.0, 99.0, 22.0 ],
 									"style" : "",
 									"text" : "o.prepend /norm"
 								}
@@ -1948,7 +2014,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 236.0, 235.0, 50.0, 22.0 ],
+									"patching_rect" : [ 237.0, 235.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -1960,7 +2026,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 418.0, 235.0, 136.0, 22.0 ],
+									"patching_rect" : [ 419.0, 235.0, 136.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend /windowPeriod"
 								}
@@ -2362,7 +2428,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -2370,7 +2436,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -2458,6 +2524,27 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-43", 0 ]
 								}
 
 							}
@@ -2658,7 +2745,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3405,7 +3492,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3767,7 +3854,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 50534.046875, "ticks" ],
+										"originallength" : [ 50534.045384, "ticks" ],
 										"originaltempo" : 119.999985,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -3985,7 +4072,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -5892,7 +5979,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -6377,7 +6464,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -7427,7 +7514,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8376,7 +8463,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8953,7 +9040,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8984,7 +9071,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-26",
@@ -9006,7 +9092,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 723.5, 202.0, 131.0, 22.0 ],
 									"style" : "",
-									"text" : "set 1_outputRaw"
+									"text" : "set 2_outputRaw"
 								}
 
 							}
@@ -9905,7 +9991,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -10278,7 +10364,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -10926,7 +11012,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -11532,7 +11618,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -12005,7 +12091,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -12106,7 +12192,7 @@
 															"major" : 7,
 															"minor" : 3,
 															"revision" : 4,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -13354,7 +13440,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -15056,7 +15142,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -15169,7 +15255,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 96.0, 410.0, 106.0, 22.0 ],
 													"style" : "",
-													"text" : "255 191 0"
+													"text" : "255 63 0"
 												}
 
 											}
@@ -16638,7 +16724,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -18265,11 +18351,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 365.0, 78.0, 1287.0, 770.0 ],
+						"rect" : [ 1131.0, 119.0, 1228.0, 328.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -18296,6 +18382,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -21279,343 +21366,357 @@
  ],
 		"parameters" : 		{
 			"obj-15::obj-1::obj-27" : [ "raw gain[11]", "cooked gain", 0 ],
-			"obj-15::obj-2::obj-114::obj-102::obj-16" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-29::obj-114::obj-102::obj-19" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-15::obj-4::obj-27" : [ "raw gain[7]", "cooked gain", 0 ],
-			"obj-15::obj-3::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
-			"obj-15::obj-2::obj-114::obj-102::obj-19" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-29::obj-114::obj-102::obj-16" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-15::obj-4::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
-			"obj-15::obj-3::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
-			"obj-15::obj-4::obj-114::obj-102::obj-19" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-15::obj-2::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
 			"obj-15::obj-1::obj-114::obj-102::obj-19" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-15::obj-3::obj-114::obj-102::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-15::obj-2::obj-26" : [ "raw gain[8]", "raw gain", 0 ],
-			"obj-15::obj-1::obj-114::obj-102::obj-16" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-15::obj-3::obj-114::obj-102::obj-16" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-15::obj-2::obj-27" : [ "raw gain[9]", "cooked gain", 0 ],
+			"obj-15::obj-2::obj-114::obj-102::obj-16" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-15::obj-4::obj-114::obj-102::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-15::obj-2::obj-114::obj-102::obj-19" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-15::obj-3::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
 			"obj-15::obj-1::obj-26" : [ "raw gain[10]", "raw gain", 0 ],
-			"obj-15::obj-4::obj-114::obj-102::obj-16" : [ "live.gain~[6]", "live.gain~", 0 ]
+			"obj-29::obj-114::obj-102::obj-19" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-15::obj-3::obj-114::obj-102::obj-19" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-15::obj-3::obj-27" : [ "raw gain[12]", "cooked gain", 0 ],
+			"obj-15::obj-4::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
+			"obj-15::obj-4::obj-114::obj-102::obj-16" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-15::obj-2::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
+			"obj-15::obj-1::obj-114::obj-102::obj-16" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-15::obj-3::obj-114::obj-102::obj-16" : [ "live.gain~[13]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "inputs-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "format.nameNumber.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "./lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "*line~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-sum-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-through-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-fanout-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-solo-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-pairs-swap-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-pairs-sum-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgbBrightness.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listMutable24.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ledSimElement.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialPortWidget.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-regain-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarMultiply.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListInteger.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListClip.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "./lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelGrid_4.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelAnalysisNew.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquad2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters-presets.json",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "heartbeatStethoscope.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"name" : "heartbeatStethoscope-new.maxpat",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests",
+				"patcherrelativepath" : "./tests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "butterworthFilter.maxpat",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecg-to-rsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ibi",
 				"patcherrelativepath" : "./lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ecg",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ecg",
 				"patcherrelativepath" : "./lib/ecg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ibi",
 				"patcherrelativepath" : "./lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ibi",
 				"patcherrelativepath" : "./lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoNormalize.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "richToneV2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "*!.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioFaderFunction.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "breathwave~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/breathwave",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/breathwave",
 				"patcherrelativepath" : "./lib/breathwave",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noisesweep~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/misc",
 				"patcherrelativepath" : "./lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wiggle.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/misc",
 				"patcherrelativepath" : "./lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "toggle~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/misc",
 				"patcherrelativepath" : "./lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "derivator.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/misc",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/misc",
 				"patcherrelativepath" : "./lib/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synthLoopsAlternating.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "external-graph-poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testSpeakLoudestSensorInput.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/testLoudestChannel",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/testLoudestChannel",
 				"patcherrelativepath" : "./tests/testLoudestChannel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputLevelPoly.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/testLoudestChannel",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/testLoudestChannel",
 				"patcherrelativepath" : "./tests/testLoudestChannel",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testSpeakAudioOutputNumbers.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/testAudioOutputsVocals",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/testAudioOutputsVocals",
 				"patcherrelativepath" : "./tests/testAudioOutputsVocals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceSampleNumbersToBus.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/testAudioOutputsVocals",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/testAudioOutputsVocals",
 				"patcherrelativepath" : "./tests/testAudioOutputsVocals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "heartbeatStethoscope.maxpat",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"patcherrelativepath" : "./ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "plotScrolling-v2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plot-config.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1

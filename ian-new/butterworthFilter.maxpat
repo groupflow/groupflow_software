@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 91.0, 78.0, 885.0, 715.0 ],
+		"rect" : [ 37.0, 237.0, 885.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 515.0, 86.0, 48.0, 22.0 ],
-					"presentation_rect" : [ 515.0, 86.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "route 0"
 				}
@@ -71,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 517.0, 46.0, 79.0, 22.0 ],
-					"presentation_rect" : [ 517.0, 46.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "loadmess #1"
 				}
@@ -127,7 +125,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 790.0, 26.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 716.0, 24.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -147,7 +144,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "mode",
+					"annotation" : "frequency",
 					"comment" : "",
 					"id" : "obj-2",
 					"index" : 0,
@@ -156,7 +153,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 606.0, 26.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 606.0, 24.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -367,6 +363,7 @@
 				"box" : 				{
 					"annotation" : "audio",
 					"comment" : "",
+					"hint" : "audio",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -374,7 +371,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 80.0, 26.0, 30.0, 30.0 ],
-					"style" : ""
+					"style" : "",
+					"varname" : "audio"
 				}
 
 			}
