@@ -62,6 +62,7 @@ void loop() {
   if(testIdMode) {
     for (int i = 0; i < NUM_STRIPS; i++){        
       int bankIndex = i / 8;
+      bankIndex += 0;
       int localIndex =  i % 8;
       for(int j=0; j < NUM_LEDS_PER_STRIP; j++) {
         byte colorValue = j <= localIndex ? 255 : 0;
