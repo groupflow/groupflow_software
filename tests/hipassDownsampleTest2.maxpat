@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 61.0, 86.0, 1250.0, 968.0 ],
+		"rect" : [ 237.0, 78.0, 1250.0, 968.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 532.0, 158.0, 31.0, 22.0 ],
+					"style" : "",
+					"text" : "-2 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "button",
@@ -71,7 +84,7 @@
 					"patching_rect" : [ 508.0, 47.5, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-8", "number", "int", 10, 5, "obj-9", "number", "int", 3, 5, "obj-10", "number", "int", 20, 5, "obj-19", "number~", "list", 0.0, 5, "obj-20", "number~", "list", 0.0, 5, "obj-24", "flonum", "float", 0.5, 5, "obj-25", "flonum", "float", 1.0, 5, "obj-26", "flonum", "float", 1.0, 5, "obj-37", "number~", "list", 0.0 ]
+							"data" : [ 5, "obj-8", "number", "int", 10, 5, "<invalid>", "number", "int", 3, 5, "obj-10", "number", "int", 20, 5, "obj-19", "number~", "list", 0.0, 5, "obj-20", "number~", "list", 0.0, 5, "obj-24", "flonum", "float", 0.5, 5, "obj-25", "flonum", "float", 1.0, 5, "obj-26", "flonum", "float", 1.0, 5, "obj-37", "number~", "list", 0.0 ]
 						}
  ],
 					"style" : ""
@@ -118,7 +131,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "plotScrolling-v2.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 5,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 135.333374, 671.666687, 1030.0, 204.666687 ],
@@ -133,9 +146,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 452.833374, 146.5, 205.0, 22.0 ],
+					"patching_rect" : [ 428.833374, 101.5, 197.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ hipassOnepolePoly 1 down 64"
+					"text" : "poly~ hipassBiquadPoly 1 down 64"
 				}
 
 			}
@@ -250,9 +263,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 180.833359, 146.5, 114.0, 22.0 ],
+					"patching_rect" : [ 180.833359, 146.5, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "hipassOnepolePoly"
+					"text" : "hipassBiquadPoly"
 				}
 
 			}
@@ -316,7 +329,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "plotScrolling-v2.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 5,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 135.333374, 456.666687, 1030.0, 204.666687 ],
@@ -340,13 +353,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"maxclass" : "number",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 536.666626, 202.666687, 50.0, 22.0 ],
-					"style" : ""
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 536.666626, 202.666687, 20.0, 22.0 ],
+					"style" : "",
+					"text" : "t l"
 				}
 
 			}
@@ -385,7 +398,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "plotScrolling-v2.maxpat",
-					"numinlets" : 6,
+					"numinlets" : 5,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 135.333374, 238.666687, 1030.0, 204.666687 ],
@@ -576,6 +589,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -615,7 +635,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 2 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -631,7 +651,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 2 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -639,21 +659,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "plotScrolling-v2.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plot-config.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hipassOnepolePoly.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/tests",
+				"name" : "hipassBiquadPoly.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/tests",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 355.0, 78.0, 1345.0, 968.0 ],
+		"rect" : [ 284.0, 78.0, 1345.0, 968.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -187,9 +187,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 505.0, 430.0, 52.0, 22.0 ],
+					"patching_rect" : [ 505.0, 430.0, 60.0, 22.0 ],
 					"style" : "",
-					"text" : "300 100"
+					"text" : "512 200"
 				}
 
 			}
@@ -202,7 +202,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1059.0, 414.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "300 100"
+					"text" : "512 200"
 				}
 
 			}
@@ -226,9 +226,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1018.0, 323.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1018.0, 323.0, 54.0, 22.0 ],
 					"style" : "",
-					"text" : "1024 200"
+					"text" : "512 200"
 				}
 
 			}
@@ -552,7 +552,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 505.0, 123.0, 22.0 ],
+					"patching_rect" : [ 50.0, 505.0, 131.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0-frameMetro"
 				}
@@ -584,7 +584,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 899.0, 98.0, 72.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 0"
+					"text" : "loadmess 8"
 				}
 
 			}
@@ -689,9 +689,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 171.0, 65.0, 22.0 ],
+					"patching_rect" : [ 267.0, 171.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "clip 7. 100"
+					"text" : "clip 0.001 100"
 				}
 
 			}
@@ -790,11 +790,11 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"numplots" : 5,
-					"numpoints" : 300,
+					"numpoints" : 512,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 162.0, 619.0, 1024.0, 250.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 100.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 512.0, 200.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.0, 1.0, 0.0, 1.0 ],
 							"thickness" : 1.5,
