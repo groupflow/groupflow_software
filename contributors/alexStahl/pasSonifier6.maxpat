@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 77.0, 162.0, 1075.0, 670.0 ],
+		"rect" : [ 129.0, 193.0, 1075.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -788,7 +788,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 829.333374, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 50.0, 38.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -818,7 +818,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 662.0, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 50.0, 38.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -907,7 +907,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -920,7 +920,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -933,7 +933,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -979,7 +979,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 513.333374, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 50.0, 38.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -1061,7 +1061,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 364.492157, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 38.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -1133,7 +1133,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 277.5, 320.000015, 351.0, 320.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 277.5, 320.0, 351.0, 320.0, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1218,7 +1218,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 985.047607, 311.000015, 958.666565, 311.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 985.047607, 311.0, 958.666565, 311.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1233,7 +1233,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 982.047607, 385.000015, 958.666565, 385.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 982.047607, 385.0, 958.666565, 385.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1241,7 +1241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 985.047607, 278.000015, 958.666565, 278.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 985.047607, 278.0, 958.666565, 278.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1328,7 +1328,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 277.5, 287.000015, 351.0, 287.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 277.5, 287.0, 351.0, 287.0, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1351,7 +1351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 274.5, 401.000015, 351.0, 401.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 274.5, 401.0, 351.0, 401.0, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1370,7 +1370,81 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-47" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-3::obj-3" : [ "umenu", "umenu", 0 ],
+			"obj-53" : [ "vst~", "vst~", 0 ],
+			"obj-98" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-46" : [ "live.gain~[4]", "live.gain~", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "pasBedPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasFreqScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCycPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScalerCyc.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasStateMachine0.6.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxTracker1.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minTracker1.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
