@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 874.0, 119.0, 368.0, 385.0 ],
+		"rect" : [ 299.0, 182.0, 368.0, 385.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.0, 78.0, 45.0, 45.0 ],
+					"patching_rect" : [ 88.5, 262.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -151,6 +151,23 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 2,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -171,12 +188,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-98" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1::obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-1::obj-3::obj-3" : [ "umenu", "umenu", 0 ],
 			"obj-1::obj-53" : [ "vst~", "vst~", 0 ],
-			"obj-1::obj-47" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-1::obj-3::obj-3" : [ "umenu", "umenu", 0 ],
+			"obj-1::obj-47" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-1::obj-98" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -246,6 +263,13 @@
 				"name" : "ian-bridge-pv.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snapshotGlob~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
