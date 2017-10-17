@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 299.0, 182.0, 368.0, 385.0 ],
+		"rect" : [ 885.0, 138.0, 368.0, 385.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -130,7 +130,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 168.0, 122.0, 66.0, 22.0 ],
 					"style" : "",
-					"text" : "paFlow0.3"
+					"text" : "paFlow0.4"
 				}
 
 			}
@@ -198,71 +198,85 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pasSonifier6.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasBedPoly5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasAmpScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasFreqScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasCycPoly5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasAmpScalerCyc.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pasStateMachine0.5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"name" : "pasStateMachine0.6.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxTracker1.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minTracker1.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground/pasGf0.2/patchers",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ADAPTIVERB.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Snapshots",
-				"type" : "mx@s",
+				"name" : "paFlow0.4.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "paFlow0.3.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"name" : "expSlide.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -274,9 +288,16 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "snapshotGlob~.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
+				"patcherrelativepath" : "../../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pasMasterBuffer.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
