@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 142.0, 196.0, 1075.0, 670.0 ],
+		"rect" : [ 77.0, 162.0, 1075.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -577,6 +577,62 @@
 						"parameter_enable" : 1
 					}
 ,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "UltraReverb.component",
+							"plugindisplayname" : "UltraReverb",
+							"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/UltraReverb.component",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "2890.hAGaoMGcv.C1AHv.DTfAGfPBJrPDRLAEUvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEg.TA..............IA..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.....QyPCQEizNvvCPDELZ0VXo4FHo4Fb0QWVykFYkMFZgklaRHUY1IFD.HQX0YFdOEABCrWCJ.BHh.Ga0cVZtkDQhnCHhHUY1IlHrzfBf.hHvwVcmklaVUlbhnCHhHiKy3BLhvRCJ.BHhj1Yg4lH5.RKz3RL2HyLxTSLyPiL2byLzLyM0TVKvbCKMn.HfHxamElahnCHsPiKwbiLyHSMwLCMxbyMyPyL2TSYs.yMrzfBf.hHs0VZ3IhNf.iK0vRCJ.BHhPWdvUlH5.BMrzfBf.hHxQ1X4IhNfPiK2fyLyDiLyHCL2.SNxHCN0DSM1vRCJ.BHh.GYrkmH5.BLrzfBf.hHjklYlIhNf.iK3TCLv.CLvHyL3PSL3TyM4DCLwXCKMn.HfHhbx01bhnCHv3BNvfiMxbSN1LCL1XSLvDCL2PiLxvRCJ.BHhTlbm4lH5.RKwTiKv.CLv.SL4.yMyPCN1LiL3DiLrzfBf.hHxUlcmIhNf.CKMn.HfHhbxEFchnCHw3hMvbCL4LSNy.iLzPCMzTCNv.CNrzfBf.hHxQFcnIhNf.iKyHCLzXCL2XiM0TyL3bCN2fCMwfCKMn.HfHhbmwFYhnCHv3hL0vRCJ.BHh.GYo4lH5.RLrzfBf.hHjYVZtIhNfDCKMn.HfHRYxklahnCHwvRCJ.BHhHmco4lH5.RLrzfBf.hHxEWZtIhNfDCKMn.HfHhbwwlYhnCHw.CLrzfBf.hHxEGZlIhNfHSMv.iKv.CLxPCMwPCL1HSMrzfBf.hHxEGamIhNf.CKMn.HfHhbwg1YhnCHvvRCJ.BHhPVbo4lH5.RLrzfBf.hHjEGalIhNfDCLvvRCJ.BHhPVbsYlH5.BNv.iKv.CLvXSLvLSMwTiMxTCKMn.HfHBYwglYhnCHz.CLvvRCJ.BHhPVbrclH5.BLrzfBf.hHjEWamIhNf.CKMn.HfHBYwg1YhnCHvvRCJ.BHhPVbsEmH5.BLtbCL2.CLv.SL2DiM1DyL2XSN0LSLrzfBf.hHoEWZtIhNfDCKMn.HfHRZwwlYhnCHwTCLt.CLv.SL0HSM3bCN4.iMxTCKMn.HfHRZw0lYhnCHw.CLvvRCJ.BHhjVbnYlH5.hMv.CLrzfBf.hHoEGamIhNf.CKMn.HfHRZw01YhnCHvvRCJ.BHhjVbnclH5.BLrzfBf.hHoEGawIhNf.iKzjSNv.CLvDiL3bCM1.yLxbSLzfCKMn.HfHRZw0VbhnCHv3xMvbCLv.CLwbSL1XSLybiM4TyLwvRCJ.BHhjVbnEmH5.BLtPSN4.CLv.SLxfyMzXCLyHyMwPCNrzfBf.hHuEWZtIhNfDCKMn.HfHxawwlYhnCHwTCLt.CLv.SL0HSM3bCN4.iMxTCKMn.HfHxaw0lYhnCHw.CLvvRCJ.BHh7VbnYlH5.hMv.CLrzfBf.hHuEGamIhNf.CKMn.HfHxaw01YhnCHvvRCJ.BHh7VbnclH5.BLrzfBf.hHuEGawIhNf.iKzjSNv.CLvDiL3bCM1.yLxbSLzfCKMn.HfHxaw0VbhnCHv3xMvbCLv.CLwbSL1XSLybiM4TyLwvRCJ.BHh7VbnEmH5.BLtPSN4.CLv.SLxfyMzXCLyHyMwPCNrzfBf.hHjw1b2IhNfHCKMn.HfHBcy41XhnCHvvRCJ.BHhPWav8lH5.RLwjiK4jSN4jiLybCL1.SMzXCN2TCKMn.HfHBajwVdhnCHv3BL1bSMv.CLvHiM3HiLvjCLwPCN4LCKMn.HfHBajwlXhnCHvvRCJ.BHhHGYrkmH5.BLt.SNv.CLv.CLyTyM1HyM3XCN1TiLyvRCJ.BHhHGYrIlH5.BLrzfBf.hHrYlXqIhNf.iKvjCLv.CLvLyLybCN1.SLvbCMxDSNrzfBf.hHxYlXqIhNf.iKvjCLv.CLvLyLybCN1.SLvbCMxDSNrzfBf.hHrQFamIhNfzRL23BLv.CLvDSNvbyLzfiMyHCNwHCKMn.HfHhbjw1YhnCHsDyMt.CLv.CLwjCL2LCM3XyLxfSLxvRCJ.BHhLFcnImH5.RKy.iKyXyMzjiMzjCLzbCN0DSM1HSMrzfBf.hHiIWXzIhNfLiK3bCM2fiL3.CL1bCMzLCNzbiM1vRCJ.BHhL1Yg4lH5.xLtXyM3bSMv.yL3DCM1jyMxXSM1HCKMn.HfHxXgQGchnCHv3BL2jCL2fSM3PSNvjCMyjCL3XSNwPCKMn.HfHxXxUFahnCHv3RLyDCN1PSMvLCLxXCLvfiMvTSN1vRCJ.BHhL1ZtUlH5.hMrzfBf.hHisVY4IhNf.CKMn.HfHxXs8FYhnCHvvRCJ.BHhv1alklH5.BLrzfBf.hHkMWYrIhNf.CKMn.HfHRarM1ZhnCHvvRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHMnPeXUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPvBPr.FKvxBzr.XKf3Bbt.oKf6JTO.......f.A.........fE..................fB9C"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "UltraReverb",
+									"origin" : "UltraReverb.component",
+									"type" : "AudioUnit",
+									"subtype" : "AudioEffect",
+									"embed" : 1,
+									"snapshot" : 									{
+										"pluginname" : "UltraReverb.component",
+										"plugindisplayname" : "UltraReverb",
+										"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/UltraReverb.component",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "2890.hAGaoMGcv.C1AHv.DTfAGfPBJrPDRLAEUvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEg.TA..............IA..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.....QyPCQEizNvvCPDELZ0VXo4FHo4Fb0QWVykFYkMFZgklaRHUY1IFD.HQX0YFdOEABCrWCJ.BHh.Ga0cVZtkDQhnCHhHUY1IlHrzfBf.hHvwVcmklaVUlbhnCHhHiKy3BLhvRCJ.BHhj1Yg4lH5.RKz3RL2HyLxTSLyPiL2byLzLyM0TVKvbCKMn.HfHxamElahnCHsPiKwbiLyHSMwLCMxbyMyPyL2TSYs.yMrzfBf.hHs0VZ3IhNf.iK0vRCJ.BHhPWdvUlH5.BMrzfBf.hHxQ1X4IhNfPiK2fyLyDiLyHCL2.SNxHCN0DSM1vRCJ.BHh.GYrkmH5.BLrzfBf.hHjklYlIhNf.iK3TCLv.CLvHyL3PSL3TyM4DCLwXCKMn.HfHhbx01bhnCHv3BNvfiMxbSN1LCL1XSLvDCL2PiLxvRCJ.BHhTlbm4lH5.RKwTiKv.CLv.SL4.yMyPCN1LiL3DiLrzfBf.hHxUlcmIhNf.CKMn.HfHhbxEFchnCHw3hMvbCL4LSNy.iLzPCMzTCNv.CNrzfBf.hHxQFcnIhNf.iKyHCLzXCL2XiM0TyL3bCN2fCMwfCKMn.HfHhbmwFYhnCHv3hL0vRCJ.BHh.GYo4lH5.RLrzfBf.hHjYVZtIhNfDCKMn.HfHRYxklahnCHwvRCJ.BHhHmco4lH5.RLrzfBf.hHxEWZtIhNfDCKMn.HfHhbwwlYhnCHw.CLrzfBf.hHxEGZlIhNfHSMv.iKv.CLxPCMwPCL1HSMrzfBf.hHxEGamIhNf.CKMn.HfHhbwg1YhnCHvvRCJ.BHhPVbo4lH5.RLrzfBf.hHjEGalIhNfDCLvvRCJ.BHhPVbsYlH5.BNv.iKv.CLvXSLvLSMwTiMxTCKMn.HfHBYwglYhnCHz.CLvvRCJ.BHhPVbrclH5.BLrzfBf.hHjEWamIhNf.CKMn.HfHBYwg1YhnCHvvRCJ.BHhPVbsEmH5.BLtbCL2.CLv.SL2DiM1DyL2XSN0LSLrzfBf.hHoEWZtIhNfDCKMn.HfHRZwwlYhnCHwTCLt.CLv.SL0HSM3bCN4.iMxTCKMn.HfHRZw0lYhnCHw.CLvvRCJ.BHhjVbnYlH5.hMv.CLrzfBf.hHoEGamIhNf.CKMn.HfHRZw01YhnCHvvRCJ.BHhjVbnclH5.BLrzfBf.hHoEGawIhNf.iKzjSNv.CLvDiL3bCM1.yLxbSLzfCKMn.HfHRZw0VbhnCHv3xMvbCLv.CLwbSL1XSLybiM4TyLwvRCJ.BHhjVbnEmH5.BLtPSN4.CLv.SLxfyMzXCLyHyMwPCNrzfBf.hHuEWZtIhNfDCKMn.HfHxawwlYhnCHwTCLt.CLv.SL0HSM3bCN4.iMxTCKMn.HfHxaw0lYhnCHw.CLvvRCJ.BHh7VbnYlH5.hMv.CLrzfBf.hHuEGamIhNf.CKMn.HfHxaw01YhnCHvvRCJ.BHh7VbnclH5.BLrzfBf.hHuEGawIhNf.iKzjSNv.CLvDiL3bCM1.yLxbSLzfCKMn.HfHxaw0VbhnCHv3xMvbCLv.CLwbSL1XSLybiM4TyLwvRCJ.BHh7VbnEmH5.BLtPSN4.CLv.SLxfyMzXCLyHyMwPCNrzfBf.hHjw1b2IhNfHCKMn.HfHBcy41XhnCHvvRCJ.BHhPWav8lH5.RLwjiK4jSN4jiLybCL1.SMzXCN2TCKMn.HfHBajwVdhnCHv3BL1bSMv.CLvHiM3HiLvjCLwPCN4LCKMn.HfHBajwlXhnCHvvRCJ.BHhHGYrkmH5.BLt.SNv.CLv.CLyTyM1HyM3XCN1TiLyvRCJ.BHhHGYrIlH5.BLrzfBf.hHrYlXqIhNf.iKvjCLv.CLvLyLybCN1.SLvbCMxDSNrzfBf.hHxYlXqIhNf.iKvjCLv.CLvLyLybCN1.SLvbCMxDSNrzfBf.hHrQFamIhNfzRL23BLv.CLvDSNvbyLzfiMyHCNwHCKMn.HfHhbjw1YhnCHsDyMt.CLv.CLwjCL2LCM3XyLxfSLxvRCJ.BHhLFcnImH5.RKy.iKyXyMzjiMzjCLzbCN0DSM1HSMrzfBf.hHiIWXzIhNfLiK3bCM2fiL3.CL1bCMzLCNzbiM1vRCJ.BHhL1Yg4lH5.xLtXyM3bSMv.yL3DCM1jyMxXSM1HCKMn.HfHxXgQGchnCHv3BL2jCL2fSM3PSNvjCMyjCL3XSNwPCKMn.HfHxXxUFahnCHv3RLyDCN1PSMvLCLxXCLvfiMvTSN1vRCJ.BHhL1ZtUlH5.hMrzfBf.hHisVY4IhNf.CKMn.HfHxXs8FYhnCHvvRCJ.BHhv1alklH5.BLrzfBf.hHkMWYrIhNf.CKMn.HfHRarM1ZhnCHvvRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHMnPeXUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPvBPr.FKvxBzr.XKf3Bbt.oKf6JTO.......f.A.........fE..................fB9C"
+									}
+,
+									"fileref" : 									{
+										"name" : "UltraReverb",
+										"filename" : "UltraReverb.maxsnap",
+										"filepath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/data",
+										"filepos" : -1,
+										"snapshotfileid" : "df044737eb959fd9b9f6924b13d8bd20"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
 					"style" : "",
 					"text" : "vst~",
 					"varname" : "vst~",
@@ -644,7 +700,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 137.0, 211.0, 169.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ pasStateMachine0.5 24"
+					"text" : "poly~ pasStateMachine0.6 24"
 				}
 
 			}
@@ -716,9 +772,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 684.333374, 359.0, 83.0, 22.0 ],
+					"patching_rect" : [ 684.333374, 359.0, 76.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess -30"
+					"text" : "loadmess -6"
 				}
 
 			}
@@ -851,7 +907,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -864,7 +920,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -877,7 +933,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -909,7 +965,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 388.333374, 359.0, 76.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess -3"
+					"text" : "loadmess -6"
 				}
 
 			}
@@ -1077,7 +1133,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 277.5, 320.0, 351.0, 320.0, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 277.5, 320.000015, 351.0, 320.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1162,7 +1218,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 985.047607, 311.0, 958.666565, 311.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 985.047607, 311.000015, 958.666565, 311.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1177,7 +1233,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 982.047607, 385.0, 958.666565, 385.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 982.047607, 385.000015, 958.666565, 385.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1185,7 +1241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 985.047607, 278.0, 958.666565, 278.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 985.047607, 278.000015, 958.666565, 278.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1272,7 +1328,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 277.5, 287.0, 351.0, 287.0, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 277.5, 287.000015, 351.0, 287.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1295,7 +1351,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 274.5, 401.0, 351.0, 401.0, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 274.5, 401.000015, 351.0, 401.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1314,67 +1370,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-98" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-3::obj-3" : [ "umenu", "umenu", 0 ],
-			"obj-53" : [ "vst~", "vst~", 0 ],
-			"obj-47" : [ "live.gain~[5]", "live.gain~", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "pasBedPoly5.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScaler.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasFreqScaler.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasCycPoly5.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScalerCyc.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasStateMachine0.5.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

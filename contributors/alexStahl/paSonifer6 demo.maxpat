@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1035.0, 534.0, 360.0, 319.0 ],
+		"rect" : [ 984.0, 499.0, 360.0, 319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 105.666687, 89.333328, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "pasSonifier5vst"
+					"text" : "pasSonifier6"
 				}
 
 			}
@@ -93,74 +93,82 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-25::obj-3::obj-3" : [ "umenu", "umenu", 0 ],
 			"obj-25::obj-53" : [ "vst~", "vst~", 0 ],
 			"obj-25::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-25::obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-25::obj-3::obj-3" : [ "umenu", "umenu", 0 ],
 			"obj-25::obj-98" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-25::obj-47" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pasSonifier6.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasBedPoly5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasAmpScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasFreqScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasCycPoly5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasAmpScalerCyc.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pasStateMachine0.5.maxpat",
+				"name" : "pasStateMachine0.6.maxpat",
 				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
+				"patcherrelativepath" : "../..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxTracker1.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minTracker1.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ADAPTIVERB.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 7/Snapshots",
-				"type" : "mx@s",
 				"implicit" : 1
 			}
  ],
