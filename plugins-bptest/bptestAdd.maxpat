@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 363.0, 20.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 363.0, 19.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -169,6 +168,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
+					"hidden" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -176,6 +176,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 

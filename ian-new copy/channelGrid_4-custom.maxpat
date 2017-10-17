@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1029.0, 484.0 ],
+		"rect" : [ 245.0, 258.0, 816.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,85 +38,62 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 8 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-12",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "channelAnalysisNew.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 761.0, 237.0, 253.0, 233.0 ],
-					"varname" : "channelAnalysisNew[11]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 7 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-7",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "channelAnalysisNew.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 508.0, 237.0, 253.0, 233.0 ],
-					"varname" : "channelAnalysisNew[6]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 6 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "channelAnalysisNew.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 255.000015, 237.0, 253.0, 233.0 ],
-					"varname" : "channelAnalysisNew[5]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 5 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "channelAnalysisNew.maxpat",
-					"numinlets" : 0,
+					"maxclass" : "comment",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 2.0, 237.0, 253.0, 233.0 ],
-					"varname" : "channelAnalysisNew[4]",
-					"viewvisibility" : 1
+					"patching_rect" : [ 601.5, 237.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 603.5, 237.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "3 mikey gsr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 348.5, 237.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "2 mikey breath"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1145.0, 222.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "2: mikey resp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 348.5, 261.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "4 mikey temp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 47.5, 237.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "1: ian breath"
 				}
 
 			}
@@ -135,7 +112,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 761.0, 2.0, 253.0, 233.0 ],
+					"patching_rect" : [ 297.0, 283.0, 253.0, 233.0 ],
 					"varname" : "channelAnalysisNew[3]",
 					"viewvisibility" : 1
 				}
@@ -156,7 +133,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 508.0, 2.0, 253.0, 233.0 ],
+					"patching_rect" : [ 550.0, 2.0, 253.0, 233.0 ],
 					"varname" : "channelAnalysisNew[2]",
 					"viewvisibility" : 1
 				}
@@ -177,7 +154,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 255.0, 2.0, 253.0, 233.0 ],
+					"patching_rect" : [ 297.0, 2.0, 253.0, 233.0 ],
 					"varname" : "channelAnalysisNew[1]",
 					"viewvisibility" : 1
 				}

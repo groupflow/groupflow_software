@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 78.0, 161.0, 1075.0, 670.0 ],
+		"rect" : [ 142.0, 196.0, 1075.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -577,62 +577,6 @@
 						"parameter_enable" : 1
 					}
 ,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "ADAPTIVERB AU.component",
-							"plugindisplayname" : "ADAPTIVERB",
-							"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/ADAPTIVERB AU.component",
-							"pluginsaveduniqueid" : 0,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "1909.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fPCEzWPwVcmklaSQWXzUFUtEVakIgVY4TTOAA0..............PF..............P.+TmvOB...HvO8TUU....C3iPOxE....A.........TvOG3JE....F7i.OxE...vA9D6WV....f..........I7iIlYF...fB9PodgC...rvO.B......L3Cf......PC+fV8CC...3vO.B......O..........D8Lx0J....DgOB+HW....R7Cf......vD+.H......PwOibsB....U.........fE+zlsaC...bA.........X7SOvQpzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDZkUPVAA.RDVcsY1SQTfq77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiH+3COPIWYyUFcfXWYxMWZu4VOhPiHf.mbuclSg0VY8HxYlMiHfzTRDkTRtAWczQTYlEVcrQWOhDiHfzTRDkzS0QGb0QGQkYVX0wFc8HRLh3COo4Fb0QGTgIWXsMGHi8VctQWOhHSMh.BbvziHvHBHvESOh.iK4TSN4jSN4jSN4jSN4jSN4XCMzbiHf.mL8HRLw3RMh.BbyziHwjCLh.BbzziHvHBHvUSOh.iK0LCLv.CLv.CLv.CLv.CLvHiM1TiHf.mM8HBLtTSLv.CLv.CLv.CLv.CLv.CL3fCNh.Bb2ziHv3xLzXCMxfSM2DCMxfSM2DSLzDSMh.Bb3ziHvHBHvkSOh.iK1TCLv.CLv.CLv.CLv.CLvHiLxHBHvECL8HhL33RN4jSN4jSN4jSN4jSN4XCMzbiHf.WLwziHzHBHvEiL8HhL0HBHvEyL8HBLtfiLv.CLv.CLv.CLv.CLv.iMxDyMh.BbwPSOhHiHf.WL0ziHvHBHvEiM8HBLt.CMv.CLv.CLv.CLv.CLv.CLvfyLyHBHvEyM8HBLtLCNv.CLv.CLv.CLv.CLv.CLzPCMh.BbwfSOhHiHf.WL4ziHxHBHvICL8HBLtXCMv.CLv.CLv.CLv.CLv.SLyLiLh.BbxDSOh.iHf.mLxziHv3RNxfSM2DCMxfSM2DCMxfyMwPSL2HBHvIyL8HBLh.BbxPSOh.iKzbSN4jSN4jSN4jSN4jSN4fiLxPiHu3COo4Fb0Q2TzIWZtc1bu3COo4Fb0Q2P0ImckM2K9vSZtAWczMUcxYVXiU1bu3COo4Fb0Q2P0MGcu0FTx8FbkIGcoU1bfL1a04Fc8HhLh3COuIlZv.RZy4TcrwVOh.iHfPWdvUVOhrGLvPSNFQDLxzRPwLTLsPiMxTTK4XzL0zBMAUjLAMiPAIiLvLTeh3COYISN0Q1QVUGYHM2cMQTT0H0ZQcWSoEiPMUUS3wDUQISSqUEcOUUV54zTv.STUUUdQQkSCEEUIkWSE4TNu3COu7lXpAiO77lXpECHoMmS0wFa8HBLh.Bc4AWY8HxdBUSPDIzMwTSKvXjMC0BMwLiQsfiP2XTKAITQ2PDN0XSQyTyP8IhO7jkL4TGYGYUcjgDcC4TUFUTTpMFdNMEL2IkZZQDSTEEdMASVz8TQIMiToEiPQsVUyHEQmEiSqUkdNUkS4.hckI2bo8la8HhLh.BaoYWYM8FYk0iHvHBHvIWY1kVY20zajUVOh.iHu3COu7lXpEiO77RZtAWczMTcyQ2asAkbuAWYxQWZkMmO7jlazUlbtEFaDMETSQWXzUFH1Ulbyk1at0iHxHBHo4Fb0Q2beM1a04Fc8HhLh.xZkkmXuElbjMEcgQWY8HBLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLw.SLv.SLvDCLw.iHu3COs8FYkw1K9vyQUkDH1Ulbyk1at0iHwHBH0MWYDUlYgUGaz0iHwHBHigVXtcVYjMUZtMVYPIWYyUFcL8VXjUFY8HBLh3COysVZtAhckI2bo8la8HhLh3COyQWXzUFH1Ulbyk1at0iHzHhO7.WXxEVayABbC8VctQWOhDiH9vCbv.hag0VY8HhUoU1cM8FYkIBH1EFa0UVOhDiHu3COu.WXxEVay4COiUmb1U1bfL1PuUmaz0iHvHxK9vyb0ImYgMVYyAxbC8VctQWOh.iHu3COyQmbo41YyAxbC8VctQWOh.iHu3COi8FarU1Xzk1atMza04FcyAxXC8VctQWOh.iHu3COvI2avUlbzkVYyABbC8VctQWOh.iHu3COmI2a0A2bfb1PuUmaz0iHvHxK9vyKyQWXzUlO77xbqkla9vyKGUUR9vyKPIWYyUFc9..VU4FcoQGakQF.H.PF.XB.q..N..D.HAPS.7E.jAPZA.T.EEvQAjT.LEfSAPU.WEfWALV.kEfZGvA.......f.A..........F..................vAk."
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "ADAPTIVERB",
-									"origin" : "ADAPTIVERB AU.component",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "ADAPTIVERB AU.component",
-										"plugindisplayname" : "ADAPTIVERB",
-										"pluginsavedname" : "/Library/Audio/Plug-Ins/Components/ADAPTIVERB AU.component",
-										"pluginsaveduniqueid" : 0,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1909.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fPCEzWPwVcmklaSQWXzUFUtEVakIgVY4TTOAA0..............PF..............P.+TmvOB...HvO8TUU....C3iPOxE....A.........TvOG3JE....F7i.OxE...vA9D6WV....f..........I7iIlYF...fB9PodgC...rvO.B......L3Cf......PC+fV8CC...3vO.B......O..........D8Lx0J....DgOB+HW....R7Cf......vD+.H......PwOibsB....U.........fE+zlsaC...bA.........X7SOvQpzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDZkUPVAA.RDVcsY1SQTfq77CdswFH1Ulbyk1at0iHw3BLh.RYtM1ajklam0iHUQkQsfiH+3COPIWYyUFcfXWYxMWZu4VOhPiHf.mbuclSg0VY8HxYlMiHfzTRDkTRtAWczQTYlEVcrQWOhDiHfzTRDkzS0QGb0QGQkYVX0wFc8HRLh3COo4Fb0QGTgIWXsMGHi8VctQWOhHSMh.BbvziHvHBHvESOh.iK4TSN4jSN4jSN4jSN4jSN4XCMzbiHf.mL8HRLw3RMh.BbyziHwjCLh.BbzziHvHBHvUSOh.iK0LCLv.CLv.CLv.CLv.CLvHiM1TiHf.mM8HBLtTSLv.CLv.CLv.CLv.CLv.CL3fCNh.Bb2ziHv3xLzXCMxfSM2DCMxfSM2DSLzDSMh.Bb3ziHvHBHvkSOh.iK1TCLv.CLv.CLv.CLv.CLvHiLxHBHvECL8HhL33RN4jSN4jSN4jSN4jSN4XCMzbiHf.WLwziHzHBHvEiL8HhL0HBHvEyL8HBLtfiLv.CLv.CLv.CLv.CLv.iMxDyMh.BbwPSOhHiHf.WL0ziHvHBHvEiM8HBLt.CMv.CLv.CLv.CLv.CLv.CLvfyLyHBHvEyM8HBLtLCNv.CLv.CLv.CLv.CLv.CLzPCMh.BbwfSOhHiHf.WL4ziHxHBHvICL8HBLtXCMv.CLv.CLv.CLv.CLv.SLyLiLh.BbxDSOh.iHf.mLxziHv3RNxfSM2DCMxfSM2DCMxfyMwPSL2HBHvIyL8HBLh.BbxPSOh.iKzbSN4jSN4jSN4jSN4jSN4fiLxPiHu3COo4Fb0Q2TzIWZtc1bu3COo4Fb0Q2P0ImckM2K9vSZtAWczMUcxYVXiU1bu3COo4Fb0Q2P0MGcu0FTx8FbkIGcoU1bfL1a04Fc8HhLh3COuIlZv.RZy4TcrwVOh.iHfPWdvUVOhrGLvPSNFQDLxzRPwLTLsPiMxTTK4XzL0zBMAUjLAMiPAIiLvLTeh3COYISN0Q1QVUGYHM2cMQTT0H0ZQcWSoEiPMUUS3wDUQISSqUEcOUUV54zTv.STUUUdQQkSCEEUIkWSE4TNu3COu7lXpAiO77lXpECHoMmS0wFa8HBLh.Bc4AWY8HxdBUSPDIzMwTSKvXjMC0BMwLiQsfiP2XTKAITQ2PDN0XSQyTyP8IhO7jkL4TGYGYUcjgDcC4TUFUTTpMFdNMEL2IkZZQDSTEEdMASVz8TQIMiToEiPQsVUyHEQmEiSqUkdNUkS4.hckI2bo8la8HhLh.BaoYWYM8FYk0iHvHBHvIWY1kVY20zajUVOh.iHu3COu7lXpEiO77RZtAWczMTcyQ2asAkbuAWYxQWZkMmO7jlazUlbtEFaDMETSQWXzUFH1Ulbyk1at0iHxHBHo4Fb0Q2beM1a04Fc8HhLh.xZkkmXuElbjMEcgQWY8HBLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLv.CLw.SLv.SLvDCLw.iHu3COs8FYkw1K9vyQUkDH1Ulbyk1at0iHwHBH0MWYDUlYgUGaz0iHwHBHigVXtcVYjMUZtMVYPIWYyUFcL8VXjUFY8HBLh3COysVZtAhckI2bo8la8HhLh3COyQWXzUFH1Ulbyk1at0iHzHhO7.WXxEVayABbC8VctQWOhDiH9vCbv.hag0VY8HhUoU1cM8FYkIBH1EFa0UVOhDiHu3COu.WXxEVay4COiUmb1U1bfL1PuUmaz0iHvHxK9vyb0ImYgMVYyAxbC8VctQWOh.iHu3COyQmbo41YyAxbC8VctQWOh.iHu3COi8FarU1Xzk1atMza04FcyAxXC8VctQWOh.iHu3COvI2avUlbzkVYyABbC8VctQWOh.iHu3COmI2a0A2bfb1PuUmaz0iHvHxK9vyKyQWXzUlO77xbqkla9vyKGUUR9vyKPIWYyUFc9..VU4FcoQGakQF.H.PF.XB.q..N..D.HAPS.7E.jAPZA.T.EEvQAjT.LEfSAPU.WEfWALV.kEfZGvA.......f.A..........F..................vAk."
-									}
-,
-									"fileref" : 									{
-										"name" : "ADAPTIVERB",
-										"filename" : "ADAPTIVERB.maxsnap",
-										"filepath" : "~/Documents/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "e3d1e134b75edc2c1329a76dcd9b330f"
-									}
-
-								}
- ]
-						}
-
-					}
-,
 					"style" : "",
 					"text" : "vst~",
 					"varname" : "vst~",
@@ -788,7 +732,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 829.333374, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 50.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -818,7 +762,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 662.0, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 50.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -907,7 +851,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -920,7 +864,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -933,7 +877,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -979,7 +923,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 513.333374, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 50.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -1061,7 +1005,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 364.492157, 394.833344, 136.0, 38.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 50.0, 24.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 50.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -1133,7 +1077,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 277.5, 320.000015, 351.0, 320.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 277.5, 320.0, 351.0, 320.0, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1218,7 +1162,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 985.047607, 311.000015, 958.666565, 311.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 985.047607, 311.0, 958.666565, 311.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1233,7 +1177,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 982.047607, 385.000015, 958.666565, 385.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 982.047607, 385.0, 958.666565, 385.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1241,7 +1185,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 985.047607, 278.000015, 958.666565, 278.000015, 958.666565, 239.000015, 683.499939, 239.000015 ],
+					"midpoints" : [ 985.047607, 278.0, 958.666565, 278.0, 958.666565, 239.000015, 683.499939, 239.000015 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1328,7 +1272,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 277.5, 287.000015, 351.0, 287.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 277.5, 287.0, 351.0, 287.0, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1351,7 +1295,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 274.5, 401.000015, 351.0, 401.000015, 351.0, 248.000015, 373.992157, 248.000015 ],
+					"midpoints" : [ 274.5, 401.0, 351.0, 401.0, 351.0, 248.000015, 373.992157, 248.000015 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1370,7 +1314,67 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-98" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-3::obj-3" : [ "umenu", "umenu", 0 ],
+			"obj-53" : [ "vst~", "vst~", 0 ],
+			"obj-47" : [ "live.gain~[5]", "live.gain~", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "pasBedPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasFreqScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCycPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScalerCyc.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasStateMachine0.5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
