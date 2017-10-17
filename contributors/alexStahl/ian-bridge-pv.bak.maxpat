@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -163,7 +163,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 304.0, 291.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "snapshotGlob~"
@@ -192,7 +192,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 222.0, 165.0, 149.0, 22.0 ],
 					"style" : "",
-					"text" : "send 0-pasRawData"
+					"text" : "send 1-pasRawData"
 				}
 
 			}
@@ -404,9 +404,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

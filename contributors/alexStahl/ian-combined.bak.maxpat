@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -190,93 +190,93 @@
 		"parameters" : 		{
 			"obj-1::obj-2" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1::obj-46" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-1::obj-3::obj-3" : [ "umenu", "umenu", 0 ],
 			"obj-1::obj-53" : [ "vst~", "vst~", 0 ],
-			"obj-1::obj-98" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-1::obj-47" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-1::obj-3::obj-3" : [ "umenu", "umenu", 0 ],
+			"obj-1::obj-47" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-1::obj-98" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pasSonifier6.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasBedPoly5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasFreqScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasCycPoly5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScalerCyc.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasStateMachine0.5.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground/pasGf0.2/patchers",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground/pasGf0.2/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ADAPTIVERB.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "paFlow0.3.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ian-bridge-pv.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "pasBedPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasFreqScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCycPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScalerCyc.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasStateMachine0.5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "paFlow0.3.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ian-bridge-pv.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snapshotGlob~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pasMasterBuffer.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupFlowMaxPlayground",
-				"patcherrelativepath" : "../../../groupFlowMaxPlayground",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
