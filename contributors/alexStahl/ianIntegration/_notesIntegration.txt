@@ -1,0 +1,6 @@
+*** convert to outlet (main-chain)
+pasData (convert to patch cord)
+
+*** leave as send (side-chain)
+pasBrState
+pasBrSlope
