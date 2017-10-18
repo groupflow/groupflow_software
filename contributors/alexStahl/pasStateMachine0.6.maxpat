@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 678.0, 168.0, 984.0, 723.0 ],
+		"rect" : [ 71.0, 78.0, 984.0, 723.0 ],
 		"bgcolor" : [ 0.374196, 0.439327, 0.446685, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 389.0, 65.0, 20.0 ],
-					"presentation_rect" : [ 113.5, 389.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Data out"
 				}
@@ -57,10 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 389.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -73,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 313.5, 13.5, 65.0, 20.0 ],
-					"presentation_rect" : [ 313.0, 16.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Data input"
 				}
@@ -112,10 +106,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.5, 13.5, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -142,6 +132,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 504.666687, 13.5, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -3981,7 +3975,7 @@
 					"presentation_rect" : [ 56.5, 301.0, 134.0, 19.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-80", "number", "int", 90, 5, "obj-85", "number", "int", 50, 5, "obj-54", "number", "int", 100, 5, "obj-100", "umenu", "int", 3, 5, "obj-105", "flonum", "float", 0.148, 5, "obj-130", "flonum", "float", 0.127 ]
+							"data" : [ 5, "obj-80", "number", "int", 90, 5, "obj-85", "number", "int", 50, 5, "obj-54", "number", "int", 50, 5, "obj-100", "umenu", "int", 3, 5, "obj-105", "flonum", "float", 0.148, 5, "obj-130", "flonum", "float", 0.127 ]
 						}
 , 						{
 							"number" : 2,
@@ -4152,7 +4146,7 @@
 					"presentation_rect" : [ 256.0, 237.0, 491.0, 174.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
-					"slidercolor" : [ 0.2, 0.75, 1.0, 1.0 ],
+					"slidercolor" : [ 0.4, 0.0, 0.5, 1.0 ],
 					"style" : ""
 				}
 

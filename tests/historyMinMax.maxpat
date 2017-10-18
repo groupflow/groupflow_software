@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 618.0, 156.0, 812.0, 777.0 ],
+		"rect" : [ 210.0, 150.0, 812.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,9 +56,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 285.0, 151.0, 22.0 ],
+					"patching_rect" : [ 587.0, 274.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "dim 1000 1"
+					"text" : "dim 559 1"
 				}
 
 			}
@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-125",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -79,7 +79,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-124",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -116,7 +116,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-109",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -130,11 +130,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-108",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 168.0, 37.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -551,9 +551,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 110.0, 314.0, 401.0, 22.0 ],
+					"patching_rect" : [ 110.0, 314.0, 285.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.matrix @name historyBuffer @dim 100 1 @planecount 1 @type float32"
+					"text" : "jit.matrix @dim 100 1 @planecount 1 @type float32"
 				}
 
 			}
@@ -893,9 +893,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
