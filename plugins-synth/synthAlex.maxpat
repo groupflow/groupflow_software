@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 40.0, 512.0, 527.0, 428.0 ],
+		"rect" : [ 133.0, 372.0, 527.0, 428.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -104,10 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 249.0, 347.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -160,6 +156,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.0, 26.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -173,10 +173,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 26.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -238,7 +234,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"order" : 1,
-					"source" : [ "obj-1", 2 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -246,7 +242,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 0,
-					"source" : [ "obj-1", 2 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -285,7 +281,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 1,
-					"source" : [ "obj-2", 2 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -301,7 +297,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"order" : 0,
-					"source" : [ "obj-2", 2 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -360,7 +356,44 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "pasBedPoly5.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasFreqScaler.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCycPoly5.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScalerCyc.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
