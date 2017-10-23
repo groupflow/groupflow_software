@@ -22,7 +22,7 @@ boolean inPacket = false;
 boolean newPacket = false;
 int packetIndex = 0;
 
-bool testIdMode = false;
+bool testIdMode = true;
 
 // Pin layouts on the teensy 3/3.1:
 // WS2811_PORTD: 2,14,7,8,6,20,21,5
