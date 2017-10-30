@@ -7,11 +7,3 @@ layout-ch6.json
 layout-ch7.json
 layout-ch8.json
 layout-ch9.json
-layout-ch10.json
-layout-ch11.json
-layout-ch12.json
-layout-ch13.json
-layout-ch14.json
-layout-ch15.json
-layout-ch16.json
-layout-ch17.json

@@ -46,8 +46,6 @@ for i,row in enumerate(reader):
 	angleOffset = int(row[1])
 	angleOffset = 0
 	isChannelStart = int(row[2])
-	isChannelStart = (ringIndex == 0)
-	isChannelStart = True
 	if(isChannelStart):
 		ledIndex = 0
 		channelIndex += 1
