@@ -2,8 +2,3 @@ layout-ch1.json
 layout-ch2.json
 layout-ch3.json
 layout-ch4.json
-layout-ch5.json
-layout-ch6.json
-layout-ch7.json
-layout-ch8.json
-layout-ch9.json

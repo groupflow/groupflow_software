@@ -3,19 +3,33 @@ import csv
 import math
 import subprocess
 
-inputPath = 'sphereRingDescSheet.csv'
-if(len(sys.argv) > 1):
-	inputPath = sys.argv[1]
+# utilities
 
 def scale(val, srcLow, srcHigh, dstLow, dstHigh):
 	norm = (val - srcLow) / (srcHigh - srcLow)
 	return dstLow + norm * (dstHigh - dstLow)
 
-sphereSimulatorRadius = 1.0;
+def polToCart3d(radius, angle, elevation):
+	x = radius * math.cos(angle) * math.sin(elevation)
+	y = radius * math.sin(angle) * math.sin(elevation)
+	z = radius * math.cos(elevation)
+	return [x, y, z]
 
+def degreesToRadians(degrees):
+	return 2 * math.pi * degrees / 360.0
+
+def vecMag3d(x, y, z):
+	return math.sqrt(x*x + y*y + z*z)
+
+# settings
+
+inputPath = 'sphereRingDescSheet.csv'
+if(len(sys.argv) > 1):
+	inputPath = sys.argv[1]
+
+sphereSimulatorRadius = 1.0;
 simulatorChannelLayouts = []
 currentLayout = None
-
 controllerFile = open('ledSphereControllerData.txt', 'w')
 
 # clear old layout files
@@ -29,10 +43,9 @@ for i,row in enumerate(reader):
 	if(i == 0):
 		continue
 	ringCount += 1
-
 print "ringCount " + str(ringCount)
 
-# process rings
+# for each ring
 channelIndex = 0
 ringIndex = 0
 ledIndex = 0
@@ -40,41 +53,42 @@ ledIndex = 0
 fInput = open(inputPath, 'rb')
 reader = csv.reader(fInput, dialect='excel')
 for i,row in enumerate(reader):
+	#skip header
 	if(i == 0):
 		continue
-	ledCount = int(row[0])
-	angleOffset = int(row[1])
-	angleOffset = 0
-	isChannelStart = int(row[2])
-	if(isChannelStart):
-		ledIndex = 0
-		channelIndex += 1
-		if(currentLayout):
-			currentLayout.truncate()
-			currentLayout.write('\n]\n')
-			currentLayout.close()
-		layoutFileName = 'layout-ch' + str(channelIndex) + '.json'
-		currentLayout = open(layoutFileName, 'w')
-		currentLayout.write('[')
-		simulatorChannelLayouts.append(layoutFileName)
+	# get column values
+	ledCount = int(row[1])
+	horzOffsetInches = float(row[2])
+	latitude = float(row[3])
+	hasChannelRestart = len(row[4]) > 0
+	if hasChannelRestart:
+		channelRestartIndex = int(row[4])
 
-	if(ringCount == 1):
-		elevation = scale(0.5, 0.0, 1.0, -170, -10)
-	else:
-		elevation = scale(ringIndex, 0.0, ringCount-1, -170, -10)
+	# calculate horz offset angle (radius = 4.058")
+	[x, y, z] = polToCart3d(4.058, 0, degreesToRadians(latitude - 90))
+	radius = math.sqrt(x*x + y*y)
+	ringCircumferenceInches = 2 * math.pi * radius
+	horzOffsetDegrees = 360.0 * horzOffsetInches / ringCircumferenceInches
+
+	# for each element in ring
 	for ledRingIndex in xrange(0,ledCount):
-		#if(ledRingIndex > 4):
-		#	break
-		angle = (angleOffset + scale(ledRingIndex, 0.0, ledCount, 360., 0.)) % 360.0
+		# check for channel restart
+		if hasChannelRestart and ledRingIndex == channelRestartIndex:
+			ledIndex = 0
+			channelIndex += 1
+			if(currentLayout):
+				currentLayout.write('\n]\n')
+				currentLayout.close()
+			layoutFileName = 'layout-ch' + str(channelIndex) + '.json'
+			currentLayout = open(layoutFileName, 'w')
+			currentLayout.write('[')
+			simulatorChannelLayouts.append(layoutFileName)
+		
 		# output to controller file
-		controllerFile.write('{0} {1} {2} {3}\n'.format(channelIndex, ledIndex, angle, elevation))
+		angle = (horzOffsetDegrees + scale(ledRingIndex, 0.0, ledCount, 360., 0.)) % 360.0
+		controllerFile.write('{0} {1} {2} {3}\n'.format(channelIndex, ledIndex, angle, latitude))
 		# output to simulator layout (x is right, y is back, z is up)
-		r = sphereSimulatorRadius
-		angleRadians = 2 * math.pi * angle / 360.
-		elevationRadians = 2 * math.pi * elevation / 360.
-		x = -r * math.cos(angleRadians) * math.sin(elevationRadians)
-		y = r * math.sin(angleRadians) * math.sin(elevationRadians)
-		z = r * math.cos(elevationRadians)
+		[x, y, z] = polToCart3d(sphereSimulatorRadius, degreesToRadians(angle), degreesToRadians(latitude - 90))
 		points = '{0:f}, {1:f}, {2:f}'.format(x, y, z)
 		if(ledIndex != 0):
 			currentLayout.write(',')
