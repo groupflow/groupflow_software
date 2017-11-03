@@ -11,7 +11,7 @@ circleSize = 2.0
 def absolute(normalizedValue, lowRange, highRange):
 	return lowRange+normalizedValue*(highRange-lowRange)
 
-glServerCall = ['../gl_server']
+glServerCall = ['../gl_server_verbose']
 
 
 for index in xrange(0,spokeCount):
