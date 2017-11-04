@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 96.0, 104.0, 928.0, 637.0 ],
+		"rect" : [ 160.0, 128.0, 928.0, 637.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -375,8 +375,9 @@
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 675.0, 566.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "opcsend-wrapper"
@@ -577,7 +578,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1053,7 +1054,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 140.0, 143.0, 58.0, 22.0 ],
 					"style" : "",
-					"text" : "metro 30"
+					"text" : "metro 10"
 				}
 
 			}
@@ -1491,42 +1492,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "breathSimulationVoice.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/openPixelControl/led24Users",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/openPixelControl/led24Users",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "prependSet.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listMutable24.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarMultiply.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListInteger.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "opcsend-wrapper.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/openPixelControl",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/openPixelControl",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1

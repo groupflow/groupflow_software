@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 109.0, 78.0, 1372.0, 784.0 ],
+		"rect" : [ 135.0, 117.0, 1372.0, 784.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,34 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 144.0, 676.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 112.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 69.0, 748.0, 41.0, 22.0 ],
+					"style" : "",
+					"text" : "atodb"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "newobj",
@@ -165,7 +193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 144.0, 649.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 88.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 88.0, 74.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -205,9 +233,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 144.0, 692.0, 50.0, 22.0 ],
+					"patching_rect" : [ 144.0, 718.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 127.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 150.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -245,7 +273,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -374,7 +402,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1055,11 +1083,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 58.0, 105.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -1076,10 +1104,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 204.0, 578.0, 1024.0, 250.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 31.0, 512.0, 200.0 ],
+					"presentation_rect" : [ 85.0, -1.0, 512.0, 200.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.0, 1.0, 0.0, 1.0 ],
-							"thickness" : 1.5,
+							"thickness" : 1.0,
 							"point_style" : "none",
 							"line_style" : "linear",
 							"number_style" : "none",
@@ -1089,8 +1117,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : -1000.0,
-							"range_end" : 1000.0,
+							"range_start" : 270.873688,
+							"range_end" : 271.332977,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1109,8 +1137,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : -1000.0,
-							"range_end" : 1000.0,
+							"range_start" : 270.873688,
+							"range_end" : 271.332977,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1129,8 +1157,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : -1000.0,
-							"range_end" : 1000.0,
+							"range_start" : 270.873688,
+							"range_end" : 271.332977,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1149,8 +1177,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : -1000.0,
-							"range_end" : 1000.0,
+							"range_start" : 270.873688,
+							"range_end" : 271.332977,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1169,8 +1197,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : -1000.0,
-							"range_end" : 1000.0,
+							"range_start" : 270.873688,
+							"range_end" : 271.332977,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1588,6 +1616,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 4 ],
 					"source" : [ "obj-48", 0 ]
 				}
@@ -1664,6 +1699,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -2002,38 +2044,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "plot-config.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uListScalarMultiply.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rollingMinMax.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "snapshotBuffer~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

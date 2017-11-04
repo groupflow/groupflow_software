@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 78.0, 469.0, 1523.0, 868.0 ],
+		"rect" : [ 44.0, 79.0, 1523.0, 868.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,19 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-141",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 177.0, 192.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -443,7 +430,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-104",
-					"items" : [ "norm2Alex", ",", "norm1WindowMinMax" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -647,7 +634,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 822.069397, 508.0, 95.0, 22.0 ],
+					"patching_rect" : [ 843.069397, 489.0, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-chOsc"
 				}
@@ -1694,7 +1681,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-27",
@@ -1704,7 +1690,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 156.0, 15.5, 78.0, 22.0 ],
 									"style" : "",
-									"text" : "Simulate"
+									"text" : "Disable"
 								}
 
 							}
@@ -3092,7 +3078,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.0, 166.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0.416667"
+									"text" : "0.116667"
 								}
 
 							}
@@ -3348,7 +3334,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-94",
-					"items" : [ "None", ",", "synthFreqModSquare", ",", "synthSilence", ",", "synthLoopsAlternating", ",", "synthFreqModSine", ",", "synthBreathwave", ",", "synthHeartbeat", ",", "synthAlex", ",", "synthRichToneReverb" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3415,7 +3401,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.430511, 191.0, 124.0, 22.0 ],
+					"patching_rect" : [ 27.875031, 179.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-sensor-type"
 				}
@@ -3722,7 +3708,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 217.833313, 192.0, 22.0, 18.0 ],
 					"style" : "",
-					"text" : "19",
+					"text" : "#1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -3758,7 +3744,7 @@
 					"presentation_rect" : [ 4.833374, 31.0, 110.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "raw gain[13]",
+							"parameter_longname" : "raw gain[7]",
 							"parameter_shortname" : "raw gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -30.0,
@@ -3820,7 +3806,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "raw gain[14]",
+							"parameter_longname" : "raw gain[8]",
 							"parameter_shortname" : "cooked gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -30.0,
@@ -4690,16 +4676,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-141", 0 ],
-					"order" : 1,
-					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -4962,13 +4940,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
 					"order" : 1,
 					"source" : [ "obj-96", 0 ]
@@ -4990,7 +4961,190 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
+			"obj-26" : [ "raw gain[7]", "raw gain", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "meci-filters.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : "../lib/meci",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meci-biquad2.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : "../lib/meci",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meci-biquadgen.gendsp",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : "../lib/meci",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meci-filters-presets.json",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : "../lib/meci",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snapshotGlob~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ecg-to-rsa.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"patcherrelativepath" : "../lib/ibi",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ecgrsa.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ecg",
+				"patcherrelativepath" : "../lib/ecg",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ibiclip.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"patcherrelativepath" : "../lib/ibi",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ibinorm.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"patcherrelativepath" : "../lib/ibi",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "norm2Alex.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-norm",
+				"patcherrelativepath" : "../plugins-norm",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasStateMachine0.6.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxTracker1.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minTracker1.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "slider-autofade.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audioFaderFunction.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synthAlex.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-synth",
+				"patcherrelativepath" : "../plugins-synth",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasBedPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasFreqScaler.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCycPoly5.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScalerCyc.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "../contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "*line~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "*!.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "snapshotBuffer~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

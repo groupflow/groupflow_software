@@ -1,0 +1,22 @@
+0.000 sit quietly
+20.000 breath slowly
+40.000 breath quickly
+50.000 breath slowly
+70.000 breath quickly
+80.000 breath hold
+95.000 breath slowly
+115.000 breath hold
+130.000 breath slowly
+150.000 clench teeth
+155.000 unclench teeth
+160.000 clench teeth
+165.000 unclench teeth
+170.000 pinch yourself
+180.000 slap yourself
+190.000 pinch yourself
+200.000 slap yourself
+210.000 think nice thoughts
+230.000 thick scary thoughts
+250.000 think nice thoughts
+270.000 thick scary thoughts
+290.000 end
