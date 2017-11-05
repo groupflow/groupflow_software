@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 52.0, 83.0, 499.0, 505.0 ],
+		"rect" : [ 103.0, 124.0, 667.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -78,9 +78,10 @@
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 432.0, 103.0, 22.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 215.0, 478.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "opcsend-wrapper"
 				}
@@ -93,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 216.0, 29.5, 22.0 ],
+					"patching_rect" : [ 369.0, 262.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -106,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 391.0, 73.0, 22.0 ],
+					"patching_rect" : [ 215.0, 437.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "prependSet"
 				}
@@ -119,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 214.0, 158.0, 30.0, 22.0 ],
+					"patching_rect" : [ 215.0, 204.0, 30.0, 22.0 ],
 					"style" : "",
 					"text" : "t l b"
 				}
@@ -132,7 +133,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 326.75, 258.0, 74.0, 22.0 ],
+					"patching_rect" : [ 327.75, 304.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "counter 100"
 				}
@@ -145,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 290.0, 45.0, 22.0 ],
+					"patching_rect" : [ 277.0, 336.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "zlclear"
 				}
@@ -158,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 214.0, 352.0, 53.0, 22.0 ],
+					"patching_rect" : [ 215.0, 398.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "zl group"
 				}
@@ -171,7 +172,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 160.0, 287.0, 29.5, 22.0 ],
+					"patching_rect" : [ 161.0, 333.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "b"
 				}
@@ -184,7 +185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 152.0, 254.0, 43.0, 22.0 ],
+					"patching_rect" : [ 153.0, 300.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "uzi 10"
 				}
@@ -197,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "bang" ],
-					"patching_rect" : [ 218.0, 236.0, 40.0, 22.0 ],
+					"patching_rect" : [ 219.0, 282.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "t b l b"
 				}
@@ -210,7 +211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 214.0, 288.0, 40.0, 22.0 ],
+					"patching_rect" : [ 215.0, 334.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "zl reg"
 				}
@@ -223,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 214.0, 198.0, 49.0, 22.0 ],
+					"patching_rect" : [ 215.0, 244.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "zl iter 3"
 				}
@@ -234,11 +235,11 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 125.0, 20.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "", "bang" ],
+					"patching_rect" : [ 214.0, 125.0, 40.0, 22.0 ],
 					"style" : "",
-					"text" : "t l"
+					"text" : "t b l b"
 				}
 
 			}
@@ -259,7 +260,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -412,7 +413,27 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "prependSet.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "opcsend-wrapper.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/openPixelControl",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "opcsend.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
