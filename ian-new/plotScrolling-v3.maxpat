@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 135.0, 117.0, 1372.0, 784.0 ],
+		"rect" : [ 144.0, 79.0, 1372.0, 784.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -72,9 +72,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 679.0, 470.0, 47.0, 22.0 ],
+					"patching_rect" : [ 679.0, 470.0, 54.0, 22.0 ],
 					"style" : "",
-					"text" : "/ 1000."
+					"text" : "/ 10000."
 				}
 
 			}
@@ -263,9 +263,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 572.0, 144.0, 22.0 ],
+					"patching_rect" : [ 37.0, 572.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "uListScalarMultiply 0.001"
+					"text" : "uListScalarMultiply 0.0001"
 				}
 
 			}
@@ -273,7 +273,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -328,9 +328,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 92.0, 157.0, 56.0, 22.0 ],
+					"patching_rect" : [ 92.0, 157.0, 62.0, 22.0 ],
 					"style" : "",
-					"text" : "*~ 1000."
+					"text" : "*~ 10000."
 				}
 
 			}
@@ -341,9 +341,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 668.0, 216.0, 144.0, 22.0 ],
+					"patching_rect" : [ 668.0, 216.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "uListScalarMultiply 1000."
+					"text" : "uListScalarMultiply 10000."
 				}
 
 			}
@@ -402,7 +402,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1083,11 +1083,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 105.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -1104,7 +1104,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 204.0, 578.0, 1024.0, 250.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.0, -1.0, 512.0, 200.0 ],
+					"presentation_rect" : [ 60.0, 0.0, 512.0, 200.0 ],
 					"subplots" : [ 						{
 							"color" : [ 0.0, 1.0, 0.0, 1.0 ],
 							"thickness" : 1.0,
@@ -1117,8 +1117,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : 270.873688,
-							"range_end" : 271.332977,
+							"range_start" : -1000.0,
+							"range_end" : 1000.0,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1137,8 +1137,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : 270.873688,
-							"range_end" : 271.332977,
+							"range_start" : -1000.0,
+							"range_end" : 1000.0,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1157,8 +1157,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : 270.873688,
-							"range_end" : 271.332977,
+							"range_start" : -1000.0,
+							"range_end" : 1000.0,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1177,8 +1177,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : 270.873688,
-							"range_end" : 271.332977,
+							"range_start" : -1000.0,
+							"range_end" : 1000.0,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -1197,8 +1197,8 @@
 							"domain_style" : "linear",
 							"domain_markers" : [  ],
 							"domain_labels" : [  ],
-							"range_start" : 270.873688,
-							"range_end" : 271.332977,
+							"range_start" : -1000.0,
+							"range_end" : 1000.0,
 							"range_style" : "linear",
 							"range_markers" : [  ],
 							"range_labels" : [  ],
@@ -2044,7 +2044,38 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "plot-config.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uListScalarMultiply.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rollingMinMax.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "snapshotBuffer~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
