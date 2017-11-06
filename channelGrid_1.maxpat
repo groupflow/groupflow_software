@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1112.0, 86.0, 280.0, 263.0 ],
+		"rect" : [ 1008.0, 115.0, 280.0, 263.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -86,44 +86,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "snapshotGlob~.maxpat",
+				"name" : "sensorPipeline.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ecg-to-rsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"patcherrelativepath" : "./lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ecg",
-				"patcherrelativepath" : "./lib/ecg",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"patcherrelativepath" : "./lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
-				"patcherrelativepath" : "./lib/ibi",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "norm3None.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-norm",
-				"patcherrelativepath" : "./plugins-norm",
+				"name" : "sensor-demod.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -149,6 +121,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "selectorBinary~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "./ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "norm1WindowMinMax.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-norm",
 				"patcherrelativepath" : "./plugins-norm",
@@ -170,30 +149,30 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sensor-demod.maxpat",
+				"name" : "snapshotGlob~.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "selectorBinary~.maxpat",
+				"name" : "switchBinary.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "synthHeartbeat.maxpat",
+				"name" : "div!.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "./ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synthSilence.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-synth",
 				"patcherrelativepath" : "./plugins-synth",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "butterworthFilter.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}

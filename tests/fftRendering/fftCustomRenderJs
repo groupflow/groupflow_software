@@ -1,0 +1,83 @@
+
+sketch.default2d();
+var arg1;
+var maxValue = 1.0;
+
+var values = [0.2, 0.4, 0.6, 0.8, 1.0 ];
+var xStep = 1;
+
+// process arguments
+if (jsarguments.length>1) {
+	 arg1 = jsarguments[1];
+}
+
+
+function scale(value, srcLow, srcHigh, dstLow, dstHigh) {
+		var norm = (value-srcLow)/(srcHigh-srcLow);
+		return dstLow + norm*(dstHigh-dstLow);
+}
+
+function xrange(xTop) {
+	maxValue = xTop;
+	redraw();
+}
+
+function xstep(v) {
+	xStep = v;
+	redraw();
+}
+
+function redraw() {
+	refresh();
+	draw();	
+}
+
+function draw()
+{
+	var w = box.rect[2] - box.rect[0];
+	var h = box.rect[3] - box.rect[1];
+	var xEnd;
+	var yEnd;
+ 	if(w > h) {
+		xEnd = (w-2) / h;
+		yEnd = 1.0;
+	}
+	else {
+		xEnd = 1.0;
+		yEnd = h / w;
+	}
+	
+	with (sketch) {
+		// erase background
+		glclearcolor(1.0, 1.0, 0.8, 1.0);
+		glclear();		
+
+		gllinewidth(1);
+	
+		
+		glcolor(0,0,0,1);
+		for(var i=0; i<values.length; i += 1) {
+			xModel = (i+0)*xStep;
+			x = scale(xModel, 0.0, maxValue, -xEnd, xEnd);
+			y = scale(values[i], 0.0, 1, -yEnd, yEnd);
+
+			moveto(x,-yEnd);
+			lineto(x,y);
+		}
+	}
+}
+
+
+function anything()
+{
+	values = arrayfromargs(messagename, arguments);
+	redraw();
+}
+
+function onresize(w,h)
+{
+	draw();
+	refresh();
+}
+
+redraw();

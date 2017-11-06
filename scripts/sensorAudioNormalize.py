@@ -20,6 +20,8 @@ def atodb(amp):
 
 inputFile = sys.argv[1]
 outputFile = 'norm.wav'
+ignoreFirstSeconds = 0.1
+truncateEndSeconds = 4.0
 
 data,sampleRate = sf.read(inputFile)
 print data.shape[0]
@@ -31,7 +33,6 @@ print 'track count ' + str(len(data[0]))
 
 sampleCount = len(data)
 trackCount = len(data[0])
-ignoreFirstSeconds = 0.1
 
 #get min and max values
 
@@ -70,6 +71,12 @@ for frameIndex,frame in enumerate(data):
         if(trackDbRanges[trackIndex] > -50):
             outputValue = normAndClip(frame[trackIndex], minValues[trackIndex], maxValues[trackIndex], -1.0, 1.0)
         frame[trackIndex] = outputValue
+
+# truncate data to required length
+if(truncateEndSeconds != 0.0):
+    truncatedFrameCount = int(floor(sampleRate*truncateEndSeconds))
+    print 'truncating to {0} seconds, {1} sample frames'.format(truncateEndSeconds, truncatedFrameCount)
+    data = data[0:truncatedFrameCount]
 
 sf.write(outputFile, data, sampleRate)
         

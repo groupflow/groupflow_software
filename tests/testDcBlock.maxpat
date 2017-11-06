@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 62.0, 79.0, 1003.0, 782.0 ],
+		"rect" : [ 246.0, 79.0, 1003.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,14 +139,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 26.0,
 					"id" : "obj-28",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 295.0, 351.0, 33.0 ],
+					"patching_rect" : [ 258.0, 281.0, 751.0, 65.0 ],
 					"style" : "",
-					"text" : "Lower number (0.01): flatter plateus, but slower dc centering\nHigher number (0.05): slopier plateues, but faster dc centering)"
+					"text" : "Lower number (0.01): flatter plateaus, but slower dc centering\nHigher number (0.05): slopier plateaus, but faster dc centering)"
 				}
 
 			}
@@ -161,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 327.0, 300.0, 56.0, 22.0 ],
+					"patching_rect" : [ 100.0, 328.0, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}

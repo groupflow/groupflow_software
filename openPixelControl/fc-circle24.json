@@ -10,7 +10,7 @@
     "devices": [
                 {
                 "type": "fadecandy",
-                "serial": "MUUIVZXBKKRHBNUP",
+                "serial": "FVVJGERNAEFZJFSV",
                 "dither": true,
                 "interpolate": true,
                 "map": [
@@ -26,7 +26,7 @@
                 },
                 {
                 "type": "fadecandy",
-                "serial": "None",
+                "serial": "BLHBAONHCORTHVYF",
                 "dither": true,
                 "interpolate": true,
                 "map": [
@@ -42,7 +42,7 @@
                 },
                 {
                 "type": "fadecandy",
-                "serial": "None",
+                "serial": "MUUIVZXBKKRHBNUP",
                 "dither": true,
                 "interpolate": true,
                 "map": [
