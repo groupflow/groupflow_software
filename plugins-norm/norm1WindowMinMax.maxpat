@@ -38,6 +38,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.0, 7.0, 161.0, 20.0 ],
+					"style" : "",
+					"text" : "Arg1: Window period (secs.)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
 					"index" : 0,
@@ -45,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 451.666626, 690.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 450.0, 689.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -85,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 62.0, 50.0, 22.0 ],
+					"patching_rect" : [ 682.0, 63.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -97,7 +108,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 597.0, 30.0, 30.0, 22.0 ],
+					"patching_rect" : [ 682.0, 31.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -124,10 +139,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.0, 69.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -177,6 +188,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 220.666687, 693.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -201,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 30.0, 81.0, 20.0 ],
+					"patching_rect" : [ 92.0, 44.0, 81.0, 20.0 ],
 					"style" : "",
 					"text" : "Event stream"
 				}
@@ -227,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 466.666626, 216.0, 24.0, 22.0 ],
+					"patching_rect" : [ 551.666626, 217.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -240,7 +255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 348.0, 92.0, 79.0, 22.0 ],
+					"patching_rect" : [ 397.0, 132.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 10"
 				}
@@ -279,7 +294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 466.666626, 163.333344, 31.0, 22.0 ],
+					"patching_rect" : [ 551.666626, 164.333344, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "t b f"
 				}
@@ -436,7 +451,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.666626, 102.0, 43.0, 22.0 ],
+					"patching_rect" : [ 536.666626, 103.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "pipe 1"
 				}
@@ -462,10 +477,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 393.833374, 693.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -478,11 +489,11 @@
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.666626, 75.0, 79.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 536.666626, 72.0, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 13"
+					"text" : "patcherargs 13"
 				}
 
 			}
@@ -526,7 +537,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 451.666626, 131.0, 50.0, 22.0 ],
+					"patching_rect" : [ 536.666626, 132.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -539,7 +550,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 503.666626, 131.0, 107.0, 20.0 ],
+					"patching_rect" : [ 588.666626, 132.0, 107.0, 20.0 ],
 					"style" : "",
 					"text" : "window per. (sec.)"
 				}

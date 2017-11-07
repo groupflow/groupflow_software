@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 268.0, 79.0, 957.0, 782.0 ],
+		"rect" : [ 298.0, 79.0, 957.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 217.124969, 459.476685, 87.0, 22.0 ],
-					"presentation_rect" : [ 251.124969, 459.476685, 0.0, 0.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -539,6 +538,18 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 98.0, 42.0, 54.0, 20.0 ],
+									"style" : "",
+									"text" : "Audio in"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -804,7 +815,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 117.5, 44.0, 88.0, 20.0 ],
+									"patching_rect" : [ 131.5, 114.0, 88.0, 20.0 ],
 									"style" : "",
 									"text" : "Lowpass ~1hz"
 								}
@@ -1927,7 +1938,7 @@
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 560.0, 403.0, 145.0, 22.0 ],
 					"style" : "",
-					"text" : "biquadFilter 0.5 highpass"
+					"text" : "biquadFilter highpass 0.5"
 				}
 
 			}
@@ -3040,7 +3051,7 @@
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 516.194458, 363.953369, 137.0, 22.0 ],
 					"style" : "",
-					"text" : "biquadFilter 50 lowpass"
+					"text" : "biquadFilter lowpass 50"
 				}
 
 			}

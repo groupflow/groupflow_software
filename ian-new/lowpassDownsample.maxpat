@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 614.0, 298.0, 803.0, 471.0 ],
+		"rect" : [ 603.0, 298.0, 803.0, 471.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 83.0, 183.0, 143.0, 22.0 ],
 					"style" : "",
-					"text" : "biquadFilter 100 lowpass"
+					"text" : "biquadFilter lowpass 100"
 				}
 
 			}
