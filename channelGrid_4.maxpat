@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -123,188 +123,209 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
-			"obj-4::obj-27" : [ "raw gain[2]", "cooked gain", 0 ],
-			"obj-2::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
-			"obj-4::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
-			"obj-2::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
 			"obj-3::obj-26" : [ "raw gain[7]", "raw gain", 0 ],
 			"obj-1::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
-			"obj-1::obj-26" : [ "raw gain[3]", "raw gain", 0 ]
+			"obj-3::obj-27" : [ "raw gain[8]", "cooked gain", 0 ],
+			"obj-2::obj-26" : [ "raw gain[5]", "raw gain", 0 ],
+			"obj-4::obj-26" : [ "raw gain[1]", "raw gain", 0 ],
+			"obj-1::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
+			"obj-2::obj-27" : [ "raw gain[6]", "cooked gain", 0 ],
+			"obj-4::obj-27" : [ "raw gain[2]", "cooked gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "channelAnalysisNew.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquad2.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-filters-presets.json",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snapshotGlob~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecg-to-rsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/ibi",
 				"patcherrelativepath" : "./lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ecgrsa.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ecg",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/ecg",
 				"patcherrelativepath" : "./lib/ecg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibiclip.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/ibi",
 				"patcherrelativepath" : "./lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ibinorm.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ibi",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/ibi",
 				"patcherrelativepath" : "./lib/ibi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "norm2Alex.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-norm",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/plugins-norm",
 				"patcherrelativepath" : "./plugins-norm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasStateMachine0.6.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxTracker1.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minTracker1.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioFaderFunction.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "synthAlex.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-synth",
+				"name" : "synthAlex2.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/plugins-synth",
 				"patcherrelativepath" : "./plugins-synth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pasBedPoly5.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"name" : "pasBedPoly6.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasAmpScaler.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasFreqScaler.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pasCycPoly5.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"name" : "pasCycPoly8.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pasAmpScalerCyc.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/alexStahl",
+				"name" : "pasAmpScalerCyc2.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCurveWarp.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler2.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
 				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "*line~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "*!.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "synthFreqModSquare.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/plugins-synth",
+				"patcherrelativepath" : "./plugins-synth",
 				"type" : "JSON",
 				"implicit" : 1
 			}

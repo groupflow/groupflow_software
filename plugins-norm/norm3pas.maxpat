@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 92.0, 512.0, 392.0, 331.0 ],
+		"rect" : [ 135.0, 427.0, 392.0, 331.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -95,6 +95,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 95.0, 248.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -136,10 +140,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.0, 26.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -153,6 +153,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 26.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -192,7 +196,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.0, 144.0, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ pasStateMachine0.6 1"
+					"text" : "poly~ pasStateMachine0.8 1"
 				}
 
 			}
@@ -281,37 +285,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "pasStateMachine0.6.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maxTracker1.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minTracker1.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
