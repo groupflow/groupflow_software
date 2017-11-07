@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 436.0, 111.0, 533.0, 590.0 ],
+		"rect" : [ 51.0, 88.0, 533.0, 590.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,39 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"comment" : "",
+					"id" : "obj-15",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 506.0, 50.0, 22.0 ],
+					"patching_rect" : [ 204.0, 4.0, 30.0, 30.0 ],
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 324.0, 369.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 133.0, 499.0, 163.0, 22.0 ],
+					"style" : "",
+					"text" : "send alexSynthPresetAssign"
 				}
 
 			}
@@ -55,7 +81,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.0, 146.0, 151.0, 20.0 ],
-					"presentation_rect" : [ 288.0, 146.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Preset collection contents:"
 				}
@@ -145,7 +170,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 278.0, 76.0, 20.0 ],
-					"presentation_rect" : [ 34.0, 177.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Group index"
 				}
@@ -237,7 +261,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 291.0, 181.0, 128.0, 22.0 ],
 					"style" : "",
-					"text" : "2 4 6 7"
+					"text" : "36 45 46 51"
 				}
 
 			}
@@ -287,9 +311,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 65.0, 35.0, 22.0 ],
+					"patching_rect" : [ 43.5, 65.0, 127.0, 22.0 ],
 					"style" : "",
-					"text" : "read"
+					"text" : "read presetGroups.txt"
 				}
 
 			}
@@ -334,6 +358,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -409,7 +440,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 1 ],
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 

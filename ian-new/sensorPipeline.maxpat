@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 298.0, 79.0, 957.0, 782.0 ],
+		"rect" : [ 34.0, 110.0, 957.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -72,13 +72,14 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"ft1" : 5.0,
 					"id" : "obj-91",
 					"maxclass" : "number~",
 					"mode" : 2,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 248.124969, 298.476685, 56.0, 22.0 ],
+					"patching_rect" : [ 238.124969, 299.476685, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -1077,7 +1078,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 27.374969, 310.953369, 87.625031, 48.0 ],
+					"patching_rect" : [ 38.0, 310.953369, 87.625031, 48.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-82", "number", "int", 0, 5, "obj-7", "toggle", "int", 1, 5, "obj-20", "flonum", "float", -0.292267, 5, "obj-23", "flonum", "float", 15.0, 5, "obj-28", "flonum", "float", 0.5, 5, "obj-41", "number", "int", 4, 5, "obj-10", "toggle", "int", 0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-88", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-113", "number", "int", 100, 5, "obj-114", "number", "int", 300, 5, "obj-21", "number", "int", 1, 5, "obj-40", "number", "int", 15, 5, "obj-72", "flonum", "float", 0.206258, 5, "obj-78", "flonum", "float", 0.206258, 5, "obj-81", "flonum", "float", 0.043097, 5, "obj-89", "flonum", "float", 0.043097, 5, "obj-91", "number~", "list", 0.0 ]
@@ -1104,7 +1105,7 @@
 						}
 , 						{
 							"number" : 7,
-							"data" : [ 5, "obj-82", "number", "int", 7, 5, "obj-7", "toggle", "int", 0, 5, "obj-20", "flonum", "float", -0.63, 5, "obj-23", "flonum", "float", 13.9794, 5, "obj-28", "flonum", "float", 100.0, 5, "obj-41", "number", "int", 1, 5, "obj-10", "toggle", "int", 0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-88", "toggle", "int", 0, 5, "obj-90", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-113", "number", "int", 100, 5, "obj-114", "number", "int", 300, 5, "obj-21", "number", "int", 7, 5, "obj-40", "number", "int", 13 ]
+							"data" : [ 5, "obj-82", "number", "int", 7, 5, "obj-7", "toggle", "int", 0, 5, "obj-20", "flonum", "float", -0.4, 5, "obj-23", "flonum", "float", 9.0, 5, "obj-28", "flonum", "float", 100.0, 5, "obj-41", "number", "int", 4, 5, "obj-10", "toggle", "int", 0, 5, "obj-24", "flonum", "float", 1.0, 5, "obj-88", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-113", "number", "int", 100, 5, "obj-114", "number", "int", 300, 5, "obj-21", "number", "int", 7, 5, "obj-40", "number", "int", 13, 5, "obj-72", "flonum", "float", 0.694851, 5, "obj-78", "flonum", "float", 0.694851, 5, "obj-81", "flonum", "float", 0.855773, 5, "obj-89", "flonum", "float", 0.855773, 5, "obj-91", "number~", "list", 0.0, 5, "obj-93", "flonum", "float", 0.0, 5, "obj-4", "number~", "list", 0.0 ]
 						}
 , 						{
 							"number" : 8,
@@ -1385,7 +1386,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 647.0, 53.0, 103.0, 22.0 ],
+					"patching_rect" : [ 647.0, 53.0, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "s #0-norm-type"
 				}
