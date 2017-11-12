@@ -19,9 +19,10 @@ def atodb(amp):
 # inputs and settings
 
 inputFile = sys.argv[1]
-outputFile = 'norm.wav'
+outputFile = '02-nrm.wav'
+outputInfo = 'normInfo.txt'
 ignoreFirstSeconds = 0.1
-truncateEndSeconds = 4.0
+truncateEndSeconds = 0.0
 
 data,sampleRate = sf.read(inputFile)
 print data.shape[0]
@@ -56,11 +57,17 @@ for frameIndex,frame in enumerate(data):
 
 trackDbRanges = []
 
+normInfoFile = open(outputInfo, 'w')
+
 for trackIndex in xrange(0,trackCount):
     dbRange = atodb(maxValues[trackIndex] - minValues[trackIndex])
     trackDbRanges.append(dbRange)
     lineStart = '{0}: {1}'.format(1+trackIndex, dbRange)
-    print '{0},     {1:f}, {2:f},    {3:f}, {4:f}'.format(lineStart, minValues[trackIndex], maxValues[trackIndex], float(minValueTimes[trackIndex]), float(maxValueTimes[trackIndex]))
+    chNormInfo = '{0},     {1:f}, {2:f},    {3:f}, {4:f}'.format(lineStart, minValues[trackIndex], maxValues[trackIndex], float(minValueTimes[trackIndex]), float(maxValueTimes[trackIndex]))
+    print chNormInfo
+    normInfoFile.write(chNormInfo + '\n')
+
+
 
 # output normalized signals
 outputFrame = [0.0]*trackCount
@@ -68,7 +75,7 @@ outputData = []
 for frameIndex,frame in enumerate(data):
     for trackIndex in xrange(0,trackCount):
         outputValue = 0.0
-        if(trackDbRanges[trackIndex] > -50):
+        if(trackDbRanges[trackIndex] > -70):
             outputValue = normAndClip(frame[trackIndex], minValues[trackIndex], maxValues[trackIndex], -1.0, 1.0)
         frame[trackIndex] = outputValue
 

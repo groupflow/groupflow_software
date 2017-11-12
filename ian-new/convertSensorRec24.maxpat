@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 91.0, 552.0, 1251.0, 769.0 ],
+		"rect" : [ 130.0, 91.0, 1059.0, 720.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,8 +52,8 @@
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 888.0, 580.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -78,8 +78,8 @@
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 871.0, 521.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -104,8 +104,8 @@
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 851.5, 463.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -130,8 +130,8 @@
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 816.0, 402.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -156,8 +156,8 @@
 					"id" : "obj-62",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 788.0, 340.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -182,8 +182,8 @@
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 771.0, 281.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -208,8 +208,8 @@
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 751.5, 223.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -234,8 +234,8 @@
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 716.0, 162.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -260,8 +260,8 @@
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 612.0, 580.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -286,8 +286,8 @@
 					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 595.0, 521.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -312,8 +312,8 @@
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 575.5, 463.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -338,8 +338,8 @@
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 540.0, 402.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -364,8 +364,8 @@
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 512.0, 340.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -390,8 +390,8 @@
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 495.0, 281.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -416,8 +416,8 @@
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 475.5, 223.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -442,8 +442,8 @@
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 440.0, 162.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -468,8 +468,8 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 334.0, 574.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -494,8 +494,8 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 317.0, 515.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -520,8 +520,8 @@
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 297.5, 457.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -546,8 +546,8 @@
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 262.0, 396.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -637,8 +637,8 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 234.0, 334.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -663,8 +663,8 @@
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 217.0, 275.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -689,8 +689,8 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 197.5, 217.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -704,7 +704,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 197.5, 187.0, 87.0, 22.0 ],
+					"patching_rect" : [ 201.0, 188.0, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "sensor-demod"
 				}
@@ -715,8 +715,8 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 162.0, 156.0, 143.0, 22.0 ],
 					"style" : "",
 					"text" : "lowpassDownsample 50."
@@ -821,13 +821,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 25,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "bang" ],
-					"patching_rect" : [ 162.0, 97.0, 871.0, 22.0 ],
+					"patching_rect" : [ 176.0, 95.0, 871.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 824627.9375, "ticks" ],
+						"originallength" : [ 387175.12241, "ticks" ],
 						"originaltempo" : 120.000008,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -850,7 +850,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -893,7 +893,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-1", 6 ]
 				}
 
@@ -991,7 +991,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-1", 20 ]
 				}
 
@@ -1447,23 +1447,37 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sensor-demod.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowpassDownsample.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests",
-				"patcherrelativepath" : "../tests",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "biquadFilter.maxpat",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterPV.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests",
-				"patcherrelativepath" : "../tests",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meci-biquadgen.gendsp",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
+				"patcherrelativepath" : "../lib/meci",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
  ],

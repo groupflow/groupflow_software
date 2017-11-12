@@ -121,7 +121,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 284.0, 23.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -289,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 336.0, 390.0, 80.0, 22.0 ],
+					"patching_rect" : [ 340.0, 389.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "ext_listfft #1"
 				}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 249.0, 79.0, 1251.0, 782.0 ],
+		"rect" : [ 622.0, 228.0, 1251.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 195.0, 226.0, 59.0, 22.0 ],
+					"style" : "",
+					"text" : "s fftMags"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-42",
@@ -204,7 +216,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 419.0, 706.0, 33.0, 22.0 ],
-					"presentation_rect" : [ 967.0, 302.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sig~"
 				}
@@ -385,7 +396,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 522.0, 38.0, 737.0, 222.0 ],
+					"patching_rect" : [ 529.0, 38.0, 737.0, 222.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -512,19 +523,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1128.0, 13.5, 93.0, 22.0 ],
-					"style" : "",
-					"text" : "scale -1 1. 0. 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-70",
 					"maxclass" : "slider",
@@ -597,7 +595,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -126.0, 103.0, 629.0, 704.0 ],
+						"rect" : [ 38.0, 103.0, 629.0, 704.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -624,7 +622,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -1709,6 +1706,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
 					"source" : [ "obj-5", 3 ]
 				}
@@ -1717,6 +1722,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
+					"order" : 1,
 					"source" : [ "obj-5", 2 ]
 				}
 
@@ -1799,13 +1805,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -1825,210 +1824,210 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "div!.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListFromPhases.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "../../lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftPeakFreqPhase.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/fftRendering",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/fftRendering",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftEventWrapper.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/fftRendering",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/fftRendering",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListVectorMultiply.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hannWindowGen.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilter.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterPV.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
 				"patcherrelativepath" : "../../lib/meci",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListPolar.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "../../lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListLog10.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "../../lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListNormalize.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "../../lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublist.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftPeakPicker.js",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/fftRendering",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/fftRendering",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarAdd.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListMod.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "../../lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarMultiply.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizComplexPoints.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
+				"bootpath" : "~/Documents/Github/groupflow_software/lib/ian-spectral",
 				"patcherrelativepath" : "../../lib/ian-spectral",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iterEnumerate.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hslIntOut.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListIntegerRound.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plotScrollingGui.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PlotScrolling-v3.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plot-config.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rollingMinMax.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freqPhaseAcos.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/fftRendering",
+				"bootpath" : "~/Documents/Github/groupflow_software/tests/fftRendering",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "switchBinary.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phaseDelta.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phaseWrap.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selectorBinary~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
 				"patcherrelativepath" : "../../ian-new",
 				"type" : "JSON",
 				"implicit" : 1

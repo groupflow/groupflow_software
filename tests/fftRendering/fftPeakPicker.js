@@ -22,6 +22,7 @@ function anything() {
 	}
 	centerValue = values[peakBin];
 	rightValue = values[peakBin+1];
+	var fractional;
 	if(peakBin == 0) {
 		fractional = 0.5; //temp
 	}
