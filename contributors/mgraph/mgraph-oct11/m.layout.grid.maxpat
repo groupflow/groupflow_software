@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 374.0, 266.0, 689.0, 383.0 ],
+		"rect" : [ 86.0, 109.0, 689.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -474,7 +474,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 18.0, 19.0, 115.0, 22.0 ],
 					"style" : "",
-					"text" : "metro 10 @active 1"
+					"text" : "metro 30 @active 1"
 				}
 
 			}
@@ -1314,14 +1314,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "m.stream.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/contributors/mgraph/mgraph-oct11",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.graph.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/contributors/mgraph/mgraph-oct11",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

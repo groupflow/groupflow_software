@@ -23,6 +23,7 @@ outputFile = '02-nrm.wav'
 outputInfo = 'normInfo.txt'
 ignoreFirstSeconds = 0.1
 truncateEndSeconds = 0.0
+minimumGainDb = -70
 
 data,sampleRate = sf.read(inputFile)
 print data.shape[0]
@@ -75,7 +76,7 @@ outputData = []
 for frameIndex,frame in enumerate(data):
     for trackIndex in xrange(0,trackCount):
         outputValue = 0.0
-        if(trackDbRanges[trackIndex] > -70):
+        if(trackDbRanges[trackIndex] > minimumGainDb):
             outputValue = normAndClip(frame[trackIndex], minValues[trackIndex], maxValues[trackIndex], -1.0, 1.0)
         frame[trackIndex] = outputValue
 

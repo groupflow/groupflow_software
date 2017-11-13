@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 119.0, 146.0, 1234.0, 781.0 ],
+		"rect" : [ 118.0, 79.0, 1234.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -91,7 +91,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -117,7 +117,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -135,7 +135,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 779.0, 698.309998, 123.0, 22.0 ],
 					"style" : "",
-					"text" : "0. 0."
+					"text" : "-0.061944 0.60406"
 				}
 
 			}
@@ -263,7 +263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 222.0, 263.0, 80.0, 13.0 ],
+					"patching_rect" : [ 238.124969, 260.976685, 80.0, 13.0 ],
 					"style" : ""
 				}
 
@@ -360,7 +360,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1188,7 +1188,7 @@
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-82", "number", "int", 0, 5, "obj-7", "toggle", "int", 1, 5, "obj-20", "flonum", "float", -0.284592, 5, "obj-23", "flonum", "float", 53.3951, 5, "obj-28", "flonum", "float", 0.5, 5, "obj-41", "number", "int", 4, 5, "obj-10", "toggle", "int", 0, 5, "obj-24", "flonum", "float", 0.1, 5, "obj-88", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-113", "number", "int", 100, 5, "obj-114", "number", "int", 300, 5, "obj-21", "number", "int", 2, 5, "obj-40", "number", "int", 15, 5, "obj-72", "flonum", "float", -0.304702, 5, "obj-78", "flonum", "float", -0.304702, 5, "obj-81", "flonum", "float", -0.167334, 5, "obj-89", "flonum", "float", -0.167334, 5, "obj-91", "number~", "list", 0.0, 5, "obj-93", "flonum", "float", 0.0, 5, "obj-4", "number~", "list", 0.0 ]
+							"data" : [ 5, "obj-82", "number", "int", 0, 5, "obj-7", "toggle", "int", 1, 5, "obj-20", "flonum", "float", -0.284592, 5, "obj-23", "flonum", "float", 40.0, 5, "obj-28", "flonum", "float", 0.5, 5, "obj-41", "number", "int", 4, 5, "obj-10", "toggle", "int", 0, 5, "obj-24", "flonum", "float", 0.1, 5, "obj-88", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 0, 5, "obj-106", "toggle", "int", 0, 5, "obj-113", "number", "int", 100, 5, "obj-114", "number", "int", 300, 5, "obj-21", "number", "int", 2, 5, "obj-40", "number", "int", 15, 5, "obj-72", "flonum", "float", 0.595922, 5, "obj-78", "flonum", "float", 0.595922, 5, "obj-81", "flonum", "float", 0.866352, 5, "obj-89", "flonum", "float", 0.866352, 5, "obj-91", "number~", "list", 0.0, 5, "obj-93", "flonum", "float", 0.0, 5, "obj-4", "number~", "list", 0.0 ]
 						}
 , 						{
 							"number" : 3,
@@ -1801,7 +1801,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2100,7 +2100,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-61",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3176,7 +3176,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-58",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3841,7 +3841,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-162",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3854,7 +3854,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-163",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3867,7 +3867,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-165",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4742,90 +4742,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "sensor-demod.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "biquadFilter.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "biquadFilterPV.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/Github/groupflow_software/lib/meci",
-				"patcherrelativepath" : "../lib/meci",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "selectorBinary~.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "norm1WindowMinMax.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/plugins-norm",
-				"patcherrelativepath" : "../plugins-norm",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "receiveValue.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "historyMinMax.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/tests",
-				"patcherrelativepath" : "../tests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "snapshotGlob~.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "switchBinary.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "div!.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

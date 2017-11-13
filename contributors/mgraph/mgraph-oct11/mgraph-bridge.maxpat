@@ -199,7 +199,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 35.0, 74.0, 58.0, 22.0 ],
 					"style" : "",
-					"text" : "metro 10"
+					"text" : "metro 33"
 				}
 
 			}
@@ -283,28 +283,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "m.layout.grid.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/contributors/mgraph/mgraph-oct11",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.stream.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/contributors/mgraph/mgraph-oct11",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.graph.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/contributors/mgraph/mgraph-oct11",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mgraph-bridge-pv.maxpat",
-				"bootpath" : "~/Documents/Github/groupflow_software/contributors/mgraph/mgraph-oct11",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

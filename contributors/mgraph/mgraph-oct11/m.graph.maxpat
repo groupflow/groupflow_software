@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 947.0, 149.0, 773.0, 543.0 ],
+		"rect" : [ 633.0, 149.0, 773.0, 543.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -847,7 +847,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 195.0, 147.0, 38.0, 22.0 ],
 					"style" : "",
-					"text" : "- 330"
+					"text" : "- 333"
 				}
 
 			}
@@ -873,7 +873,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 47.0, 237.0, 143.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.submatrix @dim 330 1"
+					"text" : "jit.submatrix @dim 333 1"
 				}
 
 			}

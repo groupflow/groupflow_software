@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+		"rect" : [ 151.0, 108.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 214.0, 256.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "rea"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 225.0, 112.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend readfolder"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 326.0, 174.0, 24.0, 24.0 ],
+					"patching_rect" : [ 319.0, 191.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -72,19 +98,6 @@
 					"patching_rect" : [ 314.0, 218.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "opendialog fold"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.0, 291.0, 352.0, 22.0 ],
-					"style" : "",
-					"text" : "MacintoshHD:/Users/alex/Dropbox/GroupFlow/plugins-samples/"
 				}
 
 			}
@@ -133,31 +146,26 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-98",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 137.0, 440.0, 23.0 ],
+					"patching_rect" : [ 50.0, 137.0, 440.0, 52.0 ],
 					"style" : "",
-					"text" : "readfolder MacintoshHD:/Users/alex/Dropbox/GroupFlow/plugins-samples/"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.490051, 213.0, 65.0, 22.0 ],
-					"style" : "",
-					"text" : "readfolder"
+					"text" : "\"Macintosh HD:/Users/groupflow/Documents/GitHub/groupflow_extras/alexSamples-nov12/\""
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -173,14 +181,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-66", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-98", 1 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -194,7 +195,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-98", 0 ]
 				}
 
