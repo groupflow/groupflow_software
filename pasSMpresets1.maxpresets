@@ -5,7 +5,7 @@
 		}
 , 		{
 			"number" : 2,
-			"data" : [ 5, "obj-66", "flonum", "float", 1.0, 5, "obj-68", "flonum", "float", 1.0, 5, "obj-80", "number", "int", 20, 5, "obj-85", "number", "int", 5, 5, "obj-54", "number", "int", 100, 5, "obj-100", "umenu", "int", 1, 5, "obj-105", "flonum", "float", 4.0, 5, "obj-130", "flonum", "float", 0.2, 5, "obj-22", "flonum", "float", 2.0, 5, "obj-24", "flonum", "float", 2.0 ]
+			"data" : [ 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "flonum", "float", 1.0, 5, "<invalid>", "number", "int", 20, 5, "<invalid>", "number", "int", 5, 5, "<invalid>", "number", "int", 100, 5, "<invalid>", "umenu", "int", 1, 5, "<invalid>", "flonum", "float", 4.0, 5, "<invalid>", "flonum", "float", 0.2, 5, "<invalid>", "flonum", "float", 2.0, 5, "<invalid>", "flonum", "float", 2.0 ]
 		}
 , 		{
 			"number" : 3,
