@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 151.0, 108.0, 640.0, 480.0 ],
+		"rect" : [ 0.0, 26.0, 671.0, 698.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,9 +44,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 256.0, 29.5, 22.0 ],
+					"patching_rect" : [ 214.0, 256.0, 65.0, 22.0 ],
 					"style" : "",
-					"text" : "rea"
+					"text" : "readfolder"
 				}
 
 			}
@@ -169,6 +169,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

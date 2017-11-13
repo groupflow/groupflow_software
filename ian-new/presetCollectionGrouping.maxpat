@@ -40,7 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -68,9 +68,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 499.0, 163.0, 22.0 ],
+					"patching_rect" : [ 133.0, 499.0, 161.0, 22.0 ],
 					"style" : "",
-					"text" : "send alexSynthPresetAssign"
+					"text" : "send pasSynthPresetAssign"
 				}
 
 			}
@@ -475,9 +475,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
