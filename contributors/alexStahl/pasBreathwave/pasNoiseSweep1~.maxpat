@@ -38,6 +38,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 194.0, -5.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 261.383301, 19.0, 796.833374, 35.0 ],
+					"style" : "",
+					"text" : "F1Gain 0.750271, F1Fmin 100, F1Fmax 1500, F1Fexp 0.658691, F1FSmUp 250., F1FSmDn 7500., F2Gain 0.265789, F2Fmin 200, F2Fmax 1000, F2Fexp 1.723348, F2FSmUp 0., F2FSmDn 0., F1Rmin 0.3825, F1Rmax 0., F1Rexp 1.924, F1RSmUp 1500., F1RSmDn 40000., F2R 0.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -159,7 +186,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -198,7 +225,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -527,7 +554,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.0, 118.0, 81.833374, 22.0 ],
+					"patching_rect" : [ 422.0, 118.0, 82.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1212,6 +1239,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -1420,6 +1454,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 3 ],
 					"source" : [ "obj-51", 0 ]
 				}
@@ -1621,30 +1662,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "wiggle.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/misc",
-				"patcherrelativepath" : "../../../lib/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "poly.moogladderx2.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/gen",
-				"patcherrelativepath" : "../../../../../../../Shared/Max 7/Examples/gen",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "/Users/Shared/Max 7/Examples/gen",
-				"patcherrelativepath" : "../../../../../../../Shared/Max 7/Examples/gen",
-				"type" : "GenX",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
