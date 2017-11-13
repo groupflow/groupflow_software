@@ -36,7 +36,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"globalpatchername" : "1-pasSynthCurrentPreset",
+		"globalpatchername" : "1-pasSynthCurrentPreset[24]",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -78,7 +78,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 223.390564, 374.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group 15"
+					"text" : "zl group 32"
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 563.273682, 374.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group 18"
+					"text" : "zl group 38"
 				}
 
 			}
@@ -311,7 +311,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 563.273682, 421.0, 103.0, 22.0 ],
-					"restore" : [ "pasCycAMP", 0, "pasCycACRH", 1.0, "pasCycACRL", 0.0, "pasCycRT", 0.421875, "pasCycAT", 0.25625, "pasCycAS", 0.0, "pasCycAMRH", 0.882793, "pasCycAMRL", 0.653367, "pasCycSt", 4 ],
+					"restore" : [ "signal" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -350,7 +350,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 391.890625, 374.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group 18"
+					"text" : "zl group 38"
 				}
 
 			}
