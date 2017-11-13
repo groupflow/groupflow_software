@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 712.0, 203.0, 946.0, 22.0 ],
+					"style" : "",
+					"text" : "pasCycAMP 0 pasCycACRH 1. pasCycACRL 0.07035 pasCycRT 0.796875 pasCycAT 0.59375 pasCycAS 0.09375 pasCycAMRH 0.932668 pasCycAMRL 0.753117 pasCycSt 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -143,7 +156,7 @@
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 513.0, 384.0, 123.0, 22.0 ],
@@ -340,7 +353,7 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 328.0, 384.0, 123.0, 22.0 ],
@@ -353,7 +366,7 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 102.0, 384.0, 124.0, 22.0 ],
@@ -513,22 +526,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 2 ],
+					"destination" : [ "obj-1", 3 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-2", 3 ],
+					"order" : 1,
 					"source" : [ "obj-24", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 2 ],
+					"destination" : [ "obj-20", 3 ],
 					"source" : [ "obj-24", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"order" : 0,
+					"source" : [ "obj-24", 1 ]
 				}
 
 			}
@@ -611,72 +633,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "pasBedPoly7.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasFreqScaler.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasCycPoly8.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScalerCyc2.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasCurveWarp.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasAmpScaler2.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasSynthPattrReceive.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : "../contributors/alexStahl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
