@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 50.0, 102.0, 531.0, 548.0 ],
+		"rect" : [ 640.0, 205.0, 531.0, 548.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,9 +127,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 315.0, 338.525391, 149.0, 22.0 ],
+					"patching_rect" : [ 315.0, 338.525391, 139.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ 1BedLoop.01.aif 2"
+					"text" : "buffer~ pasBedMaster 2"
 				}
 
 			}
@@ -162,7 +162,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -174,7 +174,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "slurtime",
+					"attr" : "loopend",
 					"id" : "obj-12",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -231,16 +231,16 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 118.608017, 198.858704, 140.0, 22.0 ],
+					"patching_rect" : [ 118.608017, 198.858704, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
+						"loopend" : [ 10000.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 14237032.582953, "ticks" ],
-						"originaltempo" : 12521.024455,
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -248,7 +248,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~ pasBedBuffer 2"
+					"text" : "groove~ pasBedMaster 2"
 				}
 
 			}
@@ -373,9 +373,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

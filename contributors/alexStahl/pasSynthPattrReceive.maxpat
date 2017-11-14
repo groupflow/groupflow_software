@@ -36,21 +36,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"globalpatchername" : "#1-local[1][1][1]",
+		"globalpatchername" : "#1-local[1][1][1][21]",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 36.0, 79.0, 22.0 ],
-					"style" : "",
-					"text" : "loadmess #1"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
@@ -58,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 132.0, 28.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -101,7 +88,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 806.0, 201.0, 267.0, 22.0 ],
 					"style" : "",
-					"text" : "bindto ::1-pasSynthCurrentPreset::1-pasCycB"
+					"text" : "bindto ::0-pasSynthCurrentPreset::0-pasCycB"
 				}
 
 			}
@@ -120,7 +107,7 @@
 ,
 					"style" : "",
 					"text" : "pattr #1-pasCycBPattrLocal",
-					"varname" : "1-pasCycBPattrLocal"
+					"varname" : "0-pasCycBPattrLocal"
 				}
 
 			}
@@ -161,7 +148,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 487.0, 201.0, 267.0, 22.0 ],
 					"style" : "",
-					"text" : "bindto ::1-pasSynthCurrentPreset::1-pasCycA"
+					"text" : "bindto ::0-pasSynthCurrentPreset::0-pasCycA"
 				}
 
 			}
@@ -180,7 +167,7 @@
 ,
 					"style" : "",
 					"text" : "pattr #1-pasCycAPattrLocal",
-					"varname" : "1-pasCycAPattrLocal[1]"
+					"varname" : "0-pasCycAPattrLocal"
 				}
 
 			}
@@ -203,7 +190,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 132.0, 86.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "thru"
@@ -234,7 +221,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.0, 201.0, 267.0, 22.0 ],
 					"style" : "",
-					"text" : "bindto ::1-pasSynthCurrentPreset::1-pasBed"
+					"text" : "bindto ::0-pasSynthCurrentPreset::0-pasBed"
 				}
 
 			}
@@ -253,7 +240,7 @@
 ,
 					"style" : "",
 					"text" : "pattr #1-pasBedPattrLocal",
-					"varname" : "1-pasBedPattrLocal"
+					"varname" : "0-pasBedPattrLocal"
 				}
 
 			}
@@ -347,13 +334,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}

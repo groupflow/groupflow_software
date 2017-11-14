@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 124.0, 88.0, 1529.0, 574.0 ],
+		"rect" : [ 330.0, 228.0, 931.0, 635.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -398,6 +398,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 4.0, 4.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[23]",
 					"viewvisibility" : 1
 				}
 
@@ -418,6 +419,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 258.0, 4.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[22]",
 					"viewvisibility" : 1
 				}
 
@@ -438,6 +440,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 512.0, 4.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[21]",
 					"viewvisibility" : 1
 				}
 
@@ -458,6 +461,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 766.0, 4.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[20]",
 					"viewvisibility" : 1
 				}
 
@@ -478,6 +482,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1020.0, 4.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[19]",
 					"viewvisibility" : 1
 				}
 
@@ -498,6 +503,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1274.0, 4.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[18]",
 					"viewvisibility" : 1
 				}
 
@@ -518,6 +524,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 4.0, 145.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[17]",
 					"viewvisibility" : 1
 				}
 
@@ -538,6 +545,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 258.0, 145.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[16]",
 					"viewvisibility" : 1
 				}
 
@@ -558,6 +566,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 512.0, 145.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[15]",
 					"viewvisibility" : 1
 				}
 
@@ -578,6 +587,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 766.0, 145.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[14]",
 					"viewvisibility" : 1
 				}
 
@@ -598,6 +608,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1020.0, 145.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[13]",
 					"viewvisibility" : 1
 				}
 
@@ -618,6 +629,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1274.0, 145.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[12]",
 					"viewvisibility" : 1
 				}
 
@@ -638,6 +650,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 4.0, 286.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[11]",
 					"viewvisibility" : 1
 				}
 
@@ -658,6 +671,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 258.0, 286.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[10]",
 					"viewvisibility" : 1
 				}
 
@@ -678,6 +692,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 512.0, 286.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[9]",
 					"viewvisibility" : 1
 				}
 
@@ -698,6 +713,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 766.0, 286.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[8]",
 					"viewvisibility" : 1
 				}
 
@@ -718,6 +734,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1020.0, 286.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[7]",
 					"viewvisibility" : 1
 				}
 
@@ -738,6 +755,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1274.0, 286.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[6]",
 					"viewvisibility" : 1
 				}
 
@@ -758,6 +776,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 4.0, 427.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[5]",
 					"viewvisibility" : 1
 				}
 
@@ -778,6 +797,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 258.0, 427.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[4]",
 					"viewvisibility" : 1
 				}
 
@@ -798,6 +818,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 512.0, 427.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[3]",
 					"viewvisibility" : 1
 				}
 
@@ -818,6 +839,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 766.0, 427.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[2]",
 					"viewvisibility" : 1
 				}
 
@@ -838,6 +860,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1020.0, 427.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew[1]",
 					"viewvisibility" : 1
 				}
 
@@ -858,6 +881,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1274.0, 427.0, 253.0, 139.0 ],
+					"varname" : "channelAnalysisNew",
 					"viewvisibility" : 1
 				}
 
@@ -872,185 +896,262 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-26" : [ "raw gain[70]", "raw gain", 0 ],
-			"obj-88::obj-27" : [ "raw gain[85]", "cooked gain", 0 ],
-			"obj-62::obj-26" : [ "raw gain[66]", "raw gain", 0 ],
-			"obj-76::obj-26" : [ "raw gain[78]", "raw gain", 0 ],
-			"obj-96::obj-27" : [ "raw gain[51]", "cooked gain", 0 ],
-			"obj-76::obj-27" : [ "raw gain[79]", "cooked gain", 0 ],
-			"obj-90::obj-26" : [ "raw gain[33]", "raw gain", 0 ],
-			"obj-74::obj-26" : [ "raw gain[76]", "raw gain", 0 ],
-			"obj-78::obj-26" : [ "raw gain[80]", "raw gain", 0 ],
-			"obj-56::obj-27" : [ "raw gain[61]", "cooked gain", 0 ],
 			"obj-66::obj-27" : [ "raw gain[71]", "cooked gain", 0 ],
-			"obj-56::obj-26" : [ "raw gain[60]", "raw gain", 0 ],
-			"obj-84::obj-26" : [ "raw gain[83]", "raw gain", 0 ],
-			"obj-64::obj-27" : [ "raw gain[69]", "cooked gain", 0 ],
-			"obj-98::obj-26" : [ "raw gain[88]", "raw gain", 0 ],
-			"obj-82::obj-26" : [ "raw gain[55]", "raw gain", 0 ],
-			"obj-90::obj-27" : [ "raw gain[49]", "cooked gain", 0 ],
-			"obj-50::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
-			"obj-92::obj-26" : [ "raw gain[57]", "raw gain", 0 ],
-			"obj-50::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
-			"obj-58::obj-27" : [ "raw gain[63]", "cooked gain", 0 ],
-			"obj-78::obj-27" : [ "raw gain[81]", "cooked gain", 0 ],
-			"obj-52::obj-26" : [ "raw gain[31]", "raw gain", 0 ],
-			"obj-92::obj-27" : [ "raw gain[86]", "cooked gain", 0 ],
-			"obj-64::obj-26" : [ "raw gain[68]", "raw gain", 0 ],
-			"obj-60::obj-26" : [ "raw gain[64]", "raw gain", 0 ],
-			"obj-54::obj-26" : [ "raw gain[54]", "raw gain", 0 ],
-			"obj-72::obj-27" : [ "raw gain[75]", "cooked gain", 0 ],
-			"obj-58::obj-26" : [ "raw gain[62]", "raw gain", 0 ],
-			"obj-70::obj-27" : [ "raw gain[73]", "cooked gain", 0 ],
-			"obj-88::obj-26" : [ "raw gain[84]", "raw gain", 0 ],
-			"obj-98::obj-27" : [ "raw gain[89]", "cooked gain", 0 ],
-			"obj-96::obj-26" : [ "raw gain[34]", "raw gain", 0 ],
-			"obj-74::obj-27" : [ "raw gain[77]", "cooked gain", 0 ],
+			"obj-74::obj-26" : [ "raw gain[76]", "raw gain", 0 ],
 			"obj-86::obj-27" : [ "raw gain[56]", "cooked gain", 0 ],
+			"obj-62::obj-26" : [ "raw gain[66]", "raw gain", 0 ],
+			"obj-96::obj-27" : [ "raw gain[51]", "cooked gain", 0 ],
 			"obj-86::obj-26" : [ "raw gain[48]", "raw gain", 0 ],
-			"obj-72::obj-26" : [ "raw gain[74]", "raw gain", 0 ],
-			"obj-80::obj-27" : [ "raw gain[47]", "cooked gain", 0 ],
-			"obj-70::obj-26" : [ "raw gain[72]", "raw gain", 0 ],
 			"obj-80::obj-26" : [ "raw gain[82]", "raw gain", 0 ],
-			"obj-82::obj-27" : [ "raw gain[59]", "cooked gain", 0 ],
-			"obj-94::obj-27" : [ "raw gain[87]", "cooked gain", 0 ],
-			"obj-62::obj-27" : [ "raw gain[67]", "cooked gain", 0 ],
-			"obj-54::obj-27" : [ "raw gain[58]", "cooked gain", 0 ],
-			"obj-60::obj-27" : [ "raw gain[65]", "cooked gain", 0 ],
+			"obj-98::obj-27" : [ "raw gain[89]", "cooked gain", 0 ],
+			"obj-52::obj-27" : [ "raw gain[46]", "cooked gain", 0 ],
+			"obj-70::obj-27" : [ "raw gain[73]", "cooked gain", 0 ],
+			"obj-88::obj-27" : [ "raw gain[85]", "cooked gain", 0 ],
+			"obj-64::obj-26" : [ "raw gain[68]", "raw gain", 0 ],
 			"obj-94::obj-26" : [ "raw gain[50]", "raw gain", 0 ],
+			"obj-56::obj-26" : [ "raw gain[60]", "raw gain", 0 ],
+			"obj-50::obj-27" : [ "raw gain[4]", "cooked gain", 0 ],
+			"obj-90::obj-27" : [ "raw gain[49]", "cooked gain", 0 ],
+			"obj-78::obj-26" : [ "raw gain[80]", "raw gain", 0 ],
+			"obj-82::obj-26" : [ "raw gain[55]", "raw gain", 0 ],
+			"obj-76::obj-26" : [ "raw gain[78]", "raw gain", 0 ],
+			"obj-60::obj-27" : [ "raw gain[65]", "cooked gain", 0 ],
+			"obj-92::obj-26" : [ "raw gain[57]", "raw gain", 0 ],
+			"obj-66::obj-26" : [ "raw gain[70]", "raw gain", 0 ],
+			"obj-58::obj-27" : [ "raw gain[63]", "cooked gain", 0 ],
+			"obj-72::obj-27" : [ "raw gain[75]", "cooked gain", 0 ],
+			"obj-94::obj-27" : [ "raw gain[87]", "cooked gain", 0 ],
+			"obj-84::obj-26" : [ "raw gain[83]", "raw gain", 0 ],
+			"obj-98::obj-26" : [ "raw gain[88]", "raw gain", 0 ],
+			"obj-70::obj-26" : [ "raw gain[72]", "raw gain", 0 ],
+			"obj-88::obj-26" : [ "raw gain[84]", "raw gain", 0 ],
+			"obj-74::obj-27" : [ "raw gain[77]", "cooked gain", 0 ],
+			"obj-62::obj-27" : [ "raw gain[67]", "cooked gain", 0 ],
+			"obj-96::obj-26" : [ "raw gain[34]", "raw gain", 0 ],
+			"obj-80::obj-27" : [ "raw gain[47]", "cooked gain", 0 ],
+			"obj-50::obj-26" : [ "raw gain[3]", "raw gain", 0 ],
+			"obj-90::obj-26" : [ "raw gain[33]", "raw gain", 0 ],
+			"obj-76::obj-27" : [ "raw gain[79]", "cooked gain", 0 ],
+			"obj-64::obj-27" : [ "raw gain[69]", "cooked gain", 0 ],
+			"obj-60::obj-26" : [ "raw gain[64]", "raw gain", 0 ],
+			"obj-54::obj-27" : [ "raw gain[58]", "cooked gain", 0 ],
+			"obj-58::obj-26" : [ "raw gain[62]", "raw gain", 0 ],
+			"obj-54::obj-26" : [ "raw gain[54]", "raw gain", 0 ],
+			"obj-52::obj-26" : [ "raw gain[31]", "raw gain", 0 ],
+			"obj-56::obj-27" : [ "raw gain[61]", "cooked gain", 0 ],
+			"obj-72::obj-26" : [ "raw gain[74]", "raw gain", 0 ],
 			"obj-84::obj-27" : [ "raw gain[32]", "cooked gain", 0 ],
-			"obj-52::obj-27" : [ "raw gain[46]", "cooked gain", 0 ]
+			"obj-78::obj-27" : [ "raw gain[81]", "cooked gain", 0 ],
+			"obj-92::obj-27" : [ "raw gain[86]", "cooked gain", 0 ],
+			"obj-82::obj-27" : [ "raw gain[59]", "cooked gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "channelAnalysisNew.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade-horz.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioFaderFunction.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensorPipeline.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensor-demod.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilter.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterPV.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/lib/meci",
 				"patcherrelativepath" : "./lib/meci",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selectorBinary~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "norm1WindowMinMax.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-norm",
+				"name" : "norm4pas.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/plugins-norm",
 				"patcherrelativepath" : "./plugins-norm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "receiveValue.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : "./ian-new",
+				"name" : "pasStateMachine0.9.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "historyMinMax.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/tests",
-				"patcherrelativepath" : "./tests",
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maxTracker1.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minTracker1.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snapshotGlob~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "switchBinary.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
+				"patcherrelativepath" : "./ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "receiveValue.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "div!.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "synthSilence.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/plugins-synth",
+				"name" : "synthPas3.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/plugins-synth",
 				"patcherrelativepath" : "./plugins-synth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "pasBedPoly8.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasFreqScaler.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCycPoly8.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScalerCyc2.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasCurveWarp.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasAmpScaler2.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pasSynthPattrReceive.maxpat",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
+				"patcherrelativepath" : "./contributors/alexStahl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "*line~.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "*!.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendValue.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/ian-new",
 				"patcherrelativepath" : "./ian-new",
 				"type" : "JSON",
 				"implicit" : 1
