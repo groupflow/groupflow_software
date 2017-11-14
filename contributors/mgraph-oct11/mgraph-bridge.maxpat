@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 398.0, 157.0, 553.0, 394.0 ],
+		"rect" : [ 480.0, 79.0, 355.0, 295.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,28 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-18",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 318.0, 238.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
+					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 197.0, 100.0, 22.0 ],
+					"patching_rect" : [ 183.0, 17.0, 115.0, 22.0 ],
 					"style" : "",
-					"text" : "receive 2-stream"
+					"text" : "receive graphReset"
 				}
 
 			}
@@ -71,7 +57,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.0, 228.0, 50.0, 22.0 ],
+					"patching_rect" : [ 70.0, 164.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -83,47 +69,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 267.0, 37.0, 22.0 ],
+					"patching_rect" : [ 130.0, 203.0, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 158.0, 166.0, 80.0, 13.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 261.0, 64.0, 158.0, 22.0 ],
-					"style" : "",
-					"text" : "set 1_sensorProcessed"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 261.0, 105.0, 99.0, 22.0 ],
-					"style" : "",
-					"text" : "receive~ dummy"
 				}
 
 			}
@@ -133,7 +81,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.5, 296.0, 154.0, 22.0 ],
+					"patching_rect" : [ 61.5, 232.0, 154.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ mgraph-bridge-pv 24"
 				}
@@ -156,9 +104,9 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 23.0, 79.0, 22.0 ],
+					"patching_rect" : [ 183.0, 59.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "m.layout.grid"
 				}
@@ -210,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.5, 266.0, 52.0, 22.0 ],
+					"patching_rect" : [ 61.5, 202.0, 52.0, 22.0 ],
 					"style" : "",
 					"text" : "open $1"
 				}
@@ -218,13 +166,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-12", 0 ]
@@ -240,8 +181,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-15", 0 ]
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -273,44 +214,7 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "m.layout.grid.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m.stream.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m.graph.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mgraph-bridge-pv.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/contributors/mgraph/mgraph-oct11",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
