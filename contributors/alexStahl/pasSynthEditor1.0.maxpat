@@ -40,6 +40,71 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-399",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1879.0, -199.0, 57.0, 23.0 ],
+					"style" : "",
+					"text" : "pipe 150"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-392",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1632.0, -103.0, 60.0, 23.0 ],
+					"style" : "",
+					"text" : "unpack i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-391",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1632.0, -160.0, 38.0, 23.0 ],
+					"style" : "",
+					"text" : "zl rev"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-390",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1676.0, -210.25, 133.0, 23.0 ],
+					"style" : "",
+					"text" : "r pasSynthPresetAssign"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-373",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1436.0, -119.0, 134.0, 23.0 ],
+					"style" : "",
+					"text" : "r openPasStateMachine"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-372",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -987,7 +1052,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1434.166626, 63.666656, 50.0, 23.0 ],
+					"patching_rect" : [ 1449.166626, 63.666656, 50.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 921.166626, 601.745789, 50.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
@@ -3063,7 +3128,7 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-138",
-					"items" : [ "Ab-ah.01", ",", "Ab-ah.02", ",", "Ab-ah.03", ",", "Ab-ah.04", ",", "Ab-ah.06", ",", "Ab-ah.07", ",", "Ab-ah.08", ",", "Ab-ah.09", ",", "Ab-ah.10", ",", "Ab-ah.11", ",", "Ab-mm.01", ",", "Ab-mm.02", ",", "Ab-mm.03", ",", "Ab-mm.04", ",", "Ab-mm.05", ",", "Ab-mm.06", ",", "Ab-mm.07", ",", "Bb-hi-ah.01", ",", "Bb-hi-ah.02", ",", "Bed.01", ",", "Db-ah.01", ",", "Db-ah.02", ",", "Db-ah.03", ",", "Db-ah.04", ",", "Db-ah.05", ",", "Db-ah.06", ",", "Db-ah.07", ",", "Db-ah.09", ",", "Db-ah.10", ",", "Db-hi-ah.01", ",", "Db-hi-ah.02", ",", "Db-hi-mm.01", ",", "Db-hi-mm.02", ",", "Db-hi-oo.01", ",", "Db-hi-oo.02", ",", "Db-lo-ah.01", ",", "Db-lo-ah.02", ",", "Db-lo-ah.03", ",", "Db-lo-ah.04", ",", "Db-lo-ah.05", ",", "Db-lo-ah.06", ",", "Db-lo-ah.07", ",", "Db-lo-ah.08", ",", "Db-lo-mm.01", ",", "Db-lo-mm.02", ",", "Db-lo-mm.03", ",", "Db-lo-mm.04", ",", "Db-lo-mm.05", ",", "Db-lo-mm.06", ",", "Db-lo-mm.07", ",", "Db-lo-mm.08", ",", "Db-lo-mm.09", ",", "Db-lo-om.01", ",", "Db-lo-om.02", ",", "Db-lo-om.03", ",", "Db-lo-om.04", ",", "Db-lo-om.05", ",", "Db-lo-om.06", ",", "Db-lo-om.06_1", ",", "Db-lo-om.07", ",", "Eb-ah.01", ",", "Eb-ah.02", ",", "Eb-mm.01", ",", "Eb-mm.02", ",", "Eb-mm.03", ",", "F-mm.01", ",", "F-mm.02", ",", "F-mm.03", ",", "F-mm.04", ",", "F-mm.05", ",", "F-om.01", ",", "F-om.02", ",", "F-om.03", ",", "F-om.04", ",", "Gb-ah.01", ",", "Gb-ah.02", ",", "Gb-ah.03", ",", "Gb-ah.04", ",", "Gb-ah.05", ",", "Gb-mm.01", ",", "Gb-mm.02", ",", "Gb-mm.03", ",", "Gb-om.01", ",", "Gb-om.02", ",", "Gb-om.03" ],
+					"items" : [ "0silence.01", ",", "1BedLoop.01", ",", "Ab-ah.01", ",", "Ab-ah.02", ",", "Ab-ah.03", ",", "Ab-ah.04", ",", "Ab-ah.07", ",", "Ab-ah.09", ",", "Ab-ah.11", ",", "Ab-aum.04", ",", "Ab-aum.05", ",", "Ab-mm.01", ",", "Ab-mm.02", ",", "Ab-mm.03", ",", "Ab-om.06", ",", "Ab-om.07", ",", "angel1.01", ",", "angel1.02", ",", "angel1.03", ",", "angel1.04", ",", "angel1.05", ",", "angel1.06", ",", "angel1.07", ",", "Bb-hi-ah.01", ",", "Bb-hi-ah.02", ",", "Choir1.01", ",", "Choir1.02", ",", "Choir1.03", ",", "Choir1.04", ",", "Choir1.05", ",", "Choir1.06", ",", "Choir1.07", ",", "Db-ah.01", ",", "Db-ah.02", ",", "Db-ah.03", ",", "Db-ah.05", ",", "Db-ah.06", ",", "Db-ah.10", ",", "Db-bell.02", ",", "Db-bell.03", ",", "Db-bot.01", ",", "Db-bot.02", ",", "Db-bot.03", ",", "Db-bot.04", ",", "Db-hi-ah.01", ",", "Db-hi-ah.02", ",", "Db-hi-oo.01", ",", "Db-hi-oo.02", ",", "Db-lo-ah.03", ",", "Db-lo-ah.07", ",", "Db-lo-ah.08", ",", "Db-lo-bell.01", ",", "Db-lo-bell.02", ",", "Db-lo-bell.03", ",", "Db-lo-bot.01", ",", "Db-lo-bot.02", ",", "Db-lo-bot.03", ",", "Db-lo-bot.04", ",", "Db-lo-mm.03", ",", "Db-lo-mm.06", ",", "Db-lo-om.01", ",", "Db-lo-om.02", ",", "Db-lo-om.03", ",", "Db-lo-om.06", ",", "Db-lo-om.07", ",", "Eb-ah.01", ",", "Eb-ah.03", ",", "Eb-mm.02", ",", "F-hi-bell.01", ",", "F-hi-bell.02", ",", "F-hi-bell.03", ",", "F-hi-bell.04", ",", "F-hi-oo.01", ",", "F-hi-oo.02", ",", "F-oh.01", ",", "F-oh.02", ",", "F-oh.03", ",", "F-om.01", ",", "F-om.02", ",", "F-om.03", ",", "F-om.04", ",", "F-oo.04", ",", "F-oo.05", ",", "Gb-ah.02", ",", "Gb-ah.04", ",", "Gb-mm.01", ",", "Gb-mm.02", ",", "Gb-om.01", ",", "Gb-om.02", ",", "Gb-om.03", ",", "KVAbDb4", ",", "KVDbF3", ",", "KVEbAb4", ",", "KVEbAb5", ",", "KVGbB4", ",", "KVGbB5", ",", "melo.01", ",", "melo.02", ",", "melo.03", ",", "RSarp1", ",", "RSarp2", ",", "voice3d.01", ",", "voice3d.02", ",", "voice3d.03", ",", "voice3d.05", ",", "voice3d.06", ",", "voice3d.07", ",", "voice3d.08", ",", "voice4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4538,7 +4603,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1679.666626, 19.416656, 50.0, 23.0 ],
+					"patching_rect" : [ 1679.666626, -10.583344, 50.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 900.25, 519.883789, 50.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
@@ -4721,7 +4786,7 @@
 					"patching_rect" : [ 1712.0, 326.0, 66.0, 386.0 ],
 					"size" : 24,
 					"style" : "",
-					"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+					"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
 				}
 
 			}
@@ -4746,7 +4811,7 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-14",
-					"items" : [ "Ab-ah.01", ",", "Ab-ah.02", ",", "Ab-ah.03", ",", "Ab-ah.04", ",", "Ab-ah.06", ",", "Ab-ah.07", ",", "Ab-ah.08", ",", "Ab-ah.09", ",", "Ab-ah.10", ",", "Ab-ah.11", ",", "Ab-mm.01", ",", "Ab-mm.02", ",", "Ab-mm.03", ",", "Ab-mm.04", ",", "Ab-mm.05", ",", "Ab-mm.06", ",", "Ab-mm.07", ",", "Bb-hi-ah.01", ",", "Bb-hi-ah.02", ",", "Bed.01", ",", "Db-ah.01", ",", "Db-ah.02", ",", "Db-ah.03", ",", "Db-ah.04", ",", "Db-ah.05", ",", "Db-ah.06", ",", "Db-ah.07", ",", "Db-ah.09", ",", "Db-ah.10", ",", "Db-hi-ah.01", ",", "Db-hi-ah.02", ",", "Db-hi-mm.01", ",", "Db-hi-mm.02", ",", "Db-hi-oo.01", ",", "Db-hi-oo.02", ",", "Db-lo-ah.01", ",", "Db-lo-ah.02", ",", "Db-lo-ah.03", ",", "Db-lo-ah.04", ",", "Db-lo-ah.05", ",", "Db-lo-ah.06", ",", "Db-lo-ah.07", ",", "Db-lo-ah.08", ",", "Db-lo-mm.01", ",", "Db-lo-mm.02", ",", "Db-lo-mm.03", ",", "Db-lo-mm.04", ",", "Db-lo-mm.05", ",", "Db-lo-mm.06", ",", "Db-lo-mm.07", ",", "Db-lo-mm.08", ",", "Db-lo-mm.09", ",", "Db-lo-om.01", ",", "Db-lo-om.02", ",", "Db-lo-om.03", ",", "Db-lo-om.04", ",", "Db-lo-om.05", ",", "Db-lo-om.06", ",", "Db-lo-om.06_1", ",", "Db-lo-om.07", ",", "Eb-ah.01", ",", "Eb-ah.02", ",", "Eb-mm.01", ",", "Eb-mm.02", ",", "Eb-mm.03", ",", "F-mm.01", ",", "F-mm.02", ",", "F-mm.03", ",", "F-mm.04", ",", "F-mm.05", ",", "F-om.01", ",", "F-om.02", ",", "F-om.03", ",", "F-om.04", ",", "Gb-ah.01", ",", "Gb-ah.02", ",", "Gb-ah.03", ",", "Gb-ah.04", ",", "Gb-ah.05", ",", "Gb-mm.01", ",", "Gb-mm.02", ",", "Gb-mm.03", ",", "Gb-om.01", ",", "Gb-om.02", ",", "Gb-om.03" ],
+					"items" : [ "0silence.01", ",", "1BedLoop.01", ",", "Ab-ah.01", ",", "Ab-ah.02", ",", "Ab-ah.03", ",", "Ab-ah.04", ",", "Ab-ah.07", ",", "Ab-ah.09", ",", "Ab-ah.11", ",", "Ab-aum.04", ",", "Ab-aum.05", ",", "Ab-mm.01", ",", "Ab-mm.02", ",", "Ab-mm.03", ",", "Ab-om.06", ",", "Ab-om.07", ",", "angel1.01", ",", "angel1.02", ",", "angel1.03", ",", "angel1.04", ",", "angel1.05", ",", "angel1.06", ",", "angel1.07", ",", "Bb-hi-ah.01", ",", "Bb-hi-ah.02", ",", "Choir1.01", ",", "Choir1.02", ",", "Choir1.03", ",", "Choir1.04", ",", "Choir1.05", ",", "Choir1.06", ",", "Choir1.07", ",", "Db-ah.01", ",", "Db-ah.02", ",", "Db-ah.03", ",", "Db-ah.05", ",", "Db-ah.06", ",", "Db-ah.10", ",", "Db-bell.02", ",", "Db-bell.03", ",", "Db-bot.01", ",", "Db-bot.02", ",", "Db-bot.03", ",", "Db-bot.04", ",", "Db-hi-ah.01", ",", "Db-hi-ah.02", ",", "Db-hi-oo.01", ",", "Db-hi-oo.02", ",", "Db-lo-ah.03", ",", "Db-lo-ah.07", ",", "Db-lo-ah.08", ",", "Db-lo-bell.01", ",", "Db-lo-bell.02", ",", "Db-lo-bell.03", ",", "Db-lo-bot.01", ",", "Db-lo-bot.02", ",", "Db-lo-bot.03", ",", "Db-lo-bot.04", ",", "Db-lo-mm.03", ",", "Db-lo-mm.06", ",", "Db-lo-om.01", ",", "Db-lo-om.02", ",", "Db-lo-om.03", ",", "Db-lo-om.06", ",", "Db-lo-om.07", ",", "Eb-ah.01", ",", "Eb-ah.03", ",", "Eb-mm.02", ",", "F-hi-bell.01", ",", "F-hi-bell.02", ",", "F-hi-bell.03", ",", "F-hi-bell.04", ",", "F-hi-oo.01", ",", "F-hi-oo.02", ",", "F-oh.01", ",", "F-oh.02", ",", "F-oh.03", ",", "F-om.01", ",", "F-om.02", ",", "F-om.03", ",", "F-om.04", ",", "F-oo.04", ",", "F-oo.05", ",", "Gb-ah.02", ",", "Gb-ah.04", ",", "Gb-mm.01", ",", "Gb-mm.02", ",", "Gb-om.01", ",", "Gb-om.02", ",", "Gb-om.03", ",", "KVAbDb4", ",", "KVDbF3", ",", "KVEbAb4", ",", "KVEbAb5", ",", "KVGbB4", ",", "KVGbB5", ",", "melo.01", ",", "melo.02", ",", "melo.03", ",", "RSarp1", ",", "RSarp2", ",", "voice3d.01", ",", "voice3d.02", ",", "voice3d.03", ",", "voice3d.05", ",", "voice3d.06", ",", "voice3d.07", ",", "voice3d.08", ",", "voice4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4774,7 +4839,7 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-37",
-					"items" : [ "Ab-ah.01", ",", "Ab-ah.02", ",", "Ab-ah.03", ",", "Ab-ah.04", ",", "Ab-ah.06", ",", "Ab-ah.07", ",", "Ab-ah.08", ",", "Ab-ah.09", ",", "Ab-ah.10", ",", "Ab-ah.11", ",", "Ab-mm.01", ",", "Ab-mm.02", ",", "Ab-mm.03", ",", "Ab-mm.04", ",", "Ab-mm.05", ",", "Ab-mm.06", ",", "Ab-mm.07", ",", "Bb-hi-ah.01", ",", "Bb-hi-ah.02", ",", "Bed.01", ",", "Db-ah.01", ",", "Db-ah.02", ",", "Db-ah.03", ",", "Db-ah.04", ",", "Db-ah.05", ",", "Db-ah.06", ",", "Db-ah.07", ",", "Db-ah.09", ",", "Db-ah.10", ",", "Db-hi-ah.01", ",", "Db-hi-ah.02", ",", "Db-hi-mm.01", ",", "Db-hi-mm.02", ",", "Db-hi-oo.01", ",", "Db-hi-oo.02", ",", "Db-lo-ah.01", ",", "Db-lo-ah.02", ",", "Db-lo-ah.03", ",", "Db-lo-ah.04", ",", "Db-lo-ah.05", ",", "Db-lo-ah.06", ",", "Db-lo-ah.07", ",", "Db-lo-ah.08", ",", "Db-lo-mm.01", ",", "Db-lo-mm.02", ",", "Db-lo-mm.03", ",", "Db-lo-mm.04", ",", "Db-lo-mm.05", ",", "Db-lo-mm.06", ",", "Db-lo-mm.07", ",", "Db-lo-mm.08", ",", "Db-lo-mm.09", ",", "Db-lo-om.01", ",", "Db-lo-om.02", ",", "Db-lo-om.03", ",", "Db-lo-om.04", ",", "Db-lo-om.05", ",", "Db-lo-om.06", ",", "Db-lo-om.06_1", ",", "Db-lo-om.07", ",", "Eb-ah.01", ",", "Eb-ah.02", ",", "Eb-mm.01", ",", "Eb-mm.02", ",", "Eb-mm.03", ",", "F-mm.01", ",", "F-mm.02", ",", "F-mm.03", ",", "F-mm.04", ",", "F-mm.05", ",", "F-om.01", ",", "F-om.02", ",", "F-om.03", ",", "F-om.04", ",", "Gb-ah.01", ",", "Gb-ah.02", ",", "Gb-ah.03", ",", "Gb-ah.04", ",", "Gb-ah.05", ",", "Gb-mm.01", ",", "Gb-mm.02", ",", "Gb-mm.03", ",", "Gb-om.01", ",", "Gb-om.02", ",", "Gb-om.03" ],
+					"items" : [ "0silence.01", ",", "1BedLoop.01", ",", "Ab-ah.01", ",", "Ab-ah.02", ",", "Ab-ah.03", ",", "Ab-ah.04", ",", "Ab-ah.07", ",", "Ab-ah.09", ",", "Ab-ah.11", ",", "Ab-aum.04", ",", "Ab-aum.05", ",", "Ab-mm.01", ",", "Ab-mm.02", ",", "Ab-mm.03", ",", "Ab-om.06", ",", "Ab-om.07", ",", "angel1.01", ",", "angel1.02", ",", "angel1.03", ",", "angel1.04", ",", "angel1.05", ",", "angel1.06", ",", "angel1.07", ",", "Bb-hi-ah.01", ",", "Bb-hi-ah.02", ",", "Choir1.01", ",", "Choir1.02", ",", "Choir1.03", ",", "Choir1.04", ",", "Choir1.05", ",", "Choir1.06", ",", "Choir1.07", ",", "Db-ah.01", ",", "Db-ah.02", ",", "Db-ah.03", ",", "Db-ah.05", ",", "Db-ah.06", ",", "Db-ah.10", ",", "Db-bell.02", ",", "Db-bell.03", ",", "Db-bot.01", ",", "Db-bot.02", ",", "Db-bot.03", ",", "Db-bot.04", ",", "Db-hi-ah.01", ",", "Db-hi-ah.02", ",", "Db-hi-oo.01", ",", "Db-hi-oo.02", ",", "Db-lo-ah.03", ",", "Db-lo-ah.07", ",", "Db-lo-ah.08", ",", "Db-lo-bell.01", ",", "Db-lo-bell.02", ",", "Db-lo-bell.03", ",", "Db-lo-bot.01", ",", "Db-lo-bot.02", ",", "Db-lo-bot.03", ",", "Db-lo-bot.04", ",", "Db-lo-mm.03", ",", "Db-lo-mm.06", ",", "Db-lo-om.01", ",", "Db-lo-om.02", ",", "Db-lo-om.03", ",", "Db-lo-om.06", ",", "Db-lo-om.07", ",", "Eb-ah.01", ",", "Eb-ah.03", ",", "Eb-mm.02", ",", "F-hi-bell.01", ",", "F-hi-bell.02", ",", "F-hi-bell.03", ",", "F-hi-bell.04", ",", "F-hi-oo.01", ",", "F-hi-oo.02", ",", "F-oh.01", ",", "F-oh.02", ",", "F-oh.03", ",", "F-om.01", ",", "F-om.02", ",", "F-om.03", ",", "F-om.04", ",", "F-oo.04", ",", "F-oo.05", ",", "Gb-ah.02", ",", "Gb-ah.04", ",", "Gb-mm.01", ",", "Gb-mm.02", ",", "Gb-om.01", ",", "Gb-om.02", ",", "Gb-om.03", ",", "KVAbDb4", ",", "KVDbF3", ",", "KVEbAb4", ",", "KVEbAb5", ",", "KVGbB4", ",", "KVGbB5", ",", "melo.01", ",", "melo.02", ",", "melo.03", ",", "RSarp1", ",", "RSarp2", ",", "voice3d.01", ",", "voice3d.02", ",", "voice3d.03", ",", "voice3d.05", ",", "voice3d.06", ",", "voice3d.07", ",", "voice3d.08", ",", "voice4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5698,7 +5763,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 2013.673584, -197.75, 100.0, 40.0 ],
+					"patching_rect" : [ 1998.673584, -197.75, 100.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1069.0, 306.733551, 56.0, 390.0 ],
 					"preset_data" : [ 						{
@@ -8450,7 +8515,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
-					"midpoints" : [ 704.500061, 81.0, 734.250061, 81.0, 734.250061, -220.500005, 2023.173584, -220.500005 ],
+					"midpoints" : [ 704.500061, 81.0, 734.250061, 81.0, 734.250061, -220.500005, 2008.173584, -220.500005 ],
 					"source" : [ "obj-217", 0 ]
 				}
 
@@ -9411,6 +9476,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-373", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-375", 0 ],
 					"source" : [ "obj-374", 0 ]
 				}
@@ -9525,6 +9597,41 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-391", 0 ],
+					"source" : [ "obj-390", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-392", 0 ],
+					"source" : [ "obj-391", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-392", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-399", 0 ],
+					"source" : [ "obj-392", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-399", 0 ]
 				}
 
 			}
@@ -9795,123 +9902,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-381" : [ "toggle[5]", "toggle[1]", 0 ],
-			"obj-51" : [ "dial[2]", "dial[2]", 0 ],
-			"obj-8" : [ "dial[1]", "dial[1]", 0 ],
-			"obj-280" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-379" : [ "toggle[4]", "toggle[1]", 0 ],
-			"obj-156" : [ "umenu[7]", "umenu[7]", 0 ],
-			"obj-375" : [ "toggle[3]", "toggle[1]", 0 ],
-			"obj-107" : [ "dial[8]", "dial[8]", 0 ],
-			"obj-289" : [ "live.toggle[26]", "live.toggle", 0 ],
-			"obj-273" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-368" : [ "toggle[2]", "toggle[1]", 0 ],
-			"obj-84" : [ "dial", "dial", 0 ],
-			"obj-32" : [ "number[1]", "number[1]", 0 ],
-			"obj-191" : [ "dial[15]", "dial[15]", 0 ],
-			"obj-134" : [ "dial[10]", "dial[10]", 0 ],
-			"obj-286" : [ "live.toggle[23]", "live.toggle", 0 ],
-			"obj-132" : [ "dial[12]", "dial[12]", 0 ],
-			"obj-294" : [ "live.toggle[31]", "live.toggle", 0 ],
-			"obj-285" : [ "live.toggle[22]", "live.toggle", 0 ],
-			"obj-133" : [ "dial[11]", "dial[11]", 0 ],
-			"obj-282" : [ "live.toggle[19]", "live.toggle", 0 ],
-			"obj-52" : [ "rslider[1]", "rslider[1]", 0 ],
-			"obj-281" : [ "live.toggle[18]", "live.toggle", 0 ],
-			"obj-39" : [ "number[2]", "number[2]", 0 ],
-			"obj-291" : [ "live.toggle[28]", "live.toggle", 0 ],
-			"obj-277" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-287" : [ "live.toggle[24]", "live.toggle", 0 ],
-			"obj-283" : [ "live.toggle[20]", "live.toggle", 0 ],
-			"obj-279" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-1" : [ "rslider", "rslider", 0 ],
-			"obj-278" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-189" : [ "dial[14]", "dial[14]", 0 ],
-			"obj-145" : [ "rslider[3]", "rslider[3]", 0 ],
-			"obj-297" : [ "live.toggle[34]", "live.toggle", 0 ],
-			"obj-296" : [ "live.toggle[33]", "live.toggle", 0 ],
-			"obj-155" : [ "rslider[6]", "rslider[6]", 0 ],
-			"obj-37" : [ "umenu[4]", "umenu[4]", 0 ],
-			"obj-293" : [ "live.toggle[30]", "live.toggle", 0 ],
-			"obj-126" : [ "rslider[11]", "rslider[2]", 0 ],
-			"obj-389" : [ "toggle[9]", "toggle[1]", 0 ],
-			"obj-292" : [ "live.toggle[29]", "live.toggle", 0 ],
-			"obj-64" : [ "multislider", "multislider", 0 ],
-			"obj-115" : [ "rslider[10]", "rslider[2]", 0 ],
-			"obj-288" : [ "live.toggle[25]", "live.toggle", 0 ],
-			"obj-219" : [ "rslider[4]", "rslider[4]", 0 ],
-			"obj-15" : [ "toggle", "toggle", 0 ],
-			"obj-157" : [ "multislider[2]", "multislider", 0 ],
-			"obj-33" : [ "number", "number", 0 ],
-			"obj-151" : [ "rslider[7]", "rslider[7]", 0 ],
-			"obj-298" : [ "live.toggle[35]", "live.toggle", 0 ],
-			"obj-272" : [ "live.toggle[12]", "1", 0 ],
-			"obj-6" : [ "umenu[6]", "umenu[6]", 0 ],
-			"obj-366" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-108" : [ "rslider[2]", "rslider[2]", 0 ],
-			"obj-158" : [ "dial[9]", "dial[9]", 0 ],
-			"obj-4" : [ "dial[5]", "dial[5]", 0 ],
-			"obj-284" : [ "live.toggle[21]", "live.toggle", 0 ],
-			"obj-18" : [ "dial[6]", "dial[6]", 0 ],
-			"obj-14" : [ "umenu[5]", "umenu[5]", 0 ],
-			"obj-295" : [ "live.toggle[32]", "live.toggle", 0 ],
-			"obj-290" : [ "live.toggle[27]", "live.toggle", 0 ],
-			"obj-106" : [ "dial[7]", "dial[7]", 0 ],
-			"obj-223" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-138" : [ "umenu[9]", "umenu[9]", 0 ],
-			"obj-218" : [ "rslider[5]", "rslider[5]", 0 ],
-			"obj-92" : [ "number[3]", "number[3]", 0 ],
-			"obj-131" : [ "dial[13]", "dial[13]", 0 ],
-			"obj-387" : [ "toggle[8]", "toggle[1]", 0 ],
-			"obj-141" : [ "rslider[8]", "rslider[8]", 0 ],
-			"obj-102" : [ "dial[4]", "dial[4]", 0 ],
-			"obj-43" : [ "rslider[9]", "rslider[2]", 0 ],
-			"obj-385" : [ "toggle[7]", "toggle[1]", 0 ],
-			"obj-28" : [ "multislider[1]", "multislider", 0 ],
-			"obj-383" : [ "toggle[6]", "toggle[1]", 0 ],
-			"obj-101" : [ "dial[3]", "dial[3]", 0 ],
-			"obj-23" : [ "umenu", "umenu", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "expSlide3.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pasCurveWarp.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stateEncoder.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polarityButton.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bitmatch.maxpat",
-				"bootpath" : "~/Dropbox/GroupFlow/groupflow_software/contributors/alexStahl",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
