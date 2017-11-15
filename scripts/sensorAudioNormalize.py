@@ -16,14 +16,23 @@ def atodb(amp):
         return -200
     return 20 * log(amp, 10)
 
+
+
 # inputs and settings
 
 inputFile = sys.argv[1]
 outputFile = '02-nrm.wav'
 outputInfo = 'normInfo.txt'
 ignoreFirstSeconds = 0.1
-truncateEndSeconds = 0.0
-minimumGainDb = -70
+truncateToLength = 630
+minimumGainDb = -60
+ignoreWindows = [[108, 113], [600, 630]]
+
+def inIgnoreWindows(time):
+    for window in ignoreWindows:
+        if(time >= window[0] and time <= window[1]):
+            return True
+    return False
 
 data,sampleRate = sf.read(inputFile)
 print data.shape[0]
@@ -45,7 +54,7 @@ maxValueTimes = [0.0]*trackCount
 
 for frameIndex,frame in enumerate(data):
     frameTime = frameIndex / float(sampleRate)
-    if(frameTime < ignoreFirstSeconds):
+    if(frameTime < ignoreFirstSeconds or frameTime > truncateToLength or inIgnoreWindows(frameTime)):
         continue
     for trackIndex in xrange(0,trackCount):
         trackValue = frame[trackIndex]
@@ -74,6 +83,9 @@ for trackIndex in xrange(0,trackCount):
 outputFrame = [0.0]*trackCount
 outputData = []
 for frameIndex,frame in enumerate(data):
+    frameTime = frameIndex / float(sampleRate)
+    if(frameTime > truncateToLength):
+        break
     for trackIndex in xrange(0,trackCount):
         outputValue = 0.0
         if(trackDbRanges[trackIndex] > minimumGainDb):
@@ -81,9 +93,9 @@ for frameIndex,frame in enumerate(data):
         frame[trackIndex] = outputValue
 
 # truncate data to required length
-if(truncateEndSeconds != 0.0):
-    truncatedFrameCount = int(floor(sampleRate*truncateEndSeconds))
-    print 'truncating to {0} seconds, {1} sample frames'.format(truncateEndSeconds, truncatedFrameCount)
+if(truncateToLength != 0.0):
+    truncatedFrameCount = int(floor(sampleRate*truncateToLength))
+    print 'truncating to {0} seconds, {1} sample frames'.format(truncateToLength, truncatedFrameCount)
     data = data[0:truncatedFrameCount]
 
 sf.write(outputFile, data, sampleRate)
