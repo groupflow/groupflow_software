@@ -221,7 +221,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 101.0, 300.0, 177.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ voiceSampleNumbers 24"
+					"text" : "poly~ voiceSampleNumbers 26"
 				}
 
 			}
