@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 537.0, 528.0, 425.0, 763.0 ],
+		"rect" : [ 134.0, 79.0, 425.0, 763.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 95.0, 134.0, 769.0, 732.0 ],
+						"rect" : [ 859.0, 79.0, 769.0, 732.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -79,6 +79,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgmode" : 0,
@@ -252,7 +253,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 440.0, 82.0, 1245.0, 782.0 ],
+						"rect" : [ 596.0, 79.0, 1245.0, 782.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -279,7 +280,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-46",
@@ -354,7 +354,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 285.0, 292.0, 33.0, 22.0 ],
-									"presentation_rect" : [ 285.0, 290.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "sig~"
 								}
@@ -367,7 +366,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 300.0, 49.0, 49.0, 20.0 ],
-									"presentation_rect" : [ 300.0, 50.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "3 (180)"
 								}
@@ -380,7 +378,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 300.0, 141.0, 49.0, 20.0 ],
-									"presentation_rect" : [ 301.0, 141.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "2 (120)"
 								}
@@ -759,7 +756,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 61.0, 607.0, 50.0, 22.0 ],
+					"patching_rect" : [ 55.0, 608.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1049,7 +1046,7 @@
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 204.0, 147.0, 119.0, 22.0 ],
