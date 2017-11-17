@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 8.0, 79.0, 634.0, 770.0 ],
+		"rect" : [ 34.0, 79.0, 634.0, 770.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 109.0, 433.0, 117.0, 22.0 ],
+					"style" : "",
+					"text" : "audioFaderFunction"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "number",
@@ -71,7 +84,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 253.0, 78.0, 22.0 ],
 					"style" : "",
-					"text" : "0 4 7 11"
+					"text" : "36"
 				}
 
 			}
@@ -173,10 +186,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.0, 641.0, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -509,10 +518,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 364.0, 70.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in~ 3"
 				}
@@ -526,10 +531,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 212.0, 70.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -543,10 +544,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 67.0, 70.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -555,7 +552,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -677,6 +674,13 @@
 					"destination" : [ "obj-46", 0 ],
 					"order" : 1,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -830,7 +834,51 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "listNth.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "biquadFilter.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "biquadFilterPV.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meci-biquadgen.gendsp",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/meci",
+				"patcherrelativepath" : "../lib/meci",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "*line~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "audioFaderFunction.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../ian-new",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

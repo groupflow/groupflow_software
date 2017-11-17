@@ -508,7 +508,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.25, 496.0, 37.0, 22.0 ],
+					"patching_rect" : [ 159.25, 14.0, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -521,7 +521,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 201.0, 22.0, 37.0, 22.0 ],
+					"patching_rect" : [ 99.0, 14.0, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -561,7 +561,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 162.0, 52.0, 24.0, 24.0 ],
+					"patching_rect" : [ 217.0, 8.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -579,7 +579,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 80471.080195, "ticks" ],
+						"originallength" : [ 973844.962882, "ticks" ],
 						"originaltempo" : 120.000008,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1075,7 +1075,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "convertSensorRecVoice.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/tools",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1083,14 +1083,14 @@
 , 			{
 				"name" : "sensor-demod.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "butterworthFilter.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}

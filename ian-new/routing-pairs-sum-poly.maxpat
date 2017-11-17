@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 22.5, 398.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "pass~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.5, 379.0, 29.5, 22.0 ],
+					"patching_rect" : [ 22.5, 359.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+~"
 				}
@@ -57,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 417.0, 307.0, 80.0, 13.0 ],
-					"presentation_rect" : [ 417.0, 308.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -72,7 +84,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 310.5, 267.0, 99.0, 22.0 ],
-					"presentation_rect" : [ 310.5, 268.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "receive~ dummy"
 				}
@@ -88,9 +99,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 410.5, 261.5, 156.0, 22.0 ],
-					"presentation_rect" : [ 410.5, 262.5, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "set -1_channelOut"
+					"text" : "set 1_channelOut"
 				}
 
 			}
@@ -104,7 +114,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 310.5, 230.0, 195.0, 22.0 ],
-					"presentation_rect" : [ 310.5, 231.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "format.nameNumber channelOut 1"
 				}
@@ -195,7 +204,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.5, 481.0, 86.0, 22.0 ],
+					"patching_rect" : [ 22.5, 505.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "send~ dummy"
 				}
@@ -212,7 +221,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 124.5, 475.5, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "set 0_outputRaw"
+					"text" : "set 1_outputRaw"
 				}
 
 			}
@@ -272,7 +281,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 261.5, 156.0, 22.0 ],
 					"style" : "",
-					"text" : "set -1_channelOut"
+					"text" : "set 2_channelOut"
 				}
 
 			}
@@ -450,8 +459,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -499,16 +515,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "format.nameNumber.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
-				"patcherrelativepath" : "../lib/ian-spectral",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

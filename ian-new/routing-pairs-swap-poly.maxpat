@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 36.5, 391.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "pass~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
@@ -121,7 +134,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.5, 378.0, 86.0, 22.0 ],
+					"patching_rect" : [ 22.5, 425.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "send~ dummy"
 				}
@@ -138,7 +151,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 372.5, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "set 0_outputRaw"
+					"text" : "set 1_outputRaw"
 				}
 
 			}
@@ -198,7 +211,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.5, 261.5, 156.0, 22.0 ],
 					"style" : "",
-					"text" : "set -1_channelOut"
+					"text" : "set 2_channelOut"
 				}
 
 			}
@@ -266,6 +279,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -304,7 +324,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
@@ -378,16 +398,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "format.nameNumber.maxpat",
-				"bootpath" : "~/Documents/GitHub/groupflow_software/lib/ian-spectral",
-				"patcherrelativepath" : "../lib/ian-spectral",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

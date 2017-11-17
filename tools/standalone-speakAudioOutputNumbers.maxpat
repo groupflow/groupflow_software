@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 817.0, 154.0, 589.0, 454.0 ],
+		"rect" : [ 817.0, 420.0, 589.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,60 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-14",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 254.0, 169.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 346.0, 209.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Sine waves"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 305.0, 207.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 309.0, 260.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "target 0, $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -163,16 +217,30 @@
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 101.0, 300.0, 177.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ voiceSampleNumbers 26"
+					"text" : "poly~ voiceSampleNumbers 24"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 2 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"source" : [ "obj-2", 0 ]
@@ -209,7 +277,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -226,6 +303,13 @@
 				"name" : "voiceSampleNumbers.maxpat",
 				"bootpath" : "~/Documents/GitHub/groupflow_software/tests/testAudioOutputsVocals",
 				"patcherrelativepath" : "../tests/testAudioOutputsVocals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "selectorBinary~.maxpat",
+				"bootpath" : "~/Documents/GitHub/groupflow_software/ian-new",
+				"patcherrelativepath" : "../ian-new",
 				"type" : "JSON",
 				"implicit" : 1
 			}
