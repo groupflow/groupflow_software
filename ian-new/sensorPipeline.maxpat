@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 172.0, 79.0, 1234.0, 781.0 ],
+		"rect" : [ 48.0, 79.0, 1335.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -176,7 +176,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 61.0, 138.0, 99.0, 22.0 ],
 									"style" : "",
 									"text" : "sensorHeartbeat"
@@ -571,13 +571,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.0, 688.309998, 125.0, 22.0 ],
+					"patching_rect" : [ 838.0, 688.309998, 107.0, 35.0 ],
 					"style" : "",
-					"text" : "71.106576 80.460676"
+					"text" : "-0.995744 0.999997"
 				}
 
 			}
@@ -586,7 +587,6 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"ft1" : 5.0,
 					"id" : "obj-4",
 					"maxclass" : "number~",
 					"mode" : 2,
@@ -2532,11 +2532,11 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 887.0, 109.0, 355.0, 35.0 ],
+					"numoutlets" : 10,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "FullPacket" ],
+					"patching_rect" : [ 886.0, 109.0, 310.0, 35.0 ],
 					"style" : "",
-					"text" : "o.route /dcBlockOn /dcBlockFreq /normalize /invert /envFollower /envRise /envFall /envGain"
+					"text" : "o.route /dcBlockOn /dcBlockFreq /normalize /invert /envFollower /envRise /envFall /envGain /normalizeTime"
 				}
 
 			}
@@ -5231,6 +5231,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-6", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-6", 8 ]
 				}
 
 			}
