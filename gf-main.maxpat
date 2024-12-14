@@ -772,7 +772,7 @@
 
 							}
  ],
-						"originid" : "pat-40951"
+						"originid" : "pat-9132"
 					}
 ,
 					"patching_rect" : [ 826.0, 467.981688999999903, 108.0, 22.0 ],
@@ -957,7 +957,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 215.0, 502.0, 318.0, 22.0 ],
-									"text" : "-0.4 0. 1.4 -0.4 0. 1.4"
+									"text" : "0.032904 0. 0.967096 0.195097 0. 0.804903"
 								}
 
 							}
@@ -1397,7 +1397,7 @@
 
 							}
  ],
-						"originid" : "pat-40955"
+						"originid" : "pat-9136"
 					}
 ,
 					"patching_rect" : [ 888.99993900000004, 389.98168899999996, 111.0, 22.0 ],
@@ -1748,7 +1748,7 @@
 
 							}
  ],
-						"originid" : "pat-40969"
+						"originid" : "pat-9150"
 					}
 ,
 					"patching_rect" : [ 305.00003049999998, 233.513732000000005, 100.0, 22.0 ],
@@ -2489,7 +2489,7 @@
 
 															}
  ],
-														"originid" : "pat-41155"
+														"originid" : "pat-9338"
 													}
 ,
 													"patching_rect" : [ 205.0, 174.0, 86.0, 22.0 ],
@@ -3674,7 +3674,7 @@
 
 											}
  ],
-										"originid" : "pat-41153"
+										"originid" : "pat-9336"
 									}
 ,
 									"patching_rect" : [ 517.506836000000021, 34.05883743749996, 132.0, 22.0 ],
@@ -4231,7 +4231,7 @@
 
 															}
  ],
-														"originid" : "pat-41501"
+														"originid" : "pat-9684"
 													}
 ,
 													"patching_rect" : [ 73.0, 282.0, 55.0, 22.0 ],
@@ -4473,7 +4473,7 @@
 
 															}
  ],
-														"originid" : "pat-41503"
+														"originid" : "pat-9686"
 													}
 ,
 													"patching_rect" : [ 73.0, 596.0, 55.0, 22.0 ],
@@ -4802,7 +4802,7 @@
 
 											}
  ],
-										"originid" : "pat-41499"
+										"originid" : "pat-9682"
 									}
 ,
 									"patching_rect" : [ 370.0, 234.0, 105.0, 22.0 ],
@@ -6623,7 +6623,7 @@
 
 											}
  ],
-										"originid" : "pat-41509"
+										"originid" : "pat-9692"
 									}
 ,
 									"patching_rect" : [ -286.0, 733.0, 164.0, 22.0 ],
@@ -7531,7 +7531,7 @@
 
 															}
  ],
-														"originid" : "pat-41567"
+														"originid" : "pat-9750"
 													}
 ,
 													"patching_rect" : [ 252.875031000000007, 247.490844999999979, 86.0, 22.0 ],
@@ -7968,7 +7968,7 @@
 
 															}
  ],
-														"originid" : "pat-41569"
+														"originid" : "pat-9752"
 													}
 ,
 													"patching_rect" : [ 252.875031000000007, 116.490844999999993, 81.0, 22.0 ],
@@ -8697,7 +8697,7 @@
 
 															}
  ],
-														"originid" : "pat-41571"
+														"originid" : "pat-9754"
 													}
 ,
 													"patching_rect" : [ 53.0, 208.990845000000007, 91.0, 22.0 ],
@@ -9019,7 +9019,7 @@
 
 															}
  ],
-														"originid" : "pat-41573"
+														"originid" : "pat-9756"
 													}
 ,
 													"patching_rect" : [ 50.0, 124.990844999999993, 113.0, 22.0 ],
@@ -9118,7 +9118,7 @@
 
 											}
  ],
-										"originid" : "pat-41565"
+										"originid" : "pat-9748"
 									}
 ,
 									"patching_rect" : [ 21.0, 253.0, 125.0, 22.0 ],
@@ -10267,7 +10267,7 @@
 
 											}
  ],
-										"originid" : "pat-41575"
+										"originid" : "pat-9758"
 									}
 ,
 									"patching_rect" : [ 372.25, 186.0, 85.0, 22.0 ],
@@ -11462,7 +11462,7 @@
 
 											}
  ],
-										"originid" : "pat-41577"
+										"originid" : "pat-9760"
 									}
 ,
 									"patching_rect" : [ 33.5, 90.481689000000003, 97.0, 22.0 ],
@@ -12588,7 +12588,7 @@
 
 											}
  ],
-										"originid" : "pat-41613"
+										"originid" : "pat-9796"
 									}
 ,
 									"patching_rect" : [ 33.5, 64.481689000000003, 98.0, 22.0 ],
@@ -12827,7 +12827,7 @@
 
 											}
  ],
-										"originid" : "pat-41619"
+										"originid" : "pat-9802"
 									}
 ,
 									"patching_rect" : [ 246.0, 369.0, 131.0, 22.0 ],
@@ -13106,7 +13106,7 @@
 
 											}
  ],
-										"originid" : "pat-41629"
+										"originid" : "pat-9812"
 									}
 ,
 									"patching_rect" : [ 246.0, 327.0, 132.0, 22.0 ],
@@ -13560,7 +13560,7 @@
 
 											}
  ],
-										"originid" : "pat-41735"
+										"originid" : "pat-9918"
 									}
 ,
 									"patching_rect" : [ 370.0, 72.0, 97.0, 22.0 ],
@@ -14523,7 +14523,7 @@
 
 											}
  ],
-										"originid" : "pat-41769"
+										"originid" : "pat-9952"
 									}
 ,
 									"patching_rect" : [ 199.0, 216.509154999999993, 99.0, 22.0 ],
@@ -15168,7 +15168,7 @@
 
 											}
  ],
-										"originid" : "pat-41783"
+										"originid" : "pat-9966"
 									}
 ,
 									"patching_rect" : [ 199.0, 101.0, 112.0, 22.0 ],
@@ -16641,7 +16641,7 @@
 
 											}
  ],
-										"originid" : "pat-41933"
+										"originid" : "pat-10116"
 									}
 ,
 									"patching_rect" : [ 199.0, 72.0, 131.0, 22.0 ],
@@ -17568,7 +17568,7 @@
 
 																			}
  ],
-																		"originid" : "pat-42185"
+																		"originid" : "pat-10368"
 																	}
 ,
 																	"patching_rect" : [ 330.0, 260.5, 126.0, 22.0 ],
@@ -17987,7 +17987,7 @@
 
 															}
  ],
-														"originid" : "pat-42183"
+														"originid" : "pat-10366"
 													}
 ,
 													"patching_rect" : [ 35.0, 139.5, 93.0, 22.0 ],
@@ -18295,7 +18295,7 @@
 
 											}
  ],
-										"originid" : "pat-42181"
+										"originid" : "pat-10364"
 									}
 ,
 									"patching_rect" : [ 199.0, 186.0, 87.0, 22.0 ],
@@ -20013,7 +20013,7 @@
 
 															}
  ],
-														"originid" : "pat-42193"
+														"originid" : "pat-10376"
 													}
 ,
 													"patching_rect" : [ 994.0, 340.0, 100.0, 22.0 ],
@@ -21699,7 +21699,7 @@
 
 											}
  ],
-										"originid" : "pat-42187"
+										"originid" : "pat-10370"
 									}
 ,
 									"patching_rect" : [ 199.0, 42.0, 117.0, 22.0 ],
@@ -21846,7 +21846,7 @@
 
 							}
  ],
-						"originid" : "pat-41151"
+						"originid" : "pat-9334"
 					}
 ,
 					"patching_rect" : [ 305.00003049999998, 385.513732000000061, 112.0, 22.0 ],
@@ -21953,7 +21953,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 248.493163999999979, 636.0, 50.0, 22.0 ],
-					"text" : "24 67"
+					"text" : "24"
 				}
 
 			}
@@ -22807,7 +22807,7 @@
 
 							}
  ],
-						"originid" : "pat-43013"
+						"originid" : "pat-11196"
 					}
 ,
 					"patching_rect" : [ 524.25003049999998, 26.0, 65.0, 22.0 ],
@@ -23275,7 +23275,7 @@
 
 							}
  ],
-						"originid" : "pat-43123"
+						"originid" : "pat-11306"
 					}
 ,
 					"patching_rect" : [ 659.374999999999886, 642.0, 101.0, 22.0 ],
@@ -23382,7 +23382,7 @@
 
 							}
  ],
-						"originid" : "pat-43135"
+						"originid" : "pat-11318"
 					}
 ,
 					"patching_rect" : [ 933.5, 247.98168899999996, 101.0, 22.0 ],
@@ -27117,7 +27117,7 @@
 
 							}
  ],
-						"originid" : "pat-43137"
+						"originid" : "pat-11320"
 					}
 ,
 					"patching_rect" : [ 523.875, 191.009154999999993, 82.0, 22.0 ],
@@ -27242,7 +27242,7 @@
 
 							}
  ],
-						"originid" : "pat-43155"
+						"originid" : "pat-11338"
 					}
 ,
 					"patching_rect" : [ 935.0, 281.981689000000017, 102.0, 22.0 ],
@@ -27440,7 +27440,7 @@
 
 							}
  ],
-						"originid" : "pat-43157"
+						"originid" : "pat-11340"
 					}
 ,
 					"patching_rect" : [ 689.999999999999886, 26.0, 57.0, 22.0 ],
@@ -27908,7 +27908,7 @@
 
 							}
  ],
-						"originid" : "pat-43159"
+						"originid" : "pat-11342"
 					}
 ,
 					"patching_rect" : [ 845.375031000000035, 605.442778999999973, 125.0, 22.0 ],
@@ -28105,7 +28105,7 @@
 
 							}
  ],
-						"originid" : "pat-43165"
+						"originid" : "pat-11348"
 					}
 ,
 					"patching_rect" : [ 845.375031000000035, 568.98168899999996, 133.0, 22.0 ],
@@ -28207,9 +28207,10 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 692.0, 137.0, 714.0, 694.0 ],
+						"rect" : [ 552.0, 139.0, 714.0, 694.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgmode" : 0,
@@ -28829,7 +28830,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-43181"
+						"originid" : "pat-11364"
 					}
 ,
 					"patching_rect" : [ 805.25, 154.509154999999993, 143.0, 22.0 ],
@@ -29598,7 +29599,7 @@
 
 							}
  ],
-						"originid" : "pat-43233"
+						"originid" : "pat-11416"
 					}
 ,
 					"patching_rect" : [ 826.0, 533.98168899999996, 78.0, 22.0 ],
@@ -29739,10 +29740,10 @@
 
 							}
  ],
-						"originid" : "pat-43235"
+						"originid" : "pat-11418"
 					}
 ,
-					"patching_rect" : [ 201.0, 32.0, 96.0, 22.0 ],
+					"patching_rect" : [ 201.0, 41.0, 96.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -31060,7 +31061,7 @@
 
 							}
  ],
-						"originid" : "pat-43237"
+						"originid" : "pat-11420"
 					}
 ,
 					"patching_rect" : [ 523.875, 126.0, 135.0, 22.0 ],
@@ -32785,7 +32786,7 @@
 
 							}
  ],
-						"originid" : "pat-43239"
+						"originid" : "pat-11422"
 					}
 ,
 					"patching_rect" : [ 32.375031, 182.504576999999983, 98.0, 22.0 ],
@@ -34419,7 +34420,7 @@
 
 											}
  ],
-										"originid" : "pat-43247"
+										"originid" : "pat-11430"
 									}
 ,
 									"patching_rect" : [ 395.5, 629.333312999999976, 91.0, 22.0 ],
@@ -35169,7 +35170,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-104",
-									"items" : "<empty>",
+									"items" : [ "norm0WindowMinMax", ",", "norm0WinMinMaxScaled", ",", "norm1MeanAndRms", ",", "norm3None", ",", "norm3pas", ",", "norm4pas" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -35706,7 +35707,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-94",
-									"items" : "None",
+									"items" : [ "None", ",", "loopAudioSmooth", ",", "synthBreathwave", ",", "synthBreathwavePas", ",", "synthBreathwavePas2", ",", "synthChordTones", ",", "synthChordTonesBlips", ",", "synthCricketHeart", ",", "synthDownslopePad", ",", "synthDownslopePadWithHeartbeat", ",", "synthFreqModSine", ",", "synthFreqModSquare", ",", "synthHeartbeat copy", ",", "synthHeartbeat", ",", "synthHeartbeatBpm2Pitch", ",", "synthHeartbeatSample", ",", "synthHeartbeatSine", ",", "synthLoopAmpMod", ",", "synthLoopsAlternating", ",", "synthPas2", ",", "synthPas2reverb", ",", "synthPas3", ",", "synthPas4", ",", "synthPas5", ",", "synthRichToneReverb", ",", "synthSilence", ",", "synthSine", ",", "synthSpeakChNumber", ",", "ZsynthHeartbeatdual" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -36965,7 +36966,7 @@
 
 							}
  ],
-						"originid" : "pat-43241",
+						"originid" : "pat-11424",
 						"default_bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
 						"bgcolor" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 						"editing_bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ]
@@ -38091,7 +38092,7 @@
 
 							}
  ],
-						"originid" : "pat-43325",
+						"originid" : "pat-11508",
 						"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
 					}
 ,
@@ -38126,10 +38127,35 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 257.0, 107.0, 622.0, 502.0 ],
+						"rect" : [ 1325.0, 108.0, 622.0, 502.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 210.0, 127.0, 50.0, 22.0 ],
+									"text" : "54 0 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 147.0, 128.0, 55.0, 22.0 ],
+									"text" : "zl slice 3"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgmode" : 0,
 									"border" : 0,
@@ -38145,7 +38171,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 282.0, 344.5, 50.0, 50.0 ],
+									"patching_rect" : [ 282.0, 361.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 291.0, 219.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38168,7 +38194,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 226.0, 344.5, 50.0, 50.0 ],
+									"patching_rect" : [ 226.0, 361.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 235.399999999999977, 219.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38191,7 +38217,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 175.0, 344.5, 50.0, 50.0 ],
+									"patching_rect" : [ 175.0, 361.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 179.799999999999983, 219.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38214,7 +38240,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 118.0, 344.5, 50.0, 50.0 ],
+									"patching_rect" : [ 118.0, 361.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 124.199999999999989, 219.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38237,7 +38263,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 344.5, 50.0, 50.0 ],
+									"patching_rect" : [ 62.0, 361.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 68.599999999999994, 219.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38260,7 +38286,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 344.5, 50.0, 50.0 ],
+									"patching_rect" : [ 6.0, 361.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 13.0, 219.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38283,7 +38309,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 282.0, 292.5, 50.0, 50.0 ],
+									"patching_rect" : [ 282.0, 303.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 291.0, 167.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38306,7 +38332,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 226.0, 292.5, 50.0, 50.0 ],
+									"patching_rect" : [ 226.0, 303.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 235.399999999999977, 167.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38329,7 +38355,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 175.0, 292.5, 50.0, 50.0 ],
+									"patching_rect" : [ 175.0, 303.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 179.799999999999983, 167.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38352,7 +38378,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 118.0, 292.5, 50.0, 50.0 ],
+									"patching_rect" : [ 118.0, 303.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 124.199999999999989, 167.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38375,7 +38401,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 292.5, 50.0, 50.0 ],
+									"patching_rect" : [ 62.0, 303.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 68.599999999999994, 167.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38398,7 +38424,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 292.5, 50.0, 50.0 ],
+									"patching_rect" : [ 6.0, 303.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 13.0, 167.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38421,7 +38447,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 282.0, 238.5, 50.0, 50.0 ],
+									"patching_rect" : [ 282.0, 245.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 291.0, 115.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38444,7 +38470,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 226.0, 238.5, 50.0, 50.0 ],
+									"patching_rect" : [ 226.0, 245.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 235.399999999999977, 115.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38467,7 +38493,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 175.0, 238.5, 50.0, 50.0 ],
+									"patching_rect" : [ 175.0, 245.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 179.799999999999983, 115.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38490,7 +38516,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 118.0, 238.5, 50.0, 50.0 ],
+									"patching_rect" : [ 118.0, 245.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 124.199999999999989, 115.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38513,7 +38539,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 238.5, 50.0, 50.0 ],
+									"patching_rect" : [ 62.0, 245.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 68.599999999999994, 115.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38536,7 +38562,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 238.5, 50.0, 50.0 ],
+									"patching_rect" : [ 6.0, 245.0, 50.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 13.0, 115.5, 50.0, 50.0 ],
 									"viewvisibility" : 1
@@ -38746,8 +38772,199 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-43327"
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 1 ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ],
+						"originid" : "pat-11510"
 					}
 ,
 					"patching_rect" : [ 805.25, 126.0, 112.0, 22.0 ],
@@ -39932,7 +40149,7 @@
 
 											}
  ],
-										"originid" : "pat-43381"
+										"originid" : "pat-11564"
 									}
 ,
 									"patching_rect" : [ 1113.250030499999866, 488.794464000000005, 103.0, 22.0 ],
@@ -41583,7 +41800,7 @@
 
 											}
  ],
-										"originid" : "pat-43389"
+										"originid" : "pat-11572"
 									}
 ,
 									"patching_rect" : [ 1113.250030499999866, 587.333374000000049, 132.0, 22.0 ],
@@ -41653,12 +41870,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-168",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 496.0, 885.0, 572.0, 36.0 ],
-									"text" : "0 0 0"
+									"text" : "54 0 0 244 122 0 58 58 0 89 178 0 0 105 0 0 1 0 0 1 1 0 10 19 0 0 212 72 0 143 77 0 77 136 0 68 98 0 0 150 74 0 218 218 0 90 181 0 0 54 0 0 244 121 0 59 59 0 89 179 0 0 105 0 0 1 1 0 1 19 0 9"
 								}
 
 							}
@@ -42598,7 +42816,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 26.166656, 607.0, 165.0, 22.0 ],
-									"text" : "0. 0. 0."
+									"text" : "54.390687 0. 0."
 								}
 
 							}
@@ -42658,7 +42876,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.833343999999997, 333.0, 220.0, 22.0 ],
-									"text" : "0. 0. 0."
+									"text" : "0.211778 0.95542 0.237284"
 								}
 
 							}
@@ -43995,7 +44213,7 @@
 
 											}
  ],
-										"originid" : "pat-43435"
+										"originid" : "pat-11618"
 									}
 ,
 									"patching_rect" : [ 447.666687000000024, 384.333344000000011, 109.0, 22.0 ],
@@ -45383,7 +45601,7 @@
 
 							}
  ],
-						"originid" : "pat-43379"
+						"originid" : "pat-11562"
 					}
 ,
 					"patching_rect" : [ 805.25, 184.0, 78.0, 22.0 ],
@@ -49689,7 +49907,7 @@
 
 							}
  ],
-						"originid" : "pat-43443",
+						"originid" : "pat-11626",
 						"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
 					}
 ,
@@ -50163,7 +50381,7 @@
 
 			}
  ],
-		"originid" : "pat-38199",
+		"originid" : "pat-6378",
 		"parameters" : 		{
 			"obj-35::obj-32::obj-1" : [ "Size", "Size", 0 ],
 			"obj-35::obj-32::obj-20" : [ "Diffusion", "Diffusion", 0 ],
@@ -50290,14 +50508,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BreathwavePasEditor0.2.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CricketHeartControl.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -50309,260 +50527,267 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "absoluteDirProject.maxpat",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"patcherrelativepath" : "./patchers-utility",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "audioFaderFunction.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autogrid_2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "beapReverb2Modified.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilter.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterMulti.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterPV.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bitmatch.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelAnalysis2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelGrid_24_2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colorInterpolate.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colorInterpolateFloat.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controllerBcf2000.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controllerLaunchpad.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cpuUsageGraph.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "debounce.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delace3.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "div!.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "eqParamsToBiquadCoeff.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "expSlide3.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "external-graph-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftPeakFreqPhase.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftPeakPicker.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filterBiquadMulti.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "folderPatches.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "for1d.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "for2d.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "format.nameNumber.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gGainDb.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gateBinary.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "globalSnapshot.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "groupingHighLevel.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "groupingMatrix.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heartbeatRatios.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "histogram.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "histogramGui.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "historyMinMax.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hslIntOut.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
@@ -50573,140 +50798,140 @@
 			}
 , 			{
 				"name" : "inputLevelPoly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intAndFrac.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "interpolateIndexes.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iterEnumerate.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iterEnumerateSpaced.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ledSimElement.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listMutable24.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listNth.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listNthWrite.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listZeroPad.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.graph_2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.layout.grid-2021.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.stream.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mgraph-bridge-2021.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mgraph-bridge-pv.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midiByName.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "norm0WindowMinMax.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/plugins-norm",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/plugins-norm",
 				"patcherrelativepath" : "./plugins-norm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "normScaleMaster.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "numberSeries.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
@@ -50733,364 +50958,364 @@
 			}
 , 			{
 				"name" : "oscPrependInt.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pas-outputPrefaderSnake.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasBedMaster1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasBufferLib2021.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasCurveWarp.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasGUI_2020_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasPairMode.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasPairModesMatrix.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasPolybuffer0.2.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasQuadMode.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasQuadModesMatrix.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasStateMachineEditor0.1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthEditor1.0.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthPattr.json",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/data",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/data",
 				"patcherrelativepath" : "./data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthPattrCh.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthPresetManager.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phonesGrouping.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pixliteInterface.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pixliteSphereCorrection.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polarityButton.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "prependSet.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "presetCollectionGrouping.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "presetGrouping.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveValue.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverseSublists.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgbBrightness.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rmsSlidingWindow.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-fanout-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-pairs-sum-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-pairs-swap-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-regain-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-solo-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-sum-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-through-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selectorBinary~.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendValue.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensor-demod.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensorHeartbeat.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensorPipeline.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slideTimeParams.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade-horz-max.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade-horz-simple.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snapshotGlob~.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stateEncoder.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublist.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublistReorderJs.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/code",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublistRepeat.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sumSublistsRepeatInPlace.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "switchBinary.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "synthSilence.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/plugins-synth",
+				"name" : "synthFreqModSine.maxpat",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/plugins-synth",
 				"patcherrelativepath" : "./plugins-synth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testSpeakAudioOutputNumbers_2020_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testSpeakLoudestSensorInput.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -51103,112 +51328,112 @@
 			}
 , 			{
 				"name" : "timerDeltaSec.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "timerHistogram.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "times!.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "timesLine~.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListClip.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListInteger.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListIntegerRound.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListLog10.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListNormalize.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarAdd.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarMultiply.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListVectorAdd.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListVectorMultiply.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListPolar.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceSampleNumbersToBus_2020_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/gf2024/gf-main/patchers-utility",
+				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
