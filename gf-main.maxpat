@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -300,7 +300,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -772,7 +772,7 @@
 
 							}
  ],
-						"originid" : "pat-9132"
+						"originid" : "pat-2760"
 					}
 ,
 					"patching_rect" : [ 826.0, 467.981688999999903, 108.0, 22.0 ],
@@ -791,7 +791,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.375031, 563.472533999999996, 117.0, 22.0 ],
+					"patching_rect" : [ 22.875031000000007, 582.0, 117.0, 22.0 ],
 					"text" : "audioFaderFunction"
 				}
 
@@ -803,7 +803,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 132.0, 463.0, 55.0, 22.0 ],
+					"patching_rect" : [ 112.875031000000007, 482.0, 55.0, 22.0 ],
 					"text" : "route 15"
 				}
 
@@ -815,7 +815,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 436.0, 71.0, 22.0 ],
+					"patching_rect" : [ 112.875031000000007, 455.0, 71.0, 22.0 ],
 					"text" : "r midiSlider"
 				}
 
@@ -827,7 +827,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.375031, 381.981689000000017, 87.0, 22.0 ],
+					"patching_rect" : [ 22.875031000000007, 401.0, 87.0, 22.0 ],
 					"text" : "loadmess 0.75"
 				}
 
@@ -842,7 +842,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 42.375031, 409.981689000000017, 63.5, 144.0 ],
+					"patching_rect" : [ 22.875031000000007, 429.0, 63.5, 144.0 ],
 					"size" : 1.0
 				}
 
@@ -853,7 +853,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.375031, 596.0, 162.0, 22.0 ],
+					"patching_rect" : [ 22.875031000000007, 615.0, 162.0, 22.0 ],
 					"text" : "send channelFirstGainStage"
 				}
 
@@ -869,7 +869,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -957,7 +957,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 215.0, 502.0, 318.0, 22.0 ],
-									"text" : "0.032904 0. 0.967096 0.195097 0. 0.804903"
+									"text" : "-0.28 0. 1.28 -0.274002 0. 1.274002"
 								}
 
 							}
@@ -1397,7 +1397,7 @@
 
 							}
  ],
-						"originid" : "pat-9136"
+						"originid" : "pat-2764"
 					}
 ,
 					"patching_rect" : [ 888.99993900000004, 389.98168899999996, 111.0, 22.0 ],
@@ -1420,7 +1420,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1748,7 +1748,7 @@
 
 							}
  ],
-						"originid" : "pat-9150"
+						"originid" : "pat-2778"
 					}
 ,
 					"patching_rect" : [ 305.00003049999998, 233.513732000000005, 100.0, 22.0 ],
@@ -1844,14 +1844,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 465.0, 291.0, 683.0, 545.0 ],
+						"rect" : [ 293.0, 263.0, 683.0, 545.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -1869,22 +1870,35 @@
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 459.0, 172.0, 1087.0, 584.0 ],
+										"rect" : [ 60.0, 100.0, 1135.0, 765.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-17",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 466.0, 153.0, 150.0, 33.0 ],
+													"text" : "OLD SPHERE PROCESSING"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-91",
 													"maxclass" : "newobj",
@@ -1896,7 +1910,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2489,7 +2503,7 @@
 
 															}
  ],
-														"originid" : "pat-9338"
+														"originid" : "pat-2966"
 													}
 ,
 													"patching_rect" : [ 205.0, 174.0, 86.0, 22.0 ],
@@ -2508,7 +2522,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 713.5, 3.0, 79.0, 22.0 ],
+													"patching_rect" : [ 1056.0, 190.0, 79.0, 22.0 ],
 													"text" : "r sphereSum"
 												}
 
@@ -2520,7 +2534,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 407.0, 466.0, 50.0, 22.0 ],
+													"patching_rect" : [ 795.0, 741.0, 50.0, 22.0 ],
 													"text" : "0. 0. 0."
 												}
 
@@ -2532,7 +2546,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 451.0, 206.0, 51.0, 22.0 ],
+													"patching_rect" : [ 673.0, 419.0, 51.0, 22.0 ],
 													"text" : "0 0 255"
 												}
 
@@ -2544,7 +2558,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 591.0, 40.0, 72.0, 22.0 ],
+													"patching_rect" : [ 933.0, 227.0, 72.0, 22.0 ],
 													"text" : "loadmess 1"
 												}
 
@@ -2580,7 +2594,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 224.5, 558.0, 135.0, 22.0 ],
+													"patching_rect" : [ 643.0, 725.0, 135.0, 22.0 ],
 													"text" : "pixliteSphereCorrection"
 												}
 
@@ -2591,7 +2605,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 33.0, 516.0, 88.0, 22.0 ],
+													"patching_rect" : [ 38.0, 673.0, 88.0, 22.0 ],
 													"text" : "pixliteInterface"
 												}
 
@@ -2616,7 +2630,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 5.0, 103.0, 24.0, 24.0 ]
+													"patching_rect" : [ 5.0, 105.0, 24.0, 24.0 ]
 												}
 
 											}
@@ -2652,7 +2666,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 530.0, 36.5, 41.0, 32.0 ]
+													"patching_rect" : [ 872.0, 224.0, 41.0, 32.0 ]
 												}
 
 											}
@@ -2663,7 +2677,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 152.5, 333.0, 164.0, 22.0 ],
+													"patching_rect" : [ 694.0, 514.0, 164.0, 22.0 ],
 													"text" : "uListScalarMultiply 0.003922"
 												}
 
@@ -2675,7 +2689,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 768.0, 135.5, 57.0, 22.0 ],
+													"patching_rect" : [ 661.0, 348.0, 57.0, 22.0 ],
 													"text" : "zl slice 3"
 												}
 
@@ -2687,7 +2701,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 768.0, 169.5, 164.0, 22.0 ],
+													"patching_rect" : [ 661.0, 382.0, 164.0, 22.0 ],
 													"text" : "uListScalarMultiply 0.003922"
 												}
 
@@ -2699,7 +2713,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 768.0, 109.5, 129.0, 22.0 ],
+													"patching_rect" : [ 661.0, 322.0, 129.0, 22.0 ],
 													"text" : "r cguiLightGlobalColor"
 												}
 
@@ -2711,7 +2725,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 417.0, 159.0, 58.0, 22.0 ],
+													"patching_rect" : [ 551.0, 358.0, 58.0, 22.0 ],
 													"text" : "route 1 0"
 												}
 
@@ -2724,7 +2738,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 443.0, 129.0, 24.0, 24.0 ],
+													"patching_rect" : [ 551.0, 295.0, 24.0, 24.0 ],
 													"svg" : ""
 												}
 
@@ -2733,12 +2747,12 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-28",
-													"index" : 3,
+													"index" : 2,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 451.0, 89.0, 30.0, 30.0 ]
+													"patching_rect" : [ 551.0, 259.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -2749,7 +2763,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 405.0, 200.0, 37.0, 22.0 ],
+													"patching_rect" : [ 534.0, 397.0, 37.0, 22.0 ],
 													"text" : "0 0 0"
 												}
 
@@ -2761,7 +2775,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 337.5, 161.0, 60.0, 22.0 ],
+													"patching_rect" : [ 466.0, 358.0, 60.0, 22.0 ],
 													"text" : "loadbang"
 												}
 
@@ -2775,7 +2789,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 611.0, 124.0, 50.0, 22.0 ]
+													"patching_rect" : [ 953.0, 311.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -2786,7 +2800,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 540.0, 161.0, 54.0, 22.0 ],
+													"patching_rect" : [ 882.0, 348.0, 54.0, 22.0 ],
 													"text" : "times! 1."
 												}
 
@@ -2798,7 +2812,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 687.5, 61.0, 105.0, 22.0 ],
+													"patching_rect" : [ 1030.0, 248.0, 105.0, 22.0 ],
 													"text" : "r setLightsSphere"
 												}
 
@@ -2810,7 +2824,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 530.0, 126.0, 54.0, 22.0 ],
+													"patching_rect" : [ 872.0, 313.0, 54.0, 22.0 ],
 													"text" : "times! 1."
 												}
 
@@ -2822,7 +2836,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 593.0, 85.0, 103.0, 22.0 ],
+													"patching_rect" : [ 935.0, 272.0, 103.0, 22.0 ],
 													"text" : "r setLightsMaster"
 												}
 
@@ -2836,7 +2850,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 530.0, 85.0, 50.0, 22.0 ]
+													"patching_rect" : [ 872.0, 272.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -2847,7 +2861,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 530.0, -2.0, 135.0, 22.0 ],
+													"patching_rect" : [ 872.0, 185.0, 135.0, 22.0 ],
 													"text" : "receive ledMonoValue2"
 												}
 
@@ -2859,32 +2873,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 281.0, 442.0, 124.0, 22.0 ],
+													"patching_rect" : [ 643.0, 612.0, 124.0, 22.0 ],
 													"text" : "uListScalarMultiply 1."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-55",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 455.0, 389.0, 50.0, 22.0 ],
-													"text" : "1. 0. 0."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-56",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 451.0, 353.0, 87.0, 22.0 ],
-													"text" : "zl 4096 slice 3"
 												}
 
 											}
@@ -2895,44 +2885,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 405.0, 418.0, 87.0, 22.0 ],
+													"patching_rect" : [ 826.0, 695.0, 87.0, 22.0 ],
 													"text" : "zl 4096 slice 3"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-50",
-													"maxclass" : "number",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 497.0, 503.0, 50.0, 22.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-51",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 493.0, 477.0, 69.0, 22.0 ],
-													"text" : "zl 4096 len"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-49",
-													"maxclass" : "button",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 350.0, 320.0, 24.0, 24.0 ]
 												}
 
 											}
@@ -2943,7 +2897,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 293.5, 508.0, 73.0, 22.0 ],
+													"patching_rect" : [ 643.0, 677.0, 73.0, 22.0 ],
 													"text" : "uListInteger"
 												}
 
@@ -2955,7 +2909,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 293.5, 473.0, 137.0, 22.0 ],
+													"patching_rect" : [ 643.0, 642.0, 137.0, 22.0 ],
 													"text" : "uListScalarMultiply 255."
 												}
 
@@ -2969,7 +2923,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 540.0, 200.0, 20.0, 140.0 ],
+													"patching_rect" : [ 882.0, 405.0, 20.0, 140.0 ],
 													"size" : 1.0
 												}
 
@@ -2981,7 +2935,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 340.5, 236.0, 117.0, 22.0 ],
+													"patching_rect" : [ 469.0, 433.0, 117.0, 22.0 ],
 													"text" : "sublistRepeat 3 512"
 												}
 
@@ -2993,7 +2947,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 340.5, 200.0, 51.0, 22.0 ],
+													"patching_rect" : [ 469.0, 397.0, 51.0, 22.0 ],
 													"text" : "255 0 0"
 												}
 
@@ -3005,7 +2959,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 38.0, 206.0, 110.0, 22.0 ],
+													"patching_rect" : [ 38.0, 235.0, 110.0, 22.0 ],
 													"text" : "sublistRepeat 3 10"
 												}
 
@@ -3017,7 +2971,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 38.0, 133.0, 20.0, 22.0 ],
+													"patching_rect" : [ 38.0, 174.0, 20.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -3048,75 +3002,12 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-27",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 664.0, 165.0, 24.0, 24.0 ],
-													"svg" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-25",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 664.0, 206.0, 58.0, 22.0 ],
-													"text" : "metro 50"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 583.0, 239.0, 40.0, 22.0 ],
-													"text" : "zl reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"floatoutput" : 1,
-													"id" : "obj-17",
-													"maxclass" : "slider",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 719.0, 188.0, 20.0, 140.0 ],
-													"size" : 1.0
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-13",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 536.0, 301.0, 123.0, 22.0 ],
-													"text" : "sublistRepeat 1 2266"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-6",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 228.5, 297.0, 98.0, 22.0 ],
+													"patching_rect" : [ 694.0, 459.0, 98.0, 22.0 ],
 													"text" : "r ledSphereData"
 												}
 
@@ -3130,30 +3021,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 216.5, 46.5, 84.0, 22.0 ],
 													"text" : "r ledRingData"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-20",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 580.0, 397.0, 73.0, 22.0 ],
-													"text" : "uListInteger"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 580.0, 362.0, 137.0, 22.0 ],
-													"text" : "uListScalarMultiply 255."
 												}
 
 											}
@@ -3176,7 +3043,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 38.0, 327.0, 83.0, 22.0 ],
+													"patching_rect" : [ 38.0, 624.0, 83.0, 22.0 ],
 													"text" : "zl 4096 group"
 												}
 
@@ -3188,7 +3055,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 199.5, 385.0, 70.0, 22.0 ],
+													"patching_rect" : [ 643.0, 571.0, 70.0, 22.0 ],
 													"text" : "zl 4096 reg"
 												}
 
@@ -3206,25 +3073,12 @@
 											}
 , 											{
 												"box" : 												{
-													"comment" : "",
-													"id" : "obj-5",
-													"index" : 2,
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 417.0, 89.0, 30.0, 30.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-4",
 													"linecount" : 5,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 320.0, 3.0, 169.0, 75.0 ],
+													"patching_rect" : [ 320.0, 3.0, 169.0, 74.0 ],
 													"text" : "Sphere Data = \n1563 Floats (0.0 to 1.0)\n (512 x RGB)\n(with padding to make groups of 64)"
 												}
 
@@ -3236,7 +3090,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 38.0, 13.0, 131.0, 48.0 ],
+													"patching_rect" : [ 38.0, 13.0, 131.0, 47.0 ],
 													"text" : "Ring Data = \n72 Floats (0.0 to 1.0)\n (24 x RGB)"
 												}
 
@@ -3250,7 +3104,21 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 33.0, 67.5, 30.0, 30.0 ]
+													"patching_rect" : [ 38.0, 70.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"angle" : 270.0,
+													"bgcolor" : [ 0.501960784313725, 0.258823529411765, 0.258823529411765, 1.0 ],
+													"id" : "obj-5",
+													"maxclass" : "panel",
+													"mode" : 0,
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 445.0, 131.0, 725.0, 677.0 ],
+													"proportion" : 0.5
 												}
 
 											}
@@ -3301,13 +3169,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"source" : [ "obj-13", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-60", 0 ],
 													"source" : [ "obj-14", 0 ]
 												}
@@ -3322,22 +3183,8 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-23", 1 ],
-													"source" : [ "obj-17", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-26", 0 ],
 													"source" : [ "obj-18", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-20", 0 ],
-													"source" : [ "obj-19", 0 ]
 												}
 
 											}
@@ -3373,13 +3220,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-60", 0 ],
 													"source" : [ "obj-24", 0 ]
 												}
@@ -3387,22 +3227,8 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"source" : [ "obj-25", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-41", 0 ],
 													"source" : [ "obj-26", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-25", 0 ],
-													"source" : [ "obj-27", 0 ]
 												}
 
 											}
@@ -3554,22 +3380,8 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-50", 0 ],
-													"source" : [ "obj-51", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-16", 1 ],
 													"source" : [ "obj-52", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-55", 1 ],
-													"source" : [ "obj-56", 0 ]
 												}
 
 											}
@@ -3647,13 +3459,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-68", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-57", 0 ],
 													"source" : [ "obj-8", 0 ]
 												}
@@ -3674,7 +3479,7 @@
 
 											}
  ],
-										"originid" : "pat-9336"
+										"originid" : "pat-2964"
 									}
 ,
 									"patching_rect" : [ 517.506836000000021, 34.05883743749996, 132.0, 22.0 ],
@@ -3731,7 +3536,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4028,7 +3833,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4231,7 +4036,7 @@
 
 															}
  ],
-														"originid" : "pat-9684"
+														"originid" : "pat-3308"
 													}
 ,
 													"patching_rect" : [ 73.0, 282.0, 55.0, 22.0 ],
@@ -4270,7 +4075,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4473,7 +4278,7 @@
 
 															}
  ],
-														"originid" : "pat-9686"
+														"originid" : "pat-3310"
 													}
 ,
 													"patching_rect" : [ 73.0, 596.0, 55.0, 22.0 ],
@@ -4802,7 +4607,7 @@
 
 											}
  ],
-										"originid" : "pat-9682"
+										"originid" : "pat-3306"
 									}
 ,
 									"patching_rect" : [ 370.0, 234.0, 105.0, 22.0 ],
@@ -4923,7 +4728,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6623,7 +6428,7 @@
 
 											}
  ],
-										"originid" : "pat-9692"
+										"originid" : "pat-3316"
 									}
 ,
 									"patching_rect" : [ -286.0, 733.0, 164.0, 22.0 ],
@@ -6657,7 +6462,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6665,7 +6470,6 @@
 										"classnamespace" : "box",
 										"rect" : [ 742.0, 327.0, 640.0, 480.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -6767,7 +6571,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7531,7 +7335,7 @@
 
 															}
  ],
-														"originid" : "pat-9750"
+														"originid" : "pat-3374"
 													}
 ,
 													"patching_rect" : [ 252.875031000000007, 247.490844999999979, 86.0, 22.0 ],
@@ -7645,7 +7449,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7968,7 +7772,7 @@
 
 															}
  ],
-														"originid" : "pat-9752"
+														"originid" : "pat-3376"
 													}
 ,
 													"patching_rect" : [ 252.875031000000007, 116.490844999999993, 81.0, 22.0 ],
@@ -8095,7 +7899,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8697,7 +8501,7 @@
 
 															}
  ],
-														"originid" : "pat-9754"
+														"originid" : "pat-3378"
 													}
 ,
 													"patching_rect" : [ 53.0, 208.990845000000007, 91.0, 22.0 ],
@@ -8811,7 +8615,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9019,7 +8823,7 @@
 
 															}
  ],
-														"originid" : "pat-9756"
+														"originid" : "pat-3380"
 													}
 ,
 													"patching_rect" : [ 50.0, 124.990844999999993, 113.0, 22.0 ],
@@ -9118,7 +8922,7 @@
 
 											}
  ],
-										"originid" : "pat-9748"
+										"originid" : "pat-3372"
 									}
 ,
 									"patching_rect" : [ 21.0, 253.0, 125.0, 22.0 ],
@@ -9176,7 +8980,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10267,7 +10071,7 @@
 
 											}
  ],
-										"originid" : "pat-9758"
+										"originid" : "pat-3382"
 									}
 ,
 									"patching_rect" : [ 372.25, 186.0, 85.0, 22.0 ],
@@ -10290,7 +10094,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11462,7 +11266,7 @@
 
 											}
  ],
-										"originid" : "pat-9760"
+										"originid" : "pat-3384"
 									}
 ,
 									"patching_rect" : [ 33.5, 90.481689000000003, 97.0, 22.0 ],
@@ -11485,7 +11289,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12588,7 +12392,7 @@
 
 											}
  ],
-										"originid" : "pat-9796"
+										"originid" : "pat-3420"
 									}
 ,
 									"patching_rect" : [ 33.5, 64.481689000000003, 98.0, 22.0 ],
@@ -12646,7 +12450,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12827,7 +12631,7 @@
 
 											}
  ],
-										"originid" : "pat-9802"
+										"originid" : "pat-3426"
 									}
 ,
 									"patching_rect" : [ 246.0, 369.0, 131.0, 22.0 ],
@@ -12897,7 +12701,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13106,7 +12910,7 @@
 
 											}
  ],
-										"originid" : "pat-9812"
+										"originid" : "pat-3436"
 									}
 ,
 									"patching_rect" : [ 246.0, 327.0, 132.0, 22.0 ],
@@ -13158,7 +12962,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13560,7 +13364,7 @@
 
 											}
  ],
-										"originid" : "pat-9918"
+										"originid" : "pat-3542"
 									}
 ,
 									"patching_rect" : [ 370.0, 72.0, 97.0, 22.0 ],
@@ -13585,23 +13389,24 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 56.0, 93.0, 1113.0, 903.0 ],
+										"rect" : [ 134.0, 100.0, 1113.0, 798.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
-													"id" : "obj-2",
-													"maxclass" : "gswitch",
-													"numinlets" : 3,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 270.0, 158.0, 41.0, 32.0 ]
+													"id" : "obj-4",
+													"linecount" : 6,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 622.0, 398.0, 150.0, 87.0 ],
+													"text" : "THIS IS SOME OBSOLETE SHIT! WAS USED TO FOR A HALF FINISHED FEATURE FROM 6 FUCKING YEARS AGO"
 												}
 
 											}
@@ -13662,19 +13467,6 @@
 													"outlettype" : [ "bang" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 577.0, 339.0, 24.0, 24.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-20",
-													"linecount" : 77,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 329.0, 38.0, 59.0, 1071.0 ],
-													"text" : "36.825502 0. 0. 0.000002 0.000001 0. 47.491756 47.491756 0. 124.858195 248.740935 0. 0. 96.72 0. 0. 0.012286 0.006167 0. 61.439308 61.439308 0. 125.035351 249.093863 0. 0. 14.974549 5.846388 0. 11.647101 253.966231 0. 253.966231 15.39888 0. 7.729634 31.313637 0. 0. 219.404292 109.271942 0. 0.000157 0.000157 0. 111.032591 221.19774 0. 0. 8.070631 0. 0. 139.422487 69.437866 0. 20.62956 20.62956 0. 73.911784 147.246131 0. 0. 4.857079 121.265128 0. 241.582872 0.102025 0. 0.102025 137.440102 0. 68.989542"
 												}
 
 											}
@@ -13842,7 +13634,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 461.0, 478.700012000000015, 150.0, 34.0 ],
+													"patching_rect" : [ 461.0, 478.700012000000015, 150.0, 33.0 ],
 													"text" : "8 x 3 = 24\n24 x 3 = 72"
 												}
 
@@ -14190,16 +13982,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-2", 2 ],
-													"order" : 0,
-													"source" : [ "obj-12", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-6", 0 ],
-													"order" : 1,
 													"source" : [ "obj-12", 0 ]
 												}
 
@@ -14268,13 +14051,6 @@
 													"destination" : [ "obj-30", 0 ],
 													"order" : 0,
 													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-20", 1 ],
-													"source" : [ "obj-2", 0 ]
 												}
 
 											}
@@ -14523,7 +14299,7 @@
 
 											}
  ],
-										"originid" : "pat-9952"
+										"originid" : "pat-3576"
 									}
 ,
 									"patching_rect" : [ 199.0, 216.509154999999993, 99.0, 22.0 ],
@@ -14548,7 +14324,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15168,7 +14944,7 @@
 
 											}
  ],
-										"originid" : "pat-9966"
+										"originid" : "pat-3590"
 									}
 ,
 									"patching_rect" : [ 199.0, 101.0, 112.0, 22.0 ],
@@ -15194,7 +14970,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16641,7 +16417,7 @@
 
 											}
  ],
-										"originid" : "pat-10116"
+										"originid" : "pat-3740"
 									}
 ,
 									"patching_rect" : [ 199.0, 72.0, 131.0, 22.0 ],
@@ -16668,7 +16444,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17093,7 +16869,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -17166,7 +16942,7 @@
 																		"appversion" : 																		{
 																			"major" : 9,
 																			"minor" : 0,
-																			"revision" : 3,
+																			"revision" : 2,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -17568,7 +17344,7 @@
 
 																			}
  ],
-																		"originid" : "pat-10368"
+																		"originid" : "pat-3992"
 																	}
 ,
 																	"patching_rect" : [ 330.0, 260.5, 126.0, 22.0 ],
@@ -17987,7 +17763,7 @@
 
 															}
  ],
-														"originid" : "pat-10366"
+														"originid" : "pat-3990"
 													}
 ,
 													"patching_rect" : [ 35.0, 139.5, 93.0, 22.0 ],
@@ -18295,7 +18071,7 @@
 
 											}
  ],
-										"originid" : "pat-10364"
+										"originid" : "pat-3988"
 									}
 ,
 									"patching_rect" : [ 199.0, 186.0, 87.0, 22.0 ],
@@ -18323,7 +18099,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18615,7 +18391,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -20013,7 +19789,7 @@
 
 															}
  ],
-														"originid" : "pat-10376"
+														"originid" : "pat-4000"
 													}
 ,
 													"patching_rect" : [ 994.0, 340.0, 100.0, 22.0 ],
@@ -21699,7 +21475,7 @@
 
 											}
  ],
-										"originid" : "pat-10370"
+										"originid" : "pat-3994"
 									}
 ,
 									"patching_rect" : [ 199.0, 42.0, 117.0, 22.0 ],
@@ -21773,7 +21549,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 2 ],
+									"destination" : [ "obj-4", 1 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -21846,10 +21622,10 @@
 
 							}
  ],
-						"originid" : "pat-9334"
+						"originid" : "pat-2962"
 					}
 ,
-					"patching_rect" : [ 305.00003049999998, 385.513732000000061, 112.0, 22.0 ],
+					"patching_rect" : [ 437.25, 84.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -21968,7 +21744,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22807,7 +22583,7 @@
 
 							}
  ],
-						"originid" : "pat-11196"
+						"originid" : "pat-4820"
 					}
 ,
 					"patching_rect" : [ 524.25003049999998, 26.0, 65.0, 22.0 ],
@@ -22830,7 +22606,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -23275,7 +23051,7 @@
 
 							}
  ],
-						"originid" : "pat-11306"
+						"originid" : "pat-4930"
 					}
 ,
 					"patching_rect" : [ 659.374999999999886, 642.0, 101.0, 22.0 ],
@@ -23310,7 +23086,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -23382,7 +23158,7 @@
 
 							}
  ],
-						"originid" : "pat-11318"
+						"originid" : "pat-4942"
 					}
 ,
 					"patching_rect" : [ 933.5, 247.98168899999996, 101.0, 22.0 ],
@@ -23444,15 +23220,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 182.0, 108.0, 1567.0, 938.0 ],
+						"rect" : [ 34.0, 100.0, 1444.0, 798.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-218",
@@ -27117,7 +26892,7 @@
 
 							}
  ],
-						"originid" : "pat-11320"
+						"originid" : "pat-4944"
 					}
 ,
 					"patching_rect" : [ 523.875, 191.009154999999993, 82.0, 22.0 ],
@@ -27178,7 +26953,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -27242,7 +27017,7 @@
 
 							}
  ],
-						"originid" : "pat-11338"
+						"originid" : "pat-4962"
 					}
 ,
 					"patching_rect" : [ 935.0, 281.981689000000017, 102.0, 22.0 ],
@@ -27397,7 +27172,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -27440,7 +27215,7 @@
 
 							}
  ],
-						"originid" : "pat-11340"
+						"originid" : "pat-4964"
 					}
 ,
 					"patching_rect" : [ 689.999999999999886, 26.0, 57.0, 22.0 ],
@@ -27523,7 +27298,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -27908,7 +27683,7 @@
 
 							}
  ],
-						"originid" : "pat-11342"
+						"originid" : "pat-4966"
 					}
 ,
 					"patching_rect" : [ 845.375031000000035, 605.442778999999973, 125.0, 22.0 ],
@@ -28006,7 +27781,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28105,7 +27880,7 @@
 
 							}
  ],
-						"originid" : "pat-11348"
+						"originid" : "pat-4972"
 					}
 ,
 					"patching_rect" : [ 845.375031000000035, 568.98168899999996, 133.0, 22.0 ],
@@ -28201,13 +27976,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 552.0, 139.0, 714.0, 694.0 ],
+						"rect" : [ 1011.0, 100.0, 467.0, 470.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
@@ -28829,8 +28604,183 @@
 
 							}
  ],
-						"lines" : [  ],
-						"originid" : "pat-11364"
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ],
+						"originid" : "pat-4988"
 					}
 ,
 					"patching_rect" : [ 805.25, 154.509154999999993, 143.0, 22.0 ],
@@ -28857,7 +28807,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -29599,7 +29549,7 @@
 
 							}
  ],
-						"originid" : "pat-11416"
+						"originid" : "pat-5040"
 					}
 ,
 					"patching_rect" : [ 826.0, 533.98168899999996, 78.0, 22.0 ],
@@ -29622,13 +29572,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 157.0, 86.0, 343.0, 216.0 ],
+						"rect" : [ 510.0, 349.0, 343.0, 216.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -29740,7 +29690,7 @@
 
 							}
  ],
-						"originid" : "pat-11418"
+						"originid" : "pat-5042"
 					}
 ,
 					"patching_rect" : [ 201.0, 41.0, 96.0, 22.0 ],
@@ -29834,7 +29784,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -31061,7 +31011,7 @@
 
 							}
  ],
-						"originid" : "pat-11420"
+						"originid" : "pat-5044"
 					}
 ,
 					"patching_rect" : [ 523.875, 126.0, 135.0, 22.0 ],
@@ -31170,7 +31120,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -32786,7 +32736,7 @@
 
 							}
  ],
-						"originid" : "pat-11422"
+						"originid" : "pat-5046"
 					}
 ,
 					"patching_rect" : [ 32.375031, 182.504576999999983, 98.0, 22.0 ],
@@ -32810,7 +32760,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -33603,7 +33553,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -34420,7 +34370,7 @@
 
 											}
  ],
-										"originid" : "pat-11430"
+										"originid" : "pat-5054"
 									}
 ,
 									"patching_rect" : [ 395.5, 629.333312999999976, 91.0, 22.0 ],
@@ -36966,7 +36916,7 @@
 
 							}
  ],
-						"originid" : "pat-11424",
+						"originid" : "pat-5048",
 						"default_bgcolor" : [ 0.137254901960784, 0.137254901960784, 0.137254901960784, 1.0 ],
 						"bgcolor" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 						"editing_bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ]
@@ -37011,7 +36961,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -38092,7 +38042,7 @@
 
 							}
  ],
-						"originid" : "pat-11508",
+						"originid" : "pat-5132",
 						"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
 					}
 ,
@@ -38121,13 +38071,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1325.0, 108.0, 622.0, 502.0 ],
+						"rect" : [ 1097.0, 127.0, 494.0, 505.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
@@ -38139,7 +38089,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 210.0, 127.0, 50.0, 22.0 ],
-									"text" : "54 0 0"
+									"text" : "97 0 0"
 								}
 
 							}
@@ -38964,7 +38914,7 @@
 
 							}
  ],
-						"originid" : "pat-11510"
+						"originid" : "pat-5134"
 					}
 ,
 					"patching_rect" : [ 805.25, 126.0, 112.0, 22.0 ],
@@ -38993,14 +38943,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 567.0, 158.0, 1311.0, 929.0 ],
+						"rect" : [ 307.0, 100.0, 1064.0, 798.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-160",
@@ -39037,7 +38988,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -40149,7 +40100,7 @@
 
 											}
  ],
-										"originid" : "pat-11564"
+										"originid" : "pat-5188"
 									}
 ,
 									"patching_rect" : [ 1113.250030499999866, 488.794464000000005, 103.0, 22.0 ],
@@ -40197,7 +40148,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -41800,7 +41751,7 @@
 
 											}
  ],
-										"originid" : "pat-11572"
+										"originid" : "pat-5196"
 									}
 ,
 									"patching_rect" : [ 1113.250030499999866, 587.333374000000049, 132.0, 22.0 ],
@@ -41826,7 +41777,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-151",
@@ -41834,14 +41785,14 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1203.0, 347.333344000000011, 77.0, 34.0 ],
+									"patching_rect" : [ 1203.0, 347.333344000000011, 77.0, 33.0 ],
 									"text" : "Led Ring Prop"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-154",
 									"maxclass" : "toggle",
@@ -41875,8 +41826,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 496.0, 885.0, 572.0, 36.0 ],
-									"text" : "54 0 0 244 122 0 58 58 0 89 178 0 0 105 0 0 1 0 0 1 1 0 10 19 0 0 212 72 0 143 77 0 77 136 0 68 98 0 0 150 74 0 218 218 0 90 181 0 0 54 0 0 244 121 0 59 59 0 89 179 0 0 105 0 0 1 1 0 1 19 0 9"
+									"patching_rect" : [ 496.0, 885.0, 575.0, 35.0 ],
+									"text" : "96 0 0 5 2 0 9 9 0 0 0 0 0 154 0 0 7 3 0 127 127 0 0 1 0 0 0 104 0 208 155 0 155 37 0 18 62 0 0 75 37 0 163 163 0 0 0 0 0 183 0 0 177 88 0 0 0 0 127 254 0 0 122 56 0 112 239 0 239 118 0 59"
 								}
 
 							}
@@ -42539,7 +42490,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1022.0, 560.0, 29.0, 36.0 ],
+									"patching_rect" : [ 1022.0, 560.0, 29.0, 35.0 ],
 									"text" : "0 0 0"
 								}
 
@@ -42816,7 +42767,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 26.166656, 607.0, 165.0, 22.0 ],
-									"text" : "54.390687 0. 0."
+									"text" : "96.62 0. 0."
 								}
 
 							}
@@ -42876,7 +42827,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.833343999999997, 333.0, 220.0, 22.0 ],
-									"text" : "0.211778 0.95542 0.237284"
+									"text" : "0.398734 0.017248 0.043596"
 								}
 
 							}
@@ -43398,7 +43349,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-155",
@@ -43412,7 +43363,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-156",
 									"maxclass" : "toggle",
@@ -43493,7 +43444,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-148",
@@ -43507,7 +43458,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-149",
 									"maxclass" : "toggle",
@@ -43535,7 +43486,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-135",
@@ -43549,7 +43500,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
@@ -43581,7 +43532,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-128",
@@ -43595,7 +43546,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-129",
 									"maxclass" : "toggle",
@@ -43648,7 +43599,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-74",
@@ -43662,7 +43613,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-76",
 									"maxclass" : "toggle",
@@ -43730,7 +43681,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-91",
@@ -43744,7 +43695,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-92",
 									"maxclass" : "toggle",
@@ -43829,7 +43780,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-75",
@@ -43843,7 +43794,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.545098039215686, 0.0, 1.0 ],
 									"checkedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-73",
 									"maxclass" : "toggle",
@@ -43859,7 +43810,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.545098039215686, 0.545098039215686, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-24",
@@ -43872,7 +43823,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -44213,7 +44164,7 @@
 
 											}
  ],
-										"originid" : "pat-11618"
+										"originid" : "pat-5242"
 									}
 ,
 									"patching_rect" : [ 447.666687000000024, 384.333344000000011, 109.0, 22.0 ],
@@ -45601,7 +45552,7 @@
 
 							}
  ],
-						"originid" : "pat-11562"
+						"originid" : "pat-5186"
 					}
 ,
 					"patching_rect" : [ 805.25, 184.0, 78.0, 22.0 ],
@@ -45627,7 +45578,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -49907,7 +49858,7 @@
 
 							}
  ],
-						"originid" : "pat-11626",
+						"originid" : "pat-5250",
 						"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
 					}
 ,
@@ -50381,7 +50332,7 @@
 
 			}
  ],
-		"originid" : "pat-6378",
+		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-35::obj-32::obj-1" : [ "Size", "Size", 0 ],
 			"obj-35::obj-32::obj-20" : [ "Diffusion", "Diffusion", 0 ],
@@ -50508,14 +50459,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BreathwavePasEditor0.2.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CricketHeartControl.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -50528,410 +50479,406 @@
 			}
 , 			{
 				"name" : "absoluteDirProject.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioFaderFunction.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autogrid_2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "beapReverb2Modified.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilter.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterMulti.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "biquadFilterPV.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bitmatch.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelAnalysis2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "channelGrid_24_2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colorInterpolate.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colorInterpolateFloat.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controllerBcf2000.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controllerLaunchpad.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cpuUsageGraph.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "debounce.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delace3.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "div!.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "eqParamsToBiquadCoeff.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "expSlide3.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "external-graph-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftPeakFreqPhase.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftPeakPicker.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filterBiquadMulti.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "folderPatches.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "for1d.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "for2d.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "format.nameNumber.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gGainDb.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gateBinary.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "globalSnapshot.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "groupingHighLevel.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "groupingMatrix.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heartbeatRatios.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "histogram.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "histogramGui.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "historyMinMax.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hslIntOut.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "imp.artnet.controller.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "inputLevelPoly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "intAndFrac.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "interpolateIndexes.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iterEnumerate.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iterEnumerateSpaced.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ledSimElement.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listMutable24.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listNth.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listNthWrite.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listZeroPad.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.graph_2021_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.layout.grid-2021.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m.stream.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "meci-biquadgen.gendsp",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mgraph-bridge-2021.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mgraph-bridge-pv.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midiByName.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "norm0WindowMinMax.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/plugins-norm",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/plugins-norm",
 				"patcherrelativepath" : "./plugins-norm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "normScaleMaster.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "numberSeries.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
@@ -50958,364 +50905,364 @@
 			}
 , 			{
 				"name" : "oscPrependInt.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pas-outputPrefaderSnake.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasBedMaster1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasBufferLib2021.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasCurveWarp.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasGUI_2020_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasPairMode.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasPairModesMatrix.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasPolybuffer0.2.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasQuadMode.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasQuadModesMatrix.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasStateMachineEditor0.1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthEditor1.0.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthPattr.json",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/data",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/data",
 				"patcherrelativepath" : "./data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthPattrCh.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pasSynthPresetManager.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phonesGrouping.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pixliteInterface.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pixliteSphereCorrection.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polarityButton.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "prependSet.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "presetCollectionGrouping.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "presetGrouping.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "receiveValue.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverseSublists.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgbBrightness.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rmsSlidingWindow.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-fanout-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-pairs-sum-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-pairs-swap-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-regain-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-solo-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-sum-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routing-through-poly.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selectorBinary~.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sendValue.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensor-demod.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensorHeartbeat.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sensorPipeline.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slideTimeParams.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade-horz-max.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider-autofade-horz-simple.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "snapshotGlob~.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stateEncoder.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublist.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublistReorderJs.js",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/code",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/code",
 				"patcherrelativepath" : "./code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sublistRepeat.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sumSublistsRepeatInPlace.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "switchBinary.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synthFreqModSine.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/plugins-synth",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/plugins-synth",
 				"patcherrelativepath" : "./plugins-synth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testSpeakAudioOutputNumbers_2020_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testSpeakLoudestSensorInput.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -51328,112 +51275,112 @@
 			}
 , 			{
 				"name" : "timerDeltaSec.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "timerHistogram.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "times!.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "timesLine~.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListClip.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListInteger.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListIntegerRound.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListLog10.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListNormalize.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarAdd.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListScalarMultiply.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListVectorAdd.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uListVectorMultiply.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uSpectralListPolar.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceSampleNumbersToBus_2020_1.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
+				"bootpath" : "~/Documents/group-flow/groupflow_software/patchers-utility",
 				"patcherrelativepath" : "./patchers-utility",
 				"type" : "JSON",
 				"implicit" : 1

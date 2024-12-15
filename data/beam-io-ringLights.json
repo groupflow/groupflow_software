@@ -1,0 +1,18 @@
+{
+	"inputs" : [  ],
+	"outputs" : [ 		{
+			"type" : "artNet",
+			"name" : "ArtNet",
+			"address" : "169.254.0.50",
+			"sourceUniverse" : 1,
+			"targetUniverse" : 1
+		},
+		{
+			"type" : "artNet",
+			"name" : "ArtNet",
+			"address" : "169.254.0.50",
+			"sourceUniverse" : 2,
+			"targetUniverse" : 2
+		}
+ ]
+}
