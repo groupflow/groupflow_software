@@ -1,0 +1,301 @@
+Global #,Type,Pos,Side,Row,Panel,Output,Universe,Local Pixel
+1,Vertex N/C,Bot,L,2,12,1,1,-1
+2,Vertex N/C,Bot,R,2,12,1,1,-1
+3,Vertex N/C,Top,R,1,12,1,1,-1
+4,Vertex N/C,Top,L,1,12,1,1,-1
+5,Vertex N/C,Bot,L,3,12,1,1,-1
+6,Vertex N/C,Bot,R,3,12,1,1,-1
+7,Vertex N/C,Top,R,2,11,1,1,-1
+8,Vertex N/C,Top,L,2,11,1,1,-1
+9,Vertex,Bot,L,4,11,1,1,1
+10,Vertex,Bot,R,4,11,1,1,2
+11,Vertex,Top,R,3,11,1,1,3
+12,Vertex,Top,L,3,11,1,1,4
+13,Vertex,Bot,L,5,11,1,1,5
+14,Vertex,Bot,R,5,11,1,1,6
+15,Vertex,Top,R,4,10,1,1,7
+16,Vertex,Top,L,4,10,1,1,8
+17,Vertex,Bot,L,6,10,1,1,9
+18,Vertex,Bot,R,6,10,1,1,10
+19,Vertex,Top,R,5,10,1,1,11
+20,Vertex,Top,L,5,10,1,1,12
+21,Vertex,Bot,L,7,10,1,1,13
+22,Vertex,Bot,R,7,10,1,1,14
+23,Vertex,Top,R,6,9,1,1,15
+24,Vertex,Top,L,6,9,1,1,16
+25,Top,Top,R,7,9,1,1,17
+26,Top,Top,R,7,3,1,1,18
+27,Vertex,Top,R,6,3,1,1,19
+28,Vertex,Top,L,6,3,1,1,20
+29,Vertex,Bot,L,7,4,1,1,21
+30,Vertex,Bot,R,7,4,1,1,22
+31,Vertex,Top,R,5,4,1,1,23
+32,Vertex,Top,L,5,4,1,1,24
+33,Vertex,Bot,L,6,4,1,1,25
+34,Vertex,Bot,R,6,4,1,1,26
+35,Vertex,Top,R,4,4,1,1,27
+36,Vertex,Top,L,4,4,1,1,28
+37,Vertex,Bot,L,5,5,1,1,29
+38,Vertex,Bot,R,5,5,1,1,30
+39,Vertex,Top,R,3,5,1,1,31
+40,Vertex,Top,L,3,5,1,1,32
+41,Vertex,Bot,L,4,5,1,1,33
+42,Vertex,Bot,R,4,5,1,1,34
+43,Vertex,Top,R,2,5,1,1,35
+44,Vertex,Top,L,2,5,1,1,36
+45,Vertex,Bot,L,3,6,1,1,37
+46,Vertex,Bot,R,3,6,1,1,38
+47,Vertex,Top,R,1,6,1,1,39
+48,Vertex,Top,L,1,6,1,1,40
+49,Vertex N/C,Bot,L,2,6,1,1,-1
+50,Vertex N/C,Bot,R,2,6,1,1,-1
+51,Vertex N/C,Bot,L,2,11,2,2,-1
+52,Vertex N/C,Bot,R,2,11,2,2,-1
+53,Vertex,Top,R,1,11,2,2,1
+54,Vertex,Top,L,1,11,2,2,2
+55,Vertex,Bot,L,3,11,2,2,3
+56,Vertex,Bot,R,3,11,2,2,4
+57,Vertex,Top,R,2,10,2,2,5
+58,Vertex,Top,L,2,10,2,2,6
+59,Vertex,Bot,L,4,10,2,2,7
+60,Vertex,Bot,R,4,10,2,2,8
+61,Vertex,Top,R,3,10,2,2,9
+62,Vertex,Top,L,3,10,2,2,10
+63,Vertex,Bot,L,5,10,2,2,11
+64,Vertex,Bot,R,5,10,2,2,12
+65,Vertex,Top,R,4,9,2,2,13
+66,Vertex,Top,L,4,9,2,2,14
+67,Vertex,Bot,L,6,9,2,2,15
+68,Vertex,Bot,R,6,9,2,2,16
+69,Vertex,Top,R,5,9,2,2,17
+70,Vertex,Top,L,5,9,2,2,18
+71,Vertex,Bot,L,7,9,2,2,19
+72,Vertex,Bot,R,7,9,2,2,20
+73,Vertex,Top,R,6,8,2,2,21
+74,Vertex,Top,L,6,8,2,2,22
+75,Top,Top,R,7,8,2,2,23
+76,Top,Top,R,7,2,2,2,24
+77,Vertex,Top,R,6,2,2,2,25
+78,Vertex,Top,L,6,2,2,2,26
+79,Vertex,Bot,L,7,3,2,2,27
+80,Vertex,Bot,R,7,3,2,2,28
+81,Vertex,Top,R,5,3,2,2,29
+82,Vertex,Top,L,5,3,2,2,30
+83,Vertex,Bot,L,6,3,2,2,31
+84,Vertex,Bot,R,6,3,2,2,32
+85,Vertex,Top,R,4,3,2,2,33
+86,Vertex,Top,L,4,3,2,2,34
+87,Vertex,Bot,L,5,4,2,2,35
+88,Vertex,Bot,R,5,4,2,2,36
+89,Vertex,Top,R,3,4,2,2,37
+90,Vertex,Top,L,3,4,2,2,38
+91,Vertex,Bot,L,4,4,2,2,39
+92,Vertex,Bot,R,4,4,2,2,40
+93,Vertex,Top,R,2,4,2,2,41
+94,Vertex,Top,L,2,4,2,2,42
+95,Vertex,Bot,L,3,5,2,2,43
+96,Vertex,Bot,R,3,5,2,2,44
+97,Vertex,Top,R,1,5,2,2,45
+98,Vertex,Top,L,1,5,2,2,46
+99,Vertex,Bot,L,2,5,2,2,47
+100,Vertex,Bot,R,2,5,2,2,48
+101,Vertex,Bot,L,2,10,3,3,1
+102,Vertex,Bot,R,2,10,3,3,2
+103,Vertex,Top,R,1,10,3,3,3
+104,Vertex,Top,L,1,10,3,3,4
+105,Vertex,Bot,L,3,10,3,3,5
+106,Vertex,Bot,R,3,10,3,3,6
+107,Vertex,Top,R,2,9,3,3,7
+108,Vertex,Top,L,2,9,3,3,8
+109,Vertex,Bot,L,4,9,3,3,9
+110,Vertex,Bot,R,4,9,3,3,10
+111,Vertex,Top,R,3,9,3,3,11
+112,Vertex,Top,L,3,9,3,3,12
+113,Vertex,Bot,L,5,9,3,3,13
+114,Vertex,Bot,R,5,9,3,3,14
+115,Vertex,Top,R,4,8,3,3,15
+116,Vertex,Top,L,4,8,3,3,16
+117,Vertex,Bot,L,6,8,3,3,17
+118,Vertex,Bot,R,6,8,3,3,18
+119,Vertex,Top,R,5,8,3,3,19
+120,Vertex,Top,L,5,8,3,3,20
+121,Vertex,Bot,L,7,8,3,3,21
+122,Vertex,Bot,R,7,8,3,3,22
+123,Vertex,Top,R,6,7,3,3,23
+124,Vertex,Top,L,6,7,3,3,24
+125,Top,Top,R,7,7,3,3,25
+126,Top,Top,R,7,1,3,3,26
+127,Vertex,Top,R,6,1,3,3,27
+128,Vertex,Top,L,6,1,3,3,28
+129,Vertex,Bot,L,7,2,3,3,29
+130,Vertex,Bot,R,7,2,3,3,30
+131,Vertex,Top,R,5,2,3,3,31
+132,Vertex,Top,L,5,2,3,3,32
+133,Vertex,Bot,L,6,2,3,3,33
+134,Vertex,Bot,R,6,2,3,3,34
+135,Vertex,Top,R,4,2,3,3,35
+136,Vertex,Top,L,4,2,3,3,36
+137,Vertex,Bot,L,5,3,3,3,37
+138,Vertex,Bot,R,5,3,3,3,38
+139,Vertex,Top,R,3,3,3,3,39
+140,Vertex,Top,L,3,3,3,3,40
+141,Vertex,Bot,L,4,3,3,3,41
+142,Vertex,Bot,R,4,3,3,3,42
+143,Vertex,Top,R,2,3,3,3,43
+144,Vertex,Top,L,2,3,3,3,44
+145,Vertex,Bot,L,3,4,3,3,45
+146,Vertex,Bot,R,3,4,3,3,46
+147,Vertex,Top,R,1,4,3,3,47
+148,Vertex,Top,L,1,4,3,3,48
+149,Vertex,Bot,L,2,4,3,3,49
+150,Vertex,Bot,R,2,4,3,3,50
+151,Vertex,Bot,L,2,9,4,4,1
+152,Vertex,Bot,R,2,9,4,4,2
+153,Vertex,Top,R,1,9,4,4,3
+154,Vertex,Top,L,1,9,4,4,4
+155,Vertex,Bot,L,3,9,4,4,5
+156,Vertex,Bot,R,3,9,4,4,6
+157,Vertex,Top,R,2,8,4,4,7
+158,Vertex,Top,L,2,8,4,4,8
+159,Vertex,Bot,L,4,8,4,4,9
+160,Vertex,Bot,R,4,8,4,4,10
+161,Vertex,Top,R,3,8,4,4,11
+162,Vertex,Top,L,3,8,4,4,12
+163,Vertex,Bot,L,5,8,4,4,13
+164,Vertex,Bot,R,5,8,4,4,14
+165,Vertex,Top,R,4,7,4,4,15
+166,Vertex,Top,L,4,7,4,4,16
+167,Vertex,Bot,L,6,7,4,4,17
+168,Vertex,Bot,R,6,7,4,4,18
+169,Vertex,Top,R,5,7,4,4,19
+170,Vertex,Top,L,5,7,4,4,20
+171,Vertex,Bot,L,7,7,4,4,21
+172,Vertex,Bot,R,7,7,4,4,22
+173,Vertex,Top,R,6,6,4,4,23
+174,Vertex,Top,L,6,6,4,4,24
+175,Top,Top,R,7,6,4,4,25
+176,Top,Top,R,7,12,4,4,26
+177,Vertex,Top,R,6,12,4,4,27
+178,Vertex,Top,L,6,12,4,4,28
+179,Vertex,Bot,L,7,1,4,4,29
+180,Vertex,Bot,R,7,1,4,4,30
+181,Vertex N/C,Top,R,5,1,4,4,-1
+182,Vertex N/C,Top,L,5,1,4,4,-1
+183,Vertex,Bot,L,6,1,4,4,31
+184,Vertex,Bot,R,6,1,4,4,32
+185,Vertex N/C,Top,R,4,1,4,4,-1
+186,Vertex N/C,Top,L,4,1,4,4,-1
+187,Vertex,Bot,L,5,2,4,4,33
+188,Vertex,Bot,R,5,2,4,4,34
+189,Vertex N/C,Top,R,3,2,4,4,-1
+190,Vertex N/C,Top,L,3,2,4,4,-1
+191,Vertex,Bot,L,4,2,4,4,35
+192,Vertex,Bot,R,4,2,4,4,36
+193,Vertex N/C,Top,R,2,2,4,4,-1
+194,Vertex N/C,Top,L,2,2,4,4,-1
+195,Vertex,Bot,L,3,3,4,4,37
+196,Vertex,Bot,R,3,3,4,4,38
+197,Vertex,Top,R,1,3,4,4,39
+198,Vertex,Top,L,1,3,4,4,40
+199,Vertex,Bot,L,2,3,4,4,41
+200,Vertex,Bot,R,2,3,4,4,42
+201,Vertex,Bot,L,2,8,5,5,1
+202,Vertex,Bot,R,2,8,5,5,2
+203,Vertex,Top,R,1,8,5,5,3
+204,Vertex,Top,L,1,8,5,5,4
+205,Vertex,Bot,L,3,8,5,5,5
+206,Vertex,Bot,R,3,8,5,5,6
+207,Vertex N/C,Top,R,2,7,5,5,-1
+208,Vertex N/C,Top,L,2,7,5,5,-1
+209,Vertex,Bot,L,4,7,5,5,7
+210,Vertex,Bot,R,4,7,5,5,8
+211,Vertex N/C,Top,R,3,7,5,5,-1
+212,Vertex N/C,Top,L,3,7,5,5,-1
+213,Vertex,Bot,L,5,7,5,5,9
+214,Vertex,Bot,R,5,7,5,5,10
+215,Vertex,Top,R,4,6,5,5,11
+216,Vertex,Top,L,4,6,5,5,12
+217,Vertex,Bot,L,6,6,5,5,13
+218,Vertex,Bot,R,6,6,5,5,14
+219,Vertex,Top,R,5,6,5,5,15
+220,Vertex,Top,L,5,6,5,5,16
+221,Vertex,Bot,L,7,6,5,5,17
+222,Vertex,Bot,R,7,6,5,5,18
+223,Vertex,Top,R,6,5,5,5,19
+224,Vertex,Top,L,6,5,5,5,20
+225,Top,Top,R,7,5,5,5,21
+226,Top,Top,R,7,11,5,5,22
+227,Vertex,Top,R,6,11,5,5,23
+228,Vertex,Top,L,6,11,5,5,24
+229,Vertex,Bot,L,7,12,5,5,25
+230,Vertex,Bot,R,7,12,5,5,26
+231,Vertex,Top,R,5,12,5,5,27
+232,Vertex,Top,L,5,12,5,5,28
+233,Vertex,Bot,L,6,12,5,5,29
+234,Vertex,Bot,R,6,12,5,5,30
+235,Vertex N/C,Top,R,4,12,5,5,-1
+236,Vertex N/C,Top,L,4,12,5,5,-1
+237,Vertex N/C,Bot,L,5,1,5,5,-1
+238,Vertex N/C,Bot,R,5,1,5,5,-1
+239,Vertex N/C,Top,R,3,1,5,5,-1
+240,Vertex N/C,Top,L,3,1,5,5,-1
+241,Vertex N/C,Bot,L,4,1,5,5,-1
+242,Vertex N/C,Bot,R,4,1,5,5,-1
+243,Vertex N/C,Top,R,2,1,5,5,-1
+244,Vertex N/C,Top,L,2,1,5,5,-1
+245,Vertex N/C,Bot,L,3,2,5,5,-1
+246,Vertex N/C,Bot,R,3,2,5,5,-1
+247,Vertex N/C,Top,R,1,2,5,5,-1
+248,Vertex N/C,Top,L,1,2,5,5,-1
+249,Vertex N/C,Bot,L,2,2,5,5,-1
+250,Vertex N/C,Bot,R,2,2,5,5,-1
+251,Vertex N/C,Bot,L,2,7,6,6,-1
+252,Vertex N/C,Bot,R,2,7,6,6,-1
+253,Vertex N/C,Top,R,1,7,6,6,-1
+254,Vertex N/C,Top,L,1,7,6,6,-1
+255,Vertex N/C,Bot,L,3,7,6,6,-1
+256,Vertex N/C,Bot,R,3,7,6,6,-1
+257,Vertex N/C,Top,R,2,6,6,6,-1
+258,Vertex N/C,Top,L,2,6,6,6,-1
+259,Vertex,Bot,L,4,6,6,6,1
+260,Vertex,Bot,R,4,6,6,6,2
+261,Vertex,Top,R,3,6,6,6,3
+262,Vertex,Top,L,3,6,6,6,4
+263,Vertex,Bot,L,5,6,6,6,5
+264,Vertex,Bot,R,5,6,6,6,6
+265,Vertex,Top,R,4,5,6,6,7
+266,Vertex,Top,L,4,5,6,6,8
+267,Vertex,Bot,L,6,5,6,6,9
+268,Vertex,Bot,R,6,5,6,6,10
+269,Vertex,Top,R,5,5,6,6,11
+270,Vertex,Top,L,5,5,6,6,12
+271,Vertex,Bot,L,7,5,6,6,13
+272,Vertex,Bot,R,7,5,6,6,14
+273,Vertex,Top,R,6,4,6,6,15
+274,Vertex,Top,L,6,4,6,6,16
+275,Top,Top,R,7,4,6,6,17
+276,Top,Top,R,7,10,6,6,18
+277,Vertex,Top,R,6,10,6,6,19
+278,Vertex,Top,L,6,10,6,6,20
+279,Vertex,Bot,L,7,11,6,6,21
+280,Vertex,Bot,R,7,11,6,6,22
+281,Vertex,Top,R,5,11,6,6,23
+282,Vertex,Top,L,5,11,6,6,24
+283,Vertex,Bot,L,6,11,6,6,25
+284,Vertex,Bot,R,6,11,6,6,26
+285,Vertex,Top,R,4,11,6,6,27
+286,Vertex,Top,L,4,11,6,6,28
+287,Vertex,Bot,L,5,12,6,6,29
+288,Vertex,Bot,R,5,12,6,6,30
+289,Vertex N/C,Top,R,3,12,6,6,-1
+290,Vertex N/C,Top,L,3,12,6,6,-1
+291,Vertex N/C,Bot,L,4,12,6,6,-1
+292,Vertex N/C,Bot,R,4,12,6,6,-1
+293,Vertex N/C,Top,R,2,12,6,6,-1
+294,Vertex N/C,Top,L,2,12,6,6,-1
+295,Vertex N/C,Bot,L,3,1,6,6,-1
+296,Vertex N/C,Bot,R,3,1,6,6,-1
+297,Vertex N/C,Top,R,1,1,6,6,-1
+298,Vertex N/C,Top,L,1,1,6,6,-1
+299,Vertex N/C,Bot,L,2,1,6,6,-1
+300,Vertex N/C,Bot,R,2,1,6,6,-1
