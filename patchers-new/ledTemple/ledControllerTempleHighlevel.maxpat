@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 151.0, 87.0, 846.0, 779.0 ],
+		"rect" : [ 187.0, 87.0, 846.0, 779.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -511,7 +511,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 2.0, 147.0, 20.0 ],
+					"patching_rect" : [ 287.5, 2.0, 147.0, 20.0 ],
 					"text" : "Use manual addressing:"
 				}
 
