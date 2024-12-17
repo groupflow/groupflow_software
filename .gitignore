@@ -1,2 +1,4 @@
-gf-optionalLargeFiles
-sounds
+gf-optionalLargeFiles/
+sounds/
+testdata/
+.DS_Store
