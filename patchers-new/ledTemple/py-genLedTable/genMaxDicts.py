@@ -53,6 +53,7 @@ def generateMaxDict(inputFile, outputFile, preset=0):
                     globalPixelNumber = int(globalPixelNumber)
                     chGlobalZeroIndexed = 4 * (globalPixelNumber-1)
                     mappings[key].append(chGlobalZeroIndexed)
+                    if(iRow < 20): print(row, chGlobalZeroIndexed)
         except:
             print('Error for row:', iRow)
             print(row)
