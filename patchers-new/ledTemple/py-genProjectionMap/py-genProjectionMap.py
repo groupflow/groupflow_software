@@ -4,6 +4,7 @@ import os
 import csv
 import math
 import svgwrite
+import json
 
 ### utilities
 
@@ -61,6 +62,11 @@ for ringDiameter in heightRings:
     dwg.add(dwg.circle(center=listsMul(center, dpi), r = ringDiameter * 0.5 * dpi, stroke_width = 0.030*dpi, stroke='red', fill='none'))
 
 ### iterate along rows, panels, and positions, creating labels
+
+outputDict = {}
+
+textOutput = open('../ledProjectionVertexes.txt', 'w')
+
 angleStep = -360 / 12
 angleStart = 90 + angleStep * 0.0
 startRings = [-1,1]
@@ -79,8 +85,16 @@ for row in range(0, 7):
             posCode = 'B' if pos == 0 else 'T'
             label = f'{row+1}-{panel+1}-{posCode}'
             vertexPoint = fromPolar(vertexRadius, vertexAngle)
+            vertexPointNorm = listsAdd(listsDiv(vertexPoint, 2 * ringLargeSize / 2.0), 0.5)
             vertexPoint = listsAdd(vertexPoint, center)
             dwg.add(dwg.text(label, insert=listsMul(vertexPoint, dpi), fill='black', stroke='white', stroke_width=0.006*dpi, font_size=(0.2 * dpi), text_anchor='middle'))
+            outputDict[label] = vertexPointNorm
+            print(label, vertexPoint, vertexPointNorm)
+            textOutput.write(f'{label} {row+1} {panel+1} {pos+1}\n')
+
+### finish up outputDict
+jsonOutput = open('../ledProjectionMap.json', 'w')
+json.dump(outputDict, jsonOutput)
 
 ### finish up svg image
 dwg.save()
