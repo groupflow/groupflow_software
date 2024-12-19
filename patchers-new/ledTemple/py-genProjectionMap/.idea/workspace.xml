@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18d5b943-8ac3-466d-b742-ace25e9bd345" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/py-genProjectionMap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ledControllerTemple.maxpat" beforeDir="false" afterPath="$PROJECT_DIR$/../ledControllerTemple.maxpat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ledControllerTempleHighlevel.maxpat" beforeDir="false" afterPath="$PROJECT_DIR$/../ledControllerTempleHighlevel.maxpat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyGen3dMappings.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py-genProjectionMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/py-genProjectionMap.py" afterDir="false" />
-    </list>
+    <list default="true" id="18d5b943-8ac3-466d-b742-ace25e9bd345" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734495079492</updated>
-      <workItem from="1734495080494" duration="2359000" />
+      <workItem from="1734495080494" duration="2779000" />
     </task>
     <servers />
   </component>
