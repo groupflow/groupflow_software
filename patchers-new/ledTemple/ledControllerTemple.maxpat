@@ -354,8 +354,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 379.0, 498.0, 323.0, 35.0 ],
-					"text" : "imp.artnet.controller @mode 1 @unicast_ip 169.254.0.50 @num_universes 6 @num_channels 3072"
+					"patching_rect" : [ 379.0, 498.0, 323.0, 36.0 ],
+					"text" : "imp.artnet.controller @mode 1 @unicast_ip 192.168.1.159 @num_universes 6 @num_channels 3072"
 				}
 
 			}
@@ -737,7 +737,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 153.0, 293.0, 50.0, 22.0 ],
-					"text" : "3-1-1"
+					"text" : "7-12-2"
 				}
 
 			}
