@@ -10,9 +10,20 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 159.0, 87.0, 977.0, 779.0 ],
+		"rect" : [ 624.0, 87.0, 836.0, 779.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-85",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 584.0, 359.0, 97.0, 20.0 ],
+					"text" : "6 univ = 3072 ch"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
@@ -21,17 +32,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 743.0, 377.0, 19.0, 22.0 ],
 					"text" : "t l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 451.0, 32.0, 22.0 ],
-					"text" : "print"
 				}
 
 			}
@@ -127,7 +127,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 770.0, 292.0, 39.0, 22.0 ],
-					"text" : "!- 512"
+					"text" : "!- 768"
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 723.0, 344.0, 115.0, 22.0 ],
-					"text" : "sublistRepeat 4 512"
+					"text" : "sublistRepeat 4 768"
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 852.0, 327.0, 115.0, 22.0 ],
-					"text" : "sublistRepeat 4 512"
+					"text" : "sublistRepeat 4 768"
 				}
 
 			}
@@ -557,7 +557,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 379.0, 498.0, 550.0, 22.0 ],
-					"text" : "imp.artnet.controller @mode 1 @unicast_ip 192.168.1.159 @num_universes 4 @num_channels 2048"
+					"text" : "imp.artnet.controller @mode 1 @unicast_ip 192.168.1.159 @num_universes 6 @num_channels 3072"
 				}
 
 			}
@@ -652,7 +652,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 381.0, 404.0, 179.0, 22.0 ],
-					"text" : "jit.spill ledData @listlength 2048"
+					"text" : "jit.spill ledData @listlength 3072"
 				}
 
 			}
@@ -1674,15 +1674,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"order" : 2,
-					"source" : [ "obj-80", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -1690,7 +1682,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -1847,7 +1839,7 @@
 
 			}
  ],
-		"originid" : "pat-8216"
+		"originid" : "pat-8813"
 	}
 
 }
