@@ -628,7 +628,7 @@
 
 							}
  ],
-						"originid" : "pat-13465"
+						"originid" : "pat-17953"
 					}
 ,
 					"patching_rect" : [ 24.666667103767395, 1160.000007390975952, 77.0, 22.0 ],
@@ -1024,6 +1024,102 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"args" : [ 17 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-85",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "channelAnalysis2021_1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 261.333333134651184, 754.333343982696533, 204.0, 106.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 568.0, 204.0, 106.0 ],
+					"varname" : "17-ch",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 18 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-87",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "channelAnalysis2021_1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 222.333328485488892, 642.333343863487244, 204.0, 106.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 258.0, 568.0, 204.0, 106.0 ],
+					"varname" : "18-ch",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 19 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-89",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "channelAnalysis2021_1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 195.666661024093628, 519.666676759719849, 204.0, 106.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 512.0, 568.0, 204.0, 106.0 ],
+					"varname" : "19-ch",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 20 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-91",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "channelAnalysis2021_1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 218.333328366279602, 411.666676759719849, 204.0, 106.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 766.0, 568.0, 204.0, 106.0 ],
+					"varname" : "20-ch",
+					"viewvisibility" : 1
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1047,7 +1143,7 @@
 
 			}
  ],
-		"originid" : "pat-13463",
+		"originid" : "pat-17951",
 		"dependency_cache" : [ 			{
 				"name" : "audioFaderFunction.maxpat",
 				"bootpath" : "~/Desktop/topics/work/mikeyGroupflow2024/groupflow_software/patchers-utility",
