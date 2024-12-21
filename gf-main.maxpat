@@ -980,7 +980,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 215.0, 502.0, 318.0, 22.0 ],
-									"text" : "-0.28 0. 1.28 -0.274034 0. 1.274034"
+									"text" : "-0.280428 0. 1.280428 -0.273994 0. 1.273994"
 								}
 
 							}
@@ -32750,6 +32750,23 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 1,
+									"fontsize" : 16.0,
+									"id" : "obj-256",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 346.0, 76.0, 42.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 16.0, 179.0, 173.0, 24.0 ],
+									"text" : "Audio Faders",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-255",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -32803,7 +32820,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 486.0, 830.0, 123.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 387.0, 757.0, 183.0, 20.0 ],
+									"presentation_rect" : [ 387.0, 772.0, 183.0, 20.0 ],
 									"text" : "Lighting individual rainbow mode",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -32819,7 +32836,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1102.0, 928.0, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 572.0, 755.0, 24.0, 24.0 ]
+									"presentation_rect" : [ 572.0, 770.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -32845,7 +32862,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 496.0, 119.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 387.0, 701.0, 150.0, 20.0 ],
+									"presentation_rect" : [ 387.0, 716.0, 150.0, 20.0 ],
 									"text" : "ledCombine1-9"
 								}
 
@@ -32876,7 +32893,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 4.0, 306.0, 74.0, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 173.0, 173.0, 24.0 ],
+									"presentation_rect" : [ 16.0, 371.0, 173.0, 24.0 ],
 									"text" : "Lighting Faders",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33078,7 +33095,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 1016.0, 30.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 23.0, 687.0, 30.0, 20.0 ],
+									"presentation_rect" : [ 23.0, 672.0, 30.0, 20.0 ],
 									"text" : "Aux",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33254,7 +33271,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 381.5, 968.0, 30.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 23.0, 718.0, 30.0, 20.0 ],
+									"presentation_rect" : [ 23.0, 703.0, 30.0, 20.0 ],
 									"text" : "Bed",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33282,7 +33299,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 986.0, 148.0, 35.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 257.0, 584.0, 35.0, 22.0 ],
+									"presentation_rect" : [ 247.0, 500.0, 35.0, 22.0 ],
 									"text" : "5000"
 								}
 
@@ -33308,7 +33325,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1032.0, 145.0, 35.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 292.0, 584.0, 35.0, 22.0 ],
+									"presentation_rect" : [ 282.0, 500.0, 35.0, 22.0 ],
 									"text" : "9000"
 								}
 
@@ -33322,7 +33339,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 941.0, 148.0, 35.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 220.0, 584.0, 35.0, 22.0 ],
+									"presentation_rect" : [ 210.0, 500.0, 35.0, 22.0 ],
 									"text" : "2000"
 								}
 
@@ -33336,7 +33353,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 953.5, 55.5, 71.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 23.0, 589.0, 91.0, 20.0 ],
+									"presentation_rect" : [ 28.0, 503.0, 91.0, 20.0 ],
 									"text" : "Auto fade time",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33352,7 +33369,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 956.0, 180.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 140.0, 584.0, 74.0, 22.0 ]
+									"presentation_rect" : [ 130.0, 500.0, 74.0, 22.0 ]
 								}
 
 							}
@@ -33387,7 +33404,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 359.0, 687.5, 60.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 23.0, 620.0, 60.0, 20.0 ],
+									"presentation_rect" : [ 23.0, 605.0, 60.0, 20.0 ],
 									"text" : "Mic to PA",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33451,7 +33468,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 411.0, 65.0, 82.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 386.0, 624.0, 105.0, 20.0 ],
+									"presentation_rect" : [ 386.0, 639.0, 105.0, 20.0 ],
 									"text" : "Pair mode matrix:",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33468,7 +33485,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 196.25, 186.0, 100.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 623.0, 100.0, 22.0 ]
+									"presentation_rect" : [ 515.0, 638.0, 100.0, 22.0 ]
 								}
 
 							}
@@ -33481,7 +33498,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 546.5, 566.333312999999976, 103.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 388.0, 677.0, 125.0, 20.0 ],
+									"presentation_rect" : [ 388.0, 692.0, 125.0, 20.0 ],
 									"text" : "Sensor #s interleaved",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -33495,7 +33512,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 410.5, 566.333312999999976, 85.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 388.0, 649.0, 85.0, 20.0 ],
+									"presentation_rect" : [ 388.0, 664.0, 85.0, 20.0 ],
 									"text" : "Sensor Target",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34376,7 +34393,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 533.5, 593.333312999999976, 150.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 516.0, 676.0, 150.0, 22.0 ]
+									"presentation_rect" : [ 516.0, 691.0, 150.0, 22.0 ]
 								}
 
 							}
@@ -34391,7 +34408,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 395.5, 593.333312999999976, 115.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 648.0, 115.0, 22.0 ]
+									"presentation_rect" : [ 515.0, 663.0, 115.0, 22.0 ]
 								}
 
 							}
@@ -34462,7 +34479,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 788.5, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 111.5, 463.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 112.0, 338.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34475,7 +34492,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 788.5, 29.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 31.5, 463.0, 27.0, 20.0 ],
+									"presentation_rect" : [ 32.0, 338.0, 27.0, 20.0 ],
 									"text" : "Mic",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34551,7 +34568,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 749.5, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 111.5, 429.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 112.0, 304.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34564,7 +34581,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 749.5, 74.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 31.5, 429.0, 72.0, 20.0 ],
+									"presentation_rect" : [ 32.0, 304.0, 72.0, 20.0 ],
 									"text" : "Audio Mast.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34579,7 +34596,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 719.0, 55.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 29.0, 398.0, 77.0, 20.0 ],
+									"presentation_rect" : [ 30.0, 273.0, 77.0, 20.0 ],
 									"text" : "PA (speaker)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34603,7 +34620,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 719.0, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 109.0, 398.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 110.0, 273.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34626,7 +34643,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 524.333312999999976, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 106.0, 203.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 111.0, 401.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34639,7 +34656,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 526.333312999999976, 55.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 204.0, 53.0, 20.0 ],
+									"presentation_rect" : [ 31.0, 402.0, 53.0, 20.0 ],
 									"text" : "Ambient",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34688,7 +34705,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 687.5, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 109.0, 367.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 110.0, 242.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34701,7 +34718,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 687.5, 51.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 29.0, 367.0, 49.0, 20.0 ],
+									"presentation_rect" : [ 30.0, 242.0, 49.0, 20.0 ],
 									"text" : "Phones",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34715,7 +34732,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 657.0, 55.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 29.0, 336.0, 49.0, 20.0 ],
+									"presentation_rect" : [ 30.0, 211.0, 49.0, 20.0 ],
 									"text" : "Monitor",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34729,7 +34746,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 619.5, 75.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 267.0, 73.0, 20.0 ],
+									"presentation_rect" : [ 31.0, 465.0, 73.0, 20.0 ],
 									"text" : "Lights Mast.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -34753,7 +34770,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 657.0, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 109.0, 336.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 110.0, 211.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34776,7 +34793,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 615.0, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 106.0, 262.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 111.0, 460.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -34799,7 +34816,7 @@
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 142.0, 585.333312999999976, 205.930419999999998, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 106.0, 233.0, 205.930419999999998, 29.0 ],
+									"presentation_rect" : [ 111.0, 431.0, 205.930419999999998, 29.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -35074,7 +35091,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 22.0, 301.990844999999979, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 534.0, 699.0, 24.0, 24.0 ],
+									"presentation_rect" : [ 534.0, 714.0, 24.0, 24.0 ],
 									"svg" : ""
 								}
 
@@ -35270,7 +35287,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 586.333312999999976, 35.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 32.5, 236.333312999999976, 33.0, 20.0 ],
+									"presentation_rect" : [ 33.0, 434.0, 33.0, 20.0 ],
 									"text" : "Ring",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -35463,7 +35480,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 504.0, 466.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 566.0, 726.0, 50.0, 22.0 ]
+									"presentation_rect" : [ 566.0, 741.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -35476,7 +35493,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 465.0, 123.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 387.0, 727.0, 176.0, 20.0 ],
+									"presentation_rect" : [ 387.0, 742.0, 176.0, 20.0 ],
 									"text" : "LED Sum gain divider (2 = half)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -35959,7 +35976,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 506.0, 110.0, 178.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 514.0, 591.0, 139.0, 22.0 ]
+									"presentation_rect" : [ 514.0, 606.0, 139.0, 22.0 ]
 								}
 
 							}
@@ -35984,7 +36001,7 @@
 									"patching_rect" : [ 359.0, 110.0, 145.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 387.0, 586.0, 103.0, 33.0 ],
+									"presentation_rect" : [ 387.0, 601.0, 103.0, 33.0 ],
 									"text" : "Audio Routing (mono/summed):",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -36041,7 +36058,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 245.0, 681.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.0, 170.0, 308.0, 127.666687000000024 ],
+									"presentation_rect" : [ 13.0, 176.0, 314.0, 349.0 ],
 									"proportion" : 0.5
 								}
 
@@ -36057,25 +36074,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 13.0, 456.0, 74.0, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 313.0, 111.0, 24.0 ],
+									"presentation_rect" : [ 16.0, 188.0, 111.0, 24.0 ],
 									"text" : "Audio Faders",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 270.0,
-									"bgcolor" : [ 0.462745098039216, 0.356862745098039, 0.262745098039216, 1.0 ],
-									"id" : "obj-176",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 453.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 12.0, 309.0, 310.0, 190.166687000000024 ],
-									"proportion" : 0.5
 								}
 
 							}
@@ -36117,14 +36118,14 @@
 									"fontface" : 1,
 									"fontsize" : 16.0,
 									"id" : "obj-196",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 69.0, 302.0, 74.0, 78.0 ],
+									"patching_rect" : [ 69.0, 302.0, 74.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 16.0, 559.0, 316.0, 24.0 ],
-									"text" : "Advanced / legacy features",
+									"presentation_rect" : [ 16.0, 574.0, 316.0, 24.0 ],
+									"text" : "Advanced features",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -36140,7 +36141,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 69.0, 156.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.0, 557.0, 329.0, 234.0 ],
+									"presentation_rect" : [ 13.0, 572.0, 329.0, 234.0 ],
 									"proportion" : 0.5
 								}
 
@@ -36255,7 +36256,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1096.0, 42.0, 74.0, 78.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 372.0, 558.0, 248.0, 24.0 ],
+									"presentation_rect" : [ 372.0, 573.0, 248.0, 24.0 ],
 									"text" : "... more advanced features",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -36272,7 +36273,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1093.0, 40.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 369.0, 557.0, 314.0, 234.0 ],
+									"presentation_rect" : [ 369.0, 572.0, 314.0, 234.0 ],
 									"proportion" : 0.5
 								}
 
@@ -42929,7 +42930,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.833343999999997, 333.0, 220.0, 22.0 ],
-									"text" : "0.929395 0.149887 0.248293"
+									"text" : "0.353714 0.025345 0.381573"
 								}
 
 							}
